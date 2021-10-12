@@ -9,3 +9,8 @@ fields:
   label: layout
   hidden: true
   default: homepage
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
