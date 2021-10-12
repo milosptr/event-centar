@@ -1,5 +1,5 @@
 ---
 layout: homepage
-title: ''
+title: Page title
 
 ---
