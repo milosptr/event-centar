@@ -23,6 +23,9 @@ second_section_text: |-
 third_section_title: Our team
 third_section_text: Here is an introduction headline about our team
 members:
+- name: Ivan Ivanov
+  position: waiter
+  image: "/assets/images/team-member1.jpg"
 - name: Stephen Nairn
   position: chef
   image: "/assets/images/team-member1.jpg"
