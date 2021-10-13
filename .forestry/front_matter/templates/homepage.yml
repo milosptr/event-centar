@@ -85,5 +85,28 @@ fields:
     schema:
       format: markdown
   label: third section text
+- name: member
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: position
+    type: text
+    config:
+      required: false
+    label: position
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: member
 pages:
 - index.md
