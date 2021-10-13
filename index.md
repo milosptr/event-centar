@@ -16,5 +16,9 @@ first_section_first_text: |-
 first_section_second_text: Maecenas et quam aliquam, ultrices ipsum et, tristique
   odio. Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis
   ipsum, id pulvinar mi blandit blandit.
+second_section_title: Here is the intro headline about dining. Our chef etc. Experiences.
+second_section_text: |-
+  Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam, ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
+  Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue consequat eros vel lobortis
 
 ---
