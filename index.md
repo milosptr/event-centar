@@ -13,5 +13,8 @@ first_section_first_text: |-
   Nam vitae odio vel lorem tempus condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi.
   Nunc venenatis eros mattis libero dignissim feugiat vitae non mi.
+first_section_second_text: Maecenas et quam aliquam, ultrices ipsum et, tristique
+  odio. Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis
+  ipsum, id pulvinar mi blandit blandit.
 
 ---
