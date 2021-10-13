@@ -93,7 +93,7 @@ body {
 }
 
 header {
-  background-image: url('img/logo.svg');
+  background-image: url('/img/logo.svg');
   background-repeat: no-repeat;
   background-position: 94% 45%;
   background-size: 15%;
@@ -143,6 +143,7 @@ body.menu--opened {
   color: #2B2E34;
   font-family: Stylish;
   text-align: center;
+  font-size: 40px;
   }
 
 .upper-font {
@@ -188,7 +189,7 @@ body.menu--opened {
   }
 
   .menu {
-  background-image: url('img/logo.svg');
+  background-image: url('/img/logo.svg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 20%;
@@ -200,8 +201,8 @@ body.menu--opened {
 }
 
 .big-font {
-  font-size: 250px;
-  line-height: 320px;
+  font-size: 150px;
+  line-height: 200px;
 }
 
 .team-member:nth-child(even) {
@@ -223,8 +224,8 @@ body.menu--opened {
 }
 
 .big-font {
-    font-size: 250px;
-    line-height: 320px;
+  font-size: 250px;
+  line-height: 320px;
    }
 
 .team-member:nth-child(even) {
