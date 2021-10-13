@@ -85,5 +85,12 @@ fields:
     schema:
       format: markdown
   label: third section text
+- name: team_member
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: team member
 pages:
 - index.md
