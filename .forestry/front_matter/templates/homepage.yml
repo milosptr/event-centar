@@ -19,7 +19,6 @@ fields:
   config:
     required: false
   label: big_title
-  description: Welcome to our home!
   default: homepage
 pages:
 - index.md
