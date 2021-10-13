@@ -1,5 +1,3 @@
-
-
 const navMain = document.querySelector('.menu');
 const navToggle = document.querySelector('.nav-toggle');
 
