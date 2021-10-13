@@ -48,5 +48,14 @@ fields:
     schema:
       format: markdown
   label: first section first text
+- name: first_section_second_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: first section second text
 pages:
 - index.md
