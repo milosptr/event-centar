@@ -20,5 +20,14 @@ fields:
     required: false
   label: big_title
   default: homepage
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
 pages:
 - index.md
