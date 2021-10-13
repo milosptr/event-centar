@@ -39,5 +39,14 @@ fields:
   config:
     required: false
   label: first section second title
+- name: first_section_first_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: first section first text
 pages:
 - index.md
