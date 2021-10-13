@@ -41,7 +41,6 @@ body {
   list-style: none;
 }
 
-
 .nav-toggle {
   outline: none;
   border: none;
@@ -205,7 +204,7 @@ body.menu--opened {
   line-height: 200px;
 }
 
-.team-member:nth-child(even) {
+.even {
   margin-left: 50%;
 }
 
@@ -228,7 +227,7 @@ body.menu--opened {
   line-height: 320px;
    }
 
-.team-member:nth-child(even) {
+.even {
   margin-left: 60%;
 }
 
