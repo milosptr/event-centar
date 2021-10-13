@@ -22,5 +22,9 @@ second_section_text: |-
   Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue consequat eros vel lobortis
 third_section_title: Our team
 third_section_text: Here is an introduction headline about our team
+members:
+- name: Stephen Nairn
+  position: chef
+  image: "/assets/images/team-member1.jpg"
 
 ---
