@@ -62,5 +62,14 @@ fields:
   config:
     required: false
   label: second section title
+- name: second_section_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: second section text
 pages:
 - index.md
