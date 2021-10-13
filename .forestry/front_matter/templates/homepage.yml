@@ -29,5 +29,15 @@ fields:
     schema:
       format: markdown
   label: description
+- name: first_section_first_title
+  type: text
+  config:
+    required: false
+  label: first section first title
+- name: first_section_second_title
+  type: text
+  config:
+    required: false
+  label: first section second title
 pages:
 - index.md
