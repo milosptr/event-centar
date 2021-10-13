@@ -71,5 +71,19 @@ fields:
     schema:
       format: markdown
   label: second section text
+- name: third_section_title
+  type: text
+  config:
+    required: false
+  label: third section title
+- name: third_section_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: third section text
 pages:
 - index.md
