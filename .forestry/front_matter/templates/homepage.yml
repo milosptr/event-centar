@@ -14,5 +14,12 @@ fields:
   config:
     required: false
   label: Title
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: big_title
+  description: Welcome to our home!
+  default: homepage
 pages:
 - index.md
