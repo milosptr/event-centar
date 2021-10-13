@@ -85,7 +85,7 @@ fields:
     schema:
       format: markdown
   label: third section text
-- name: member
+- name: members
   type: field_group_list
   fields:
   - name: name
@@ -107,6 +107,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: member
+  label: members
 pages:
 - index.md
