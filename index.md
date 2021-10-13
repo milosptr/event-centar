@@ -23,19 +23,19 @@ second_section_text: |-
 third_section_title: Our team
 third_section_text: Here is an introduction headline about our team
 members:
+- name: Stephen Nairn
+  position: chef
+  image: "/assets/images/team-member1.jpg"
+  about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
+    ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
+    Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
+    tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
 - name: Name Name
   position: CEO
   image: "/assets/images/team-member1.jpg"
   about: ''
 - name: Ivan Ivanov
   position: waiter
-  image: "/assets/images/team-member1.jpg"
-  about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
-    ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
-    Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
-    tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
-- name: Stephen Nairn
-  position: chef
   image: "/assets/images/team-member1.jpg"
   about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
     ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
