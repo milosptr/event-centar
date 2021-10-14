@@ -46,6 +46,6 @@ members:
     tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
 main_photo: "/assets/images/interior-2x.jpg"
 first_section_photo: "/assets/images/building-2x.jpg"
-second_section_photo: ''
+second_section_photo: "/assets/images/caviar-2x.jpg"
 
 ---
