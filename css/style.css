@@ -148,7 +148,16 @@ body.menu--opened {
 .upper-font {
   font-family: Frunchy;
   text-transform: uppercase;
+  font-size: 28px;
+  line-height: 26px;
   }
+
+.upper-little-font {
+  font-family: Frunchy;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 22px;
+}
 
 .button {
   border: 1px solid #2B2E34;
@@ -170,11 +179,22 @@ body.menu--opened {
 
 @media (min-width: 768px) {
   header {
-    background-size: 10%;
+    background-size: 7%;
   }
 }
 
 @media (min-width: 1024px) {
+  .upper-little-font {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .upper-font {
+    /*background-color: aquamarine;*/
+    font-size: 42px;
+    line-height: 40px;
+  }
+
   header {
     background-image: none;
   }
@@ -191,7 +211,7 @@ body.menu--opened {
   background-image: url('/img/logo.svg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 20%;
+  background-size: 15%;
 }
 
 .menu-item {
@@ -200,8 +220,11 @@ body.menu--opened {
 }
 
 .big-font {
-  font-size: 150px;
-  line-height: 200px;
+  font-size: 120px;
+  line-height: 165px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -70px;
 }
 
 .even {
@@ -222,10 +245,10 @@ body.menu--opened {
   margin-left: 60%;
 }
 
-.big-font {
+/*.big-font {
   font-size: 250px;
   line-height: 320px;
-   }
+   }*/
 
 .even {
   margin-left: 60%;
@@ -238,3 +261,45 @@ body.menu--opened {
   width: 30%;
   }
 }
+
+@media (min-width: 1440px) {
+
+  .upper-font {
+    font-family: Frunchy;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 42px;
+    }
+
+  .upper-little-font {
+    font-family: Frunchy;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .menu {
+    background-size: 20%;
+  }
+
+  .team-member:nth-child(even) {
+    margin-left: 60%;
+  }
+
+  .big-font {
+    font-size: 250px;
+    line-height: 290px;
+    margin-bottom: -100px;
+     }
+
+  .even {
+    margin-left: 60%;
+  }
+
+  .headline {
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    width: 30%;
+    }
+  }
