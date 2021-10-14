@@ -127,5 +127,10 @@ fields:
   config:
     maxSize: 64
   label: first section photo
+- name: second_section_photo
+  type: file
+  config:
+    maxSize: 64
+  label: second section photo
 pages:
 - index.md
