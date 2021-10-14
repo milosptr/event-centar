@@ -117,5 +117,10 @@ fields:
     max: 
     labelField: 
   label: members
+- name: main_photo
+  type: file
+  config:
+    maxSize: 64
+  label: main photo
 pages:
 - index.md
