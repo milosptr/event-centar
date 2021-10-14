@@ -45,5 +45,6 @@ members:
     Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
     tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
 main_photo: "/assets/images/interior-2x.jpg"
+first_section_photo: "/assets/images/building-2x.jpg"
 
 ---
