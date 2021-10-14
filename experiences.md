@@ -1,4 +1,5 @@
 ---
 layout: experiences
+title: Experiences
 
 ---
