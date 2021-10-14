@@ -2,9 +2,9 @@
 label: experience
 hide_body: false
 fields:
-- name: experience
+- name: layout
   type: text
   config:
     required: false
+  label: layout
   default: experience
-  label: experience
