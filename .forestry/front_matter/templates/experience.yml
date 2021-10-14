@@ -1,4 +1,10 @@
 ---
 label: experience
 hide_body: false
-fields: []
+fields:
+- name: experience
+  type: text
+  config:
+    required: false
+  default: experience
+  label: experience
