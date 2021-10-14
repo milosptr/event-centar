@@ -9,5 +9,10 @@ fields:
   label: layout
   hidden: true
   default: experiences
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 pages:
 - experiences.md
