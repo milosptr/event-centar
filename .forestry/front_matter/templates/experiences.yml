@@ -1,4 +1,11 @@
 ---
 label: experiences
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: experiences
+  hidden: true
