@@ -39,7 +39,7 @@ members:
     tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
 - name: Ivan Ivanov
   position: waiter
-  image: "/assets/images/team-member1.jpg"
+  image: "/assets/images/caviar-2x.jpg"
   about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
     ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
     Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
