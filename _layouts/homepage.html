@@ -4,12 +4,12 @@
 
 <main class=" pt-32 lg:pt-0 px-4 lg:px-16 xl:px-48">
   <h1 class="big-font mb-5  lg:relative lg:-mb-24 xl:-mb-32 z-10">{{ page.big_title }}</h1>
-  <img src="{{ page.main_photo }}" alt="interior picture" class="w-full mb-8 sm:mb-32">
+  <img src="{{ page.main_photo }}" alt="interior picture"  width="100%" class="w-full mb-8 sm:mb-32">
   <p class="upper-font text-2xl sm:text-6xl leading-none mb-8 sm:mb-32 main-color">
     {{page.description}} </p>
     <div class="lg:flex lg:justify-between mb-8 lg:mb-32">
       <div class="mb-8 lg:mb-0">
-        <img src="/img/building.jpg" alt="high building" class="w-full"></img>
+        <img src="{{ page.first_section_photo }}" alt="high building" class="w-full">
       </div>
       <div class="lg:w-2/5 lg:flex lg:flex-col lg:justify-between pb-12 lg:pb-0">
         <h3 class="upper-font text-3xl leading-none mb-8">{{page.first_section_first_title}}</h3>
