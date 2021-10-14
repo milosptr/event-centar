@@ -7,4 +7,4 @@ fields:
   config:
     required: false
   label: layout
-  default: experience
+  default: experiences
