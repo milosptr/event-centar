@@ -1,5 +1,5 @@
 ---
 layout: experiences
-title: Page title
+title: Experiences
 
 ---
