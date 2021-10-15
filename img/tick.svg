@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11.213" height="16" viewBox="0 0 11.213 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="5.277" y="-4" width="11.213" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Sent" transform="translate(0.707)">
+    <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-5.985 4)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Seen" transform="translate(0.707 0.707)">
+        <g id="check_2" data-name="check 2" transform="translate(5.277)">
+          <line id="Line_218" data-name="Line 218" y1="6.579" x2="6.599" transform="translate(3.2)" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_219" data-name="Line 219" x2="3.2" y2="3.2" transform="translate(0 3.378)" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
