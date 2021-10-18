@@ -9,5 +9,10 @@ fields:
   label: layout
   default: about
   hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - about.md
