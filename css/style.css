@@ -34,6 +34,12 @@
   font-display: swap;
 }
 
+body {
+  background-color: #F6F6F3;
+  color: #2B2E34; /*font color*/
+  margin: 0;
+  list-style: none;
+}
 
   .list {
    height: 350px;
@@ -65,15 +71,7 @@
     left: -15px;
     height: 12px;
     width: 12px;
-
     }
-
-  body {
-    background-color: #F6F6F3;
-    color: #2B2E34; /*font color*/
-    margin: 0;
-    list-style: none;
-  }
 
   .nav-toggle {
     outline: none;
