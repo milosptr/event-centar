@@ -1,4 +1,10 @@
 ---
 label: spaces
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: spaces
