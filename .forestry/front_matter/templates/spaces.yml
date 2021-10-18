@@ -8,5 +8,10 @@ fields:
     required: false
   label: layout
   default: spaces
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - spaces.md
