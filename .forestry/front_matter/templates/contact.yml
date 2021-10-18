@@ -9,3 +9,8 @@ fields:
   label: layout
   default: contact
   hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
