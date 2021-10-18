@@ -8,11 +8,7 @@ fields:
     required: false
   label: layout
   default: experiences
-- name: title1
-  type: text
-  config:
-    required: false
-  label: title1
+  hidden: true
 - name: title
   type: text
   config:
