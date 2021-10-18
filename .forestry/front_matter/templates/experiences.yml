@@ -13,5 +13,10 @@ fields:
   config:
     required: false
   label: title
+- name: title1
+  type: text
+  config:
+    required: false
+  label: title1
 pages:
 - experiences.md
