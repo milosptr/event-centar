@@ -13,5 +13,10 @@ fields:
   config:
     required: false
   label: Title
+- name: big-title
+  type: text
+  config:
+    required: false
+  label: big-title
 pages:
 - spaces.md
