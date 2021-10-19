@@ -64,5 +64,10 @@ fields:
     min: 
     max: 
   label: facilities
+- name: section_first_text
+  type: text
+  config:
+    required: false
+  label: section first text
 pages:
 - spaces.md
