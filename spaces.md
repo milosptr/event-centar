@@ -8,5 +8,9 @@ space_text: |-
   Individual rooms can be enjoyed independently or connected for one seamless event.
   Each area has been purposefully designed and curated.
   Capitol Grand Executive Chef Stephen Nairn and his team have crafted a selection of menus for your consideration.
+first_section_title: ''
+second_section_title: ''
+third_section_title: ''
+fourth_section_title: ''
 
 ---
