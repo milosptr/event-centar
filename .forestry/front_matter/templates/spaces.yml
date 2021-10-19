@@ -37,5 +37,10 @@ fields:
   config:
     required: false
   label: second section title
+- name: third_section_title
+  type: text
+  config:
+    required: false
+  label: third section title
 pages:
 - spaces.md
