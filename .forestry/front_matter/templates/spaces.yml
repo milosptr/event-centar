@@ -27,5 +27,10 @@ fields:
     schema:
       format: markdown
   label: space text
+- name: first_section_title
+  type: text
+  config:
+    required: false
+  label: first section title
 pages:
 - spaces.md
