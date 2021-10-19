@@ -29,5 +29,10 @@ fields:
   config:
     required: false
   label: big title
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
 pages:
 - about.md
