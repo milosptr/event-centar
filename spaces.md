@@ -14,5 +14,15 @@ third_section_title: The Corner  Room
 fourth_section_title: The Window  Room
 fifth_section_title: The Grand  Room
 section_picture: "/assets/images/interior-small-2x.jpg"
+facilities:
+- DIY Theming
+- Microphone
+- External Music
+- Dissability Access
+- Dietary Equipment
+- Bar Tab
+- AV Hire
+- Wifi
+- Parking
 
 ---
