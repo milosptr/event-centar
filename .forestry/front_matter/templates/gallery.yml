@@ -19,5 +19,10 @@ fields:
   config:
     maxSize: 64
   label: top picture
+- name: bottom_picture
+  type: file
+  config:
+    maxSize: 64
+  label: bottom picture
 pages:
 - gallery.md
