@@ -24,5 +24,20 @@ fields:
   config:
     maxSize: 64
   label: bottom picture
+- name: top_left_picture
+  type: file
+  config:
+    maxSize: 64
+  label: top left picture
+- name: bottom_left_picture
+  type: file
+  config:
+    maxSize: 64
+  label: bottom left picture
+- name: top_right_picture
+  type: file
+  config:
+    maxSize: 64
+  label: top right picture
 pages:
 - gallery.md
