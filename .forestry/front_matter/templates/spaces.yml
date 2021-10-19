@@ -47,5 +47,10 @@ fields:
   config:
     required: false
   label: fourth section title
+- name: fifth_section_title
+  type: text
+  config:
+    required: false
+  label: fifth section title
 pages:
 - spaces.md
