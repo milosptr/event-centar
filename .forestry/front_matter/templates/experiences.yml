@@ -42,5 +42,10 @@ fields:
     schema:
       format: markdown
   label: section second text
+- name: section_picture
+  type: file
+  config:
+    maxSize: 64
+  label: section picture
 pages:
 - experiences.md
