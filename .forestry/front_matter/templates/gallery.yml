@@ -39,5 +39,10 @@ fields:
   config:
     maxSize: 64
   label: top right picture
+- name: bottom_right_picture
+  type: file
+  config:
+    maxSize: 64
+  label: bottom right picture
 pages:
 - gallery.md
