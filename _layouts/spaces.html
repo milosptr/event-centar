@@ -2,45 +2,41 @@
 
 {% include nav.html %}
 <main class="pt-32 lg:pt-0 px-4 lg:px-16 xl:px-48">
-  <h1 class="upper-big-font mt-32 mb-32 text-center">Our space is imaginative and versatile. We look forward to welcoming you and your guests.</h1>
-  <p class="center my-10 little-font max-w-md text-left">Individual rooms can be enjoyed independently or connected for one seamless event.
-    Each area has been purposefully designed and curated.
-    Capitol Grand Executive Chef Stephen Nairn and his team have crafted a selection of menus for your consideration.</p>
+  <h1 class="upper-big-font mt-32 mb-32 text-center">{{page.big_title}}</h1>
+  <p class="center my-10 little-font max-w-md text-left">{{page.space_text}}
+  </p>
   <ul class='experiences-menu flex w-full justify-between upper-little-font main-color pb-4'>
-    <li>Bromley & CO Gallery</li>
-    <li>The kitchen table</li>
-    <li>The corner room</li>
-    <li>The window room</li>
-    <li>The grand room</li>
+    <li>{{page.first_section_title}}</li>
+    <li>{{page.second_section_title}}</li>
+    <li>{{page.third_section_title}}</li>
+    <li>{{page.fourth_section_title}}</li>
+    <li>{{page.fifth_section_title}}</li>
   </ul>
   <div class="p-16 flex justify-between">
   <div class=" flex flex-col justify-between">
     <!--<h2>Weddings headline</h2>-->
-    <h3 class="upper-font">Bromley & CO Gallery</h3>
+    <h3 class="upper-font">{{page.first_section_title}}</h3>
     <div>
-    <p class="little-font mb-10 w-2/3">Enjoy private dining among the art of the Gallery</p>
-    <p class="little-font mb-10">20 to 100 guest coctail <br> 20 to 50 dining</p>
+    <p class="little-font mb-10 w-2/3">{{page.section_first_text}}</p>
+    <p class="little-font">{{page.section_second_text}}</p>
+    <p class="little-font mb-10">{{page.section_third_text}}</p>
 
     <button class="button little-font w-full mb-4">find out more</button>
     <button class="black-button little-font w-full">book the event</button>
     </div>
     </div>
-    <img src="/img/interior-small@2x.jpg" alt="interior" class="w-2/3">
+    <img src="{{page.section_picture}}" alt="interior" class="w-2/3">
   </div>
   </div>
-  <div class=''>
+  <div>
     <div class="px-16 pb-8 upper-font section w-full"><h2>Event spase facilities</h2></div>
+
     <ul class='p-16 list section flex flex-col flex-wrap'>
-      <li class="facility my-5">Parking</li>
-      <li class="facility my-5">Wifi</li>
-      <li class="facility my-5">AV Hire</li>
-      <li class="facility my-5">Bar Tab</li>
-      <li class="facility my-5">Dietary Equipment</li>
-      <li class="facility my-5">Dissability Access</li>
-      <li class="facility my-5">External Music</li>
-      <li class="facility my-5">Microphone</li>
-      <li class="facility my-5">DIY Theming</l>
+      {% for facility in page.facilities %}
+      <li class="facility my-5">{{facility}}</li>
+      {% endfor %}
     </ul>
+
   </div>
 
 </main>
