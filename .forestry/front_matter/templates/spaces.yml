@@ -69,5 +69,10 @@ fields:
   config:
     required: false
   label: section first text
+- name: section_second_text
+  type: text
+  config:
+    required: false
+  label: section second text
 pages:
 - spaces.md
