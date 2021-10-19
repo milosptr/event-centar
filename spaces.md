@@ -13,5 +13,6 @@ second_section_title: The Kitchen  Table
 third_section_title: The Corner  Room
 fourth_section_title: The Window  Room
 fifth_section_title: The Grand  Room
+section_picture: "/assets/images/interior-small-2x.jpg"
 
 ---
