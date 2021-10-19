@@ -19,11 +19,11 @@ fields:
   config:
     required: false
   label: big-title
-- name: section-title
+- name: section_title
   type: text
   config:
     required: false
-  label: section-title
+  label: section title
 - name: section_first_text
   type: textarea
   default: ''
