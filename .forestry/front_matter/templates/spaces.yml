@@ -13,10 +13,10 @@ fields:
   config:
     required: false
   label: Title
-- name: big-title
+- name: big_title
   type: text
   config:
     required: false
-  label: big-title
+  label: big title
 pages:
 - spaces.md
