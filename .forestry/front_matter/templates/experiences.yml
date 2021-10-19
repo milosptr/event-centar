@@ -47,5 +47,10 @@ fields:
   config:
     maxSize: 64
   label: section picture
+- name: first_section_title
+  type: text
+  config:
+    required: false
+  label: first_section_title
 pages:
 - experiences.md
