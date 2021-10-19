@@ -74,5 +74,10 @@ fields:
   config:
     required: false
   label: section second text
+- name: second_third_text
+  type: text
+  config:
+    required: false
+  label: second third text
 pages:
 - spaces.md
