@@ -24,5 +24,14 @@ fields:
   config:
     required: false
   label: section-title
+- name: section_first_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: section first text
 pages:
 - experiences.md
