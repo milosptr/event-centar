@@ -24,5 +24,7 @@ facilities:
 - AV Hire
 - Wifi
 - Parking
+section_first_text: 'Enjoy private dining among  the art of the Gallery. '
+section_second_text: 20 to 100 guests cocktail 20 to 50 guests dining
 
 ---
