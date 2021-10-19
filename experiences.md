@@ -21,9 +21,9 @@ section_second_text: "Maecenas et quam aliquam, ultrices ipsum et, tristique odi
   \n\n\nhimenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi. Nunc
   venenatis eros mattis libero dignissim feugiat vitae non mi."
 section_picture: "/assets/images/meal.jpg"
-first_section_title: ''
-second_section_title: ''
-third_section_title: ''
-fourth_section_title: ''
+first_section_title: PRIVATE CELEBRATIONS
+second_section_title: WEDDINGS
+third_section_title: CORPORATE
+fourth_section_title: bespoke
 
 ---
