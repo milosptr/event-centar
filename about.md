@@ -17,5 +17,7 @@ text: Born in 1960 in Sheffield, England, David Bromley immigrated to Australia 
   Sheffield, England, David Bromley immigrated to Australia with his family in 1964
   and emerged as a painter in the mid 1980s.     Since then, he has become one of
   the most recognisable and innovative artists in Australia.
+left_picture: "/assets/images/art-2x.jpg"
+right_picture: "/assets/images/art1-2x.jpg"
 
 ---
