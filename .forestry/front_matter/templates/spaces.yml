@@ -52,5 +52,10 @@ fields:
   config:
     required: false
   label: fifth section title
+- name: section_picture
+  type: file
+  config:
+    maxSize: 64
+  label: section picture
 pages:
 - spaces.md
