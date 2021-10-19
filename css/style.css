@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'Stylish';
-  src: url('https://event-centar.vercel.app/fonts/Stylish-Regular.eot');
-  src: url('https://event-centar.vercel.app/fonts/Stylish-Regular.eot?#iefix') format('embedded-opentype'),
-      url('https://event-centar.vercel.app/fonts/Stylish-Regular.woff2') format('woff2'),
-      url('https://event-centar.vercel.app/fonts/Stylish-Regular.woff') format('woff'),
-      url('https://event-centar.vercel.app/fonts/Stylish-Regular.ttf') format('truetype');
+  src: url('https://event-centar.vercel.app/fonts/Stylish.eot');
+  src: url('https://event-centar.vercel.app/fonts/Stylish.eot?#iefix') format('embedded-opentype'),
+      url('https://event-centar.vercel.app/fonts/Stylish.woff2') format('woff2'),
+      url('https://event-centar.vercel.app/fonts/Stylish.woff') format('woff'),
+      url('https://event-centar.vercel.app/fonts/Stylish.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
