@@ -52,5 +52,10 @@ fields:
   config:
     required: false
   label: first_section_title
+- name: second_section_title
+  type: text
+  config:
+    required: false
+  label: second_section_title
 pages:
 - experiences.md
