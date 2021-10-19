@@ -14,11 +14,11 @@ fields:
   config:
     required: false
   label: Title
-- name: big_title
+- name: big_text
   type: text
   config:
     required: false
-  label: big title
+  label: big text
 - name: picture
   type: file
   config:
