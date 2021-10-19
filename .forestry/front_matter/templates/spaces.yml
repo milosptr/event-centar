@@ -78,6 +78,6 @@ fields:
   type: text
   config:
     required: false
-  label: second third text
+  label: section third text
 pages:
 - spaces.md
