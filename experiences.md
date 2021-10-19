@@ -20,5 +20,10 @@ section_second_text: "Maecenas et quam aliquam, ultrices ipsum et, tristique odi
   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
   \n\n\nhimenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi. Nunc
   venenatis eros mattis libero dignissim feugiat vitae non mi."
+section_picture: "/assets/images/meal.jpg"
+first_section_title: ''
+second_section_title: ''
+third_section_title: ''
+fourth_section_title: ''
 
 ---
