@@ -18,5 +18,14 @@ fields:
   config:
     required: false
   label: big title
+- name: space_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: space text
 pages:
 - spaces.md
