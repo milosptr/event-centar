@@ -9,8 +9,8 @@ section_first_text: |-
   Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
   Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum,
   id pulvinar mi blandit blandit.
-big_title: ''
-section_title: ''
+big_title: here should be a headline about the experiences
+section_title: Weddings
 section_second_text: "Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
   Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum,
   id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue
