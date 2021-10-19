@@ -19,5 +19,10 @@ fields:
   config:
     required: false
   label: big-title
+- name: section-title
+  type: text
+  config:
+    required: false
+  label: section-title
 pages:
 - experiences.md
