@@ -62,5 +62,10 @@ fields:
   config:
     required: false
   label: third_section_title
+- name: fourth_section_title
+  type: text
+  config:
+    required: false
+  label: fourth section title
 pages:
 - experiences.md
