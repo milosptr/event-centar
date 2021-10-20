@@ -51,8 +51,9 @@ body {
     }
 
   .center {
-    transform: translate(-50%, -50%);
-    margin-left: 50%;
+    /*transform: translate(-50%, -50%);
+    margin-left: 50%;*/
+    margin: 0 auto;
 
   }
 
