@@ -66,7 +66,7 @@ body {
   .facility::before {
     position: absolute;
     content: '';
-    background-image: url('source/img/tick.svg');
+    background-image: url('/img/tick.svg');
     background-repeat: no-repeat;
     bottom: 8px;
     left: -15px;
@@ -197,6 +197,11 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     line-height: 22px;
+  }
+
+  .about-title {
+    background-color: aquamarine;
+    outline: 1px solid red;
   }
 
   .button {
