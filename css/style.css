@@ -200,8 +200,12 @@ body {
   }
 
   .about-title {
-    background-color: aquamarine;
-    outline: 1px solid red;
+    color: #2B2E34;
+    font-family: Stylish;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 170px;
+    line-height: 120px;
   }
 
   .wedding-headline {
