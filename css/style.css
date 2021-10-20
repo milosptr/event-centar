@@ -41,6 +41,10 @@ body {
   list-style: none;
 }
 
+.footer-wrapper {
+border-top: 1px solid #9C968D;
+}
+
 
   .list {
    height: 350px;
@@ -235,38 +239,51 @@ body {
   .button {
     border: 1px solid #2B2E34;
     outline: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 10px;
     padding-right: 10px;
     }
 
-    .black-button {
-      background-color: #2B2E34;
-      color: #F6F6F3;
-      border: none;
-      outline: none;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px;
+  .button:hover {
+    border: 1px solid #2B2E34;
+    background-color: #2B2E34;
+    color: white;
+  }
+
+  .black-button {
+    background-color: #2B2E34;
+    color: #F6F6F3;
+    border: none;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #2B2E34;
     }
+
+  .black-button:hover {
+    border: 1px solid #2B2E34;
+    background-color: white;
+    color: #2B2E34;
+  }
 
   .dining-intro {
     border-bottom: 1px solid #9C968D;
     }
 
   .team {
-    border-bottom: 1px solid #9C968D;
+    /*border-bottom: 1px solid #9C968D;*/
   }
 
   .experiences-menu {
     border-bottom: 1px solid #9C968D;
   }
 
-  .section {
+  /*.section {
     border-bottom: 1px solid #9C968D;
-  }
+  }*/
 
 
   @media (min-width: 768px) {

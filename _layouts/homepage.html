@@ -5,7 +5,7 @@
 <main class="pt-32 lg:pt-0 px-4 lg:px-16 xl:px-48">
   <h1 class="big-font mt-2 mb-24">{{ page.big_title }}</h1>
   <img src="{{ page.main_photo }}" alt="interior picture" class="w-full mb-8 sm:mb-12 lg:mb-32">
-  <p class="upper-font  mb-8 sm:mb-12 lg:mb-32 main-color">
+  <p class="upper-font mb-8 sm:mb-12 lg:mb-32 main-color">
     {{page.description}} </p>
     <div class="xl:flex xl:justify-between mb-8 lg:mb-32">
       <div class="mb-8 lg:mb-32 xl:mb-0 xl:w-1/2">
@@ -31,9 +31,9 @@
         </div>
         </div>
       </div>
-      <div class="py-8 xl:pt-32 team xl:pb-32 lg:relative">
-        <h2 class="upper-font mb-4 lg:mb-10 main-color">{{page.third_section_title}}</h2><!--text-6xl sm:text-4xl lg:text-6xl-->
-        <p class="upper-little-font headline main-color pb-10 xl:py-0"><!--text-3xl sm:text-2xl lg:text-3xl-->
+      <div class="py-8 xl:pt-32 team xl:pb-32 lg:relative ">
+        <h2 class="upper-font mb-4 lg:mb-10 main-color">{{page.third_section_title}}</h2>
+        <p class="upper-little-font headline main-color pb-10 xl:py-0">
           {{page.third_section_text}}</p>
           {% for member in page.members %}
         <ul>
@@ -42,7 +42,7 @@
           <div class="sm:flex sm:justify-between">
             <div>
           <p class="little-font"> {{member.position}}</p>
-          <h3 class="upper-font  main-color lg:mr-8">{{member.name}}</h3><!--text-4xl lg:text-6xl leading-none-->
+          <h3 class="upper-font main-color lg:mr-8">{{member.name}}</h3>
         </div>
           <p class="little-font sm:w-4/6">{{member.about}} </p>
             </div>
