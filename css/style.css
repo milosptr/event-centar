@@ -220,8 +220,8 @@ body {
     font-family: Stylish;
     font-size: 190px;
     line-height: 120px;
-    bottom: 80px;
-    left: 20%;
+    bottom: 0px;
+    left: 10%;
   }
 
   .page-section-title {
