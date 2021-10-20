@@ -214,7 +214,14 @@ body {
     line-height: 120px;
     bottom: 80px;
     left: 20%;
+  }
 
+  .page-section-title {
+    font-family: Stylish;
+    font-size: 120px;
+    line-height: 80px;
+    bottom: 80px;
+    left: 20%;
   }
 
   .button {
