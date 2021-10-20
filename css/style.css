@@ -204,6 +204,15 @@ body {
     outline: 1px solid red;
   }
 
+  .wedding-headline {
+    font-family: Stylish;
+    font-size: 190px;
+    line-height: 120px;
+    bottom: 80px;
+    left: 20%;
+
+  }
+
   .button {
     border: 1px solid #2B2E34;
     outline: none;
