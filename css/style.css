@@ -46,7 +46,6 @@ body {
 footer {
   padding-left: 10px;
   padding-right: 10px;
-  border-top: 1px solid #2B2E34;
 }
 
   .list {
@@ -289,7 +288,7 @@ footer {
 
   @keyframes load {
     0% { width: 0; }
-    100% { width: 90%; }
+    100% { width: 100%; }
   }
 
   @media (min-width: 768px) {
