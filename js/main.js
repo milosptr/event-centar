@@ -16,8 +16,6 @@ navToggle.classList.toggle('nav-toggle--close');
 
 /*for animated lines*/
 
-/*document.addEventListener("DOMContentLoaded", scrolling, false);*/
-
 var animatedLines = document.querySelectorAll(".inbetween-line");
 console.log(animatedLines)
 
