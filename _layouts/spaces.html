@@ -1,20 +1,22 @@
 {% include head.html %}
 
 {% include nav.html %}
-<main class="pt-32 lg:pt-0 px-4 lg:px-16 xl:px-48">
+<main class="pt-32 lg:pt-0 ">
+  <div class="wrapper">
   <h1 class="text-left upper-middle-font mb-20">{{page.big_title}}</h1>
   <p class="my-44 center little-font max-w-md text-left">{{page.space_text}}
   </p>
-  <ul class='mt-20 experiences-menu flex w-full justify-between upper-little-font main-color pb-4'>
+  <ul class='mt-20 flex w-full justify-between upper-little-font main-color pb-4'>
     <li class="inner-menu-item">{{page.first_section_title}}</li>
     <li class="inner-menu-item">{{page.second_section_title}}</li>
     <li class="inner-menu-item">{{page.third_section_title}}</li>
     <li class="inner-menu-item">{{page.fourth_section_title}}</li>
     <li class="inner-menu-item">{{page.fifth_section_title}}</li>
   </ul>
-  <div class="p-16 flex justify-between">
+  </div>
+  <div class="inbetween-line-light"></div>
+  <div class="py-16 flex justify-between wrapper">
   <div class="flex flex-col justify-between pr-16">
-    <!--<h2 class="big-font">Weddings headline</h2>-->
     <h3 class="page-section-title mb-10">{{page.first_section_title}}</h3>
     <div>
     <p class="little-font mb-10 w-2/3">{{page.section_first_text}}</p>
@@ -24,14 +26,16 @@
     <button class="button little-font w-full mb-4">find out more</button>
     <button class="black-button little-font w-full">book the event</button>
     </div>
-    </div>
+  </div>
     <img src="{{page.section_picture}}" alt="interior" class="w-2/3">
   </div>
-  </div>
-  <div>
-    <div class="px-16 pb-8 upper-font section w-full"><h2>Event spase facilities</h2></div>
-
-    <ul class='p-16 list section flex flex-col flex-wrap'>
+</div>
+<div>
+    <div class="wrapper pb-8 upper-font section w-full">
+      <h2>Event spase facilities</h2>
+    </div>
+    <div class="inbetween-line"></div>
+    <ul class='wrapper py-16 list section flex flex-col flex-wrap'>
       {% for facility in page.facilities %}
       <li class="facility my-5">{{facility}}</li>
       {% endfor %}

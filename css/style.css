@@ -39,12 +39,15 @@ body {
   color: #2B2E34; /*font color*/
   margin: 0;
   list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.footer-wrapper {
-border-top: 1px solid #9C968D;
+footer {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 1px solid #2B2E34;
 }
-
 
   .list {
    height: 350px;
@@ -55,10 +58,7 @@ border-top: 1px solid #9C968D;
     }
 
   .center {
-    /*transform: translate(-50%, -50%);
-    margin-left: 50%;*/
     margin: 0 auto;
-
   }
 
   .contact-title {
@@ -230,10 +230,10 @@ border-top: 1px solid #9C968D;
 
   .page-section-title {
     font-family: Stylish;
-    font-size: 120px;
-    line-height: 80px;
-    bottom: 80px;
-    left: 20%;
+    font-size: 190px;
+    line-height: 130px;
+    bottom: 0px;
+    padding-top: 50px;
   }
 
   .button {
@@ -269,30 +269,49 @@ border-top: 1px solid #9C968D;
     color: #2B2E34;
   }
 
-  .dining-intro {
-    border-bottom: 1px solid #9C968D;
-    }
 
-  .team {
-    /*border-bottom: 1px solid #9C968D;*/
+  /*for line between the page sections, bc line is wider than page sections*/
+  .inbetween-line {
+    width: 100%;
+    height: 1px;
+    background-color: #2B2E34;
   }
 
-  .experiences-menu {
-    border-bottom: 1px solid #9C968D;
+  .inbetween-line-light {
+    width: 100%;
+    height: 1px;
+    background-color: #9C968D;
   }
-
-  /*.section {
-    border-bottom: 1px solid #9C968D;
-  }*/
 
 
   @media (min-width: 768px) {
     header {
       background-size: 7%;
     }
+
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /*class for horizontal paddings on each section*/
+    .wrapper {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .buttons-wrapper {
+      margin: 0 auto;
+      max-width: 1000px;
+    }
   }
 
   @media (min-width: 1024px) {
+    .wrapper {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
     .upper-little-font {
       font-size: 26px;
       line-height: 28px;
@@ -348,6 +367,15 @@ border-top: 1px solid #9C968D;
   }
 
   @media (min-width: 1280px) {
+   body {
+     padding-right: 90px;
+     padding-left:  90px;
+   }
+
+   .wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 
   .team-member:nth-child(even) {
     margin-left: 60%;
@@ -366,6 +394,11 @@ border-top: 1px solid #9C968D;
   }
 
   @media (min-width: 1440px) {
+
+body {
+  padding-right: 100px;
+  padding-left: 100px;
+}
 
     .upper-font {
       font-family: Frunchy;
