@@ -284,11 +284,11 @@ footer {
   }
 
   .animated-line {
-    animation: load 1.5s ease forwards;
+    animation: load 1.5s ease-out forwards;
   }
 
   .animated-light {
-    animation: loadLight 1.5s ease forwards 0.5s;
+    animation: loadLight 1.9s ease-out forwards 0.1s;
   }
 
   @keyframes load {

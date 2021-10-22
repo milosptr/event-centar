@@ -44,9 +44,9 @@ function showAnimatedLines() {
   for (var k = 0; k < animatedLightLines.length; k++) {
     var animatedLightLine = animatedLightLines[k];
 
-    if (isFullyVisible(animatedLightLine)) {
+    //if (isFullyVisible(animatedLightLine)) {
       animatedLightLine.classList.add("animated-light");
-    }
+    //}
   }
     }
 
