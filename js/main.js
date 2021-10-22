@@ -14,10 +14,10 @@ navToggle.classList.toggle('nav-toggle--close');
 );
 
 
-/*for animated lines*/
+//for animated lines
 
 var animatedLines = document.querySelectorAll(".inbetween-line");
-console.log(animatedLines)
+var animatedLightLines = document.querySelectorAll(".inbetween-line-light");
 
 function scrolling() {
   for (var i = 0; i < animatedLines.length; i++) {
@@ -25,6 +25,27 @@ function scrolling() {
 
     if (isFullyVisible(animatedLine)) {
       animatedLine.classList.add("animated-line");
+    }
+  }
+
+  for (var k = 0; k < animatedLightLines.length; k++) {
+    var animatedLightLine = animatedLightLines[k];
+
+    if (isFullyVisible(animatedLightLine)) {
+      animatedLightLine.classList.add("animated-line");
+    }
+  }
+    }
+
+//to show animation for lines which are seen after
+// loading the page even before scrolling
+
+function showAnimatedLines() {
+  for (var k = 0; k < animatedLightLines.length; k++) {
+    var animatedLightLine = animatedLightLines[k];
+
+    if (isFullyVisible(animatedLightLine)) {
+      animatedLightLine.classList.add("animated-line");
     }
   }
     }
@@ -38,3 +59,4 @@ function isFullyVisible(el) {
 }
 
 window.addEventListener('scroll', scrolling);
+window.addEventListener('DOMContentLoaded', showAnimatedLines);
