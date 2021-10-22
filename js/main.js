@@ -32,7 +32,7 @@ function scrolling() {
     var animatedLightLine = animatedLightLines[k];
 
     if (isFullyVisible(animatedLightLine)) {
-      animatedLightLine.classList.add("animated-line");
+      animatedLightLine.classList.add("animated-light");
     }
   }
     }
@@ -45,7 +45,7 @@ function showAnimatedLines() {
     var animatedLightLine = animatedLightLines[k];
 
     if (isFullyVisible(animatedLightLine)) {
-      animatedLightLine.classList.add("animated-line");
+      animatedLightLine.classList.add("animated-light");
     }
   }
     }
