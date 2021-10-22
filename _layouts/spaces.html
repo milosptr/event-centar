@@ -19,25 +19,26 @@
   <div class="flex flex-col justify-between pr-16">
     <h3 class="page-section-title mb-10">{{page.first_section_title}}</h3>
     <div>
-    <p class="little-font mb-10 w-2/3">{{page.section_first_text}}</p>
-    <p class="little-font">{{page.section_second_text}}</p>
-    <p class="little-font mb-10">{{page.section_third_text}}</p>
+    <p class="reveal-top little-font mb-10 w-2/3">{{page.section_first_text}}</p>
+    <p class="reveal-top little-font">{{page.section_second_text}}</p>
+    <p class="reveal-top little-font mb-10">{{page.section_third_text}}</p>
 
-    <button class="button little-font w-full mb-4">find out more</button>
-    <button class="black-button little-font w-full">book the event</button>
+    <button class="reveal-top button little-font w-full mb-4">find out more</button>
+    <button class="reveal-top black-button little-font w-full">book the event</button>
     </div>
   </div>
-    <img src="{{page.section_picture}}" alt="interior" class="w-2/3">
+    <img src="{{page.section_picture}}" alt="interior"
+    class="reveal-right w-2/3">
   </div>
 </div>
 <div>
-    <div class="wrapper pb-8 upper-font section w-full">
+    <div class="reveal-top wrapper pb-8 upper-font section w-full">
       <h2>Event spase facilities</h2>
     </div>
     <div class="inbetween-line"></div>
     <ul class='wrapper py-16 list section flex flex-col flex-wrap'>
       {% for facility in page.facilities %}
-      <li class="facility my-5">{{facility}}</li>
+      <li class="reveal-top facility my-5">{{facility}}</li>
       {% endfor %}
     </ul>
 

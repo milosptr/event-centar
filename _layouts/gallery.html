@@ -5,19 +5,19 @@
 <main class="pt-32 lg:pt-0 wrapper">
   <div class="section py-16">
   <img src="{{page.top_picture}}" alt="meal"
-  class="mb-12 animate__animated animate__fadeInUp animate__slow">
+  class="mb-12 reveal-top">
   <div class=" flex justify-between">
     <div class="w-1/2 text-center mr-8">
-      <img src="{{page.top_left_picture}}" alt="meal">
-      <img src="{{page.bottom_left_picture}}" alt="meal" class="mt-12">
-      <button class="black-button mt-64">download events package brochure</button>
+      <img class="reveal-left mb-8" src="{{page.top_left_picture}}" alt="meal">
+      <img class="reveal-left" src="{{page.bottom_left_picture}}" alt="meal" class="mt-12">
+      <button class="reveal-top black-button mt-64">download events package brochure</button>
     </div>
     <div class="w-1/2 ml-8">
-      <img src="{{page.top_right_picture}}" alt="meal">
-      <img src="{{page.bottom_right_picture}}" alt="meal" class="mt-12">
+      <img class="reveal-right" src="{{page.top_right_picture}}" alt="meal">
+      <img class="reveal-right mt-12" src="{{page.bottom_right_picture}}" alt="meal">
     </div>
   </div>
-  <img src="{{page.bottom_picture}}" alt="meal" class="mt-12">
+  <img class="mt-12 reveal-top" src="{{page.bottom_picture}}" alt="meal" >
   </div>
 </main>
 

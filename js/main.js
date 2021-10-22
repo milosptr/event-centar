@@ -37,16 +37,13 @@ function scrolling() {
   }
     }
 
-//to show animation for lines which are seen after
-// loading the page even before scrolling
+//to show animation for light lines without scrolling
 
 function showAnimatedLines() {
   for (var k = 0; k < animatedLightLines.length; k++) {
     var animatedLightLine = animatedLightLines[k];
-
-    //if (isFullyVisible(animatedLightLine)) {
       animatedLightLine.classList.add("animated-light");
-    //}
+
   }
     }
 
@@ -60,3 +57,10 @@ function isFullyVisible(el) {
 
 window.addEventListener('scroll', scrolling);
 window.addEventListener('DOMContentLoaded', showAnimatedLines);
+
+
+//for page content scrolling
+
+ScrollReveal().reveal('.reveal-left', { distance: '50px', duration: 1000, origin: 'left', easing: 'cubic-bezier(0.25,1.05,1,1)' });
+ScrollReveal().reveal('.reveal-right', { distance: '50px', duration: 1000, origin: 'right', easing: 'cubic-bezier(0.25,1.05,1,1)' });
+ScrollReveal().reveal('.reveal-top', { distance: '50px', duration: 1000, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
