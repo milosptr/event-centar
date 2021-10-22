@@ -266,10 +266,9 @@ footer {
 
   .black-button:hover {
     border: 1px solid #2B2E34;
-    background-color: white;
+    background-color:  #F6F6F3;
     color: #2B2E34;
   }
-
 
   /*for line between the page sections, bc line is wider than page sections*/
   .inbetween-line {
@@ -285,7 +284,7 @@ footer {
   }
 
   .animated-line {
-    animation: load 1s normal forwards;
+    animation: load 1s ease forwards;
   }
 
   @keyframes load {
