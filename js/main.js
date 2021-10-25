@@ -63,5 +63,5 @@ window.addEventListener('DOMContentLoaded', showAnimatedLines);
 
 ScrollReveal().reveal('.reveal-left', { distance: '100px', duration: 700, origin: 'left', easing: 'cubic-bezier(0.25,1.05,1,1)' });
 ScrollReveal().reveal('.reveal-right', { distance: '100px', duration: 700, origin: 'right', easing: 'cubic-bezier(0.25,1.05,1,1)' });
-ScrollReveal().reveal('.reveal-top', { distance: '50px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
-ScrollReveal().reveal('.reveal-top-delay', { delay: 200, distance: '50px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
+ScrollReveal().reveal('.reveal-top', { distance: '100px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
+ScrollReveal().reveal('.reveal-top-delay', { delay: 100, distance: '100px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
