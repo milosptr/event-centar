@@ -363,6 +363,35 @@ footer {
     padding-bottom: 10px;
   }
 
+  .menu-item:hover .menu-line {
+    background-color: #2B2E34;
+    animation: load ease-out forwards 0.5s;
+  }
+
+  .inner-menu-item {
+    transition: 0.5s;
+  }
+
+  .menu-line {
+    height: 1px;
+    background-color: transparent;
+  }
+
+  .inner-menu-item:hover {
+    color: #2B2E34;
+  }
+
+  .inner-menu-item:hover .menu-line {
+    background-color: #2B2E34;
+    animation: load ease-out forwards 0.5s;
+  }
+
+  @keyframes load {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+
+
   .big-font {
     font-size: 120px;
     line-height: 165px;
