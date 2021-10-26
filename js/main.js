@@ -1,32 +1,11 @@
 const menuItems = document.querySelectorAll('.menu-item')
-console.log(menuItems)
 menuItems.forEach((m) => {
   const menuUrl = m.getAttribute('href').replaceAll('/', '')
-  //const menuUrl = m.getAttribute('href');
-  console.log(menuUrl)
   const url = location.pathname.replaceAll('/', '')
-  //console.log(url)
-  console.log(location.pathname)
   m.classList.remove('active')
   if(menuUrl === url)
     m.classList.add('active')
 })
-
-
-/*var menuList = document.querySelector('.menu-list');
-menuList.addEventListener('click', getActiveClass);
-
-
-function getActiveClass(e){
-   console.log(e.target)
-  if (e.target.classList.contains('menu-item')){
- e.target.classList.add('active')
- }
-
- if (e.target.classList.contains('menu-item') && e.target.classList.contains('active')){
-  e.target.classList.remove('active')
-  }
-}*/
 
 var members = document.querySelectorAll('.team-member');
 
