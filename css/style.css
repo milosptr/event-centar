@@ -229,10 +229,11 @@ footer {
 
   .page-section-title {
     font-family: Stylish;
-    font-size: 190px;
-    line-height: 130px;
+    font-size: 120px;
+    line-height: 100px;
     bottom: 0px;
     padding-top: 50px;
+    width: 80%;
   }
 
   .button {
