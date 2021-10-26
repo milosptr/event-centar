@@ -155,7 +155,7 @@ footer {
     border-bottom: 1px solid transparent;
   }
 
-  .menu-item:active {
+  .active {
    color: #2B2E34;
    border-bottom: 1px solid #2B2E34;
   }
@@ -364,10 +364,9 @@ footer {
     padding-bottom: 10px;
   }
 
-  .menu-item:hover .menu-line {
-    background-color: #2B2E34;
-    animation: load ease-out forwards 0.5s;
-  }
+  /*.menu-item a:active {
+    color: #2B2E34;
+  }*/
 
   .inner-menu-item {
     transition: 0.5s;
