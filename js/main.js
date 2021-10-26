@@ -2,9 +2,11 @@ const menuItems = document.querySelectorAll('.menu-item')
 console.log(menuItems)
 menuItems.forEach((m) => {
   const menuUrl = m.getAttribute('href').replaceAll('/', '')
+  //const menuUrl = m.getAttribute('href');
   console.log(menuUrl)
   const url = location.pathname.replaceAll('/', '')
-  console.log(url)
+  //console.log(url)
+  console.log(location.pathname)
   m.classList.remove('active')
   if(menuUrl === url)
     m.classList.add('active')
