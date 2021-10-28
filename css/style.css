@@ -200,7 +200,7 @@ footer {
     border-bottom: 1px solid transparent;
   }
 
-  .menu-item:active {
+  .active {
    color: #2B2E34;
    border-bottom: 1px solid #2B2E34;
   }
@@ -266,18 +266,19 @@ footer {
 
   .wedding-headline {
     font-family: Stylish;
-    font-size: 190px;
-    line-height: 120px;
+    font-size: 220px;
+    line-height: 160px;
     bottom: 0px;
     left: 10%;
   }
 
   .page-section-title {
     font-family: Stylish;
-    font-size: 190px;
-    line-height: 130px;
+    font-size: 120px;
+    line-height: 100px;
     bottom: 0px;
     padding-top: 50px;
+    width: 80%;
   }
 
   .button {
@@ -404,6 +405,34 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  /*.menu-item a:active {
+    color: #2B2E34;
+  }*/
+
+  .inner-menu-item {
+    transition: 0.5s;
+  }
+
+  .menu-line {
+    height: 1px;
+    background-color: transparent;
+  }
+
+  .inner-menu-item:hover {
+    color: #2B2E34;
+  }
+
+  .inner-menu-item:hover .menu-line {
+    background-color: #2B2E34;
+    animation: load ease-out forwards 0.5s;
+  }
+
+  @keyframes load {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+
 
   .big-font {
     font-size: 120px;
