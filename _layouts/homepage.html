@@ -1,6 +1,8 @@
 {% include head.html %}
+{% include loading.html %}
 
 {% include nav.html %}
+<script>document.body.style.overflow = 'hidden'</script>
 
 <main class="pt-32 lg:pt-0">
   <div class="wrapper">
@@ -59,4 +61,7 @@
       </div>
 </main>
 
+
+<script src="/js/gsap.min.js"></script>
+<script src="/js/DrawSVGPlugin.min.js"></script>
 {% include footer.html %}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="522.5" height="438.5" viewBox="0 0 522.5 438.5">
+  <defs>
+    <filter id="_BROMLEY_GALLERY_EVENTS_SPACE" x="0" y="0" width="522.5" height="438.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.5" dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="_BROMLEY_GALLERY_EVENTS_SPACE-2" x="0" y="0" width="522.5" height="438.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.5" dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.702" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_BROMLEY_GALLERY_EVENTS_SPACE)">
+      <text id="_BROMLEY_GALLERY_EVENTS_SPACE-3" data-name=" BROMLEY
+ GALLERY
+&amp; EVENTS
+ SPACE" transform="translate(261 113)" fill="#9e9890" stroke="rgba(82,80,77,0.85)" stroke-linejoin="round" stroke-width="1" font-size="160" font-family="Frunchy-Regular, Frunchy"><tspan x="-259.36" y="0" xml:space="preserve"> BROMLEY</tspan><tspan x="-242.72" y="92" xml:space="preserve"> GALLERY</tspan><tspan x="-253.2" y="184">&amp; EVENTS</tspan><tspan x="-175.44" y="276" xml:space="preserve"> SPACE</tspan></text>
+    </g>
+    <text id="_BROMLEY_GALLERY_EVENTS_SPACE-4" data-name=" BROMLEY
+ GALLERY
+&amp; EVENTS
+ SPACE" transform="translate(261 113)" fill="#9e9890" font-size="160" font-family="Frunchy-Regular, Frunchy"><tspan x="-259.36" y="0" xml:space="preserve"> BROMLEY</tspan><tspan x="-242.72" y="92" xml:space="preserve"> GALLERY</tspan><tspan x="-253.2" y="184">&amp; EVENTS</tspan><tspan x="-175.44" y="276" xml:space="preserve"> SPACE</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_BROMLEY_GALLERY_EVENTS_SPACE-2)">
+      <text id="_BROMLEY_GALLERY_EVENTS_SPACE-5" data-name=" BROMLEY
+ GALLERY
+&amp; EVENTS
+ SPACE" transform="translate(261 113)" fill="#fff" font-size="160" font-family="Frunchy-Regular, Frunchy"><tspan x="-259.36" y="0" xml:space="preserve"> BROMLEY</tspan><tspan x="-242.72" y="92" xml:space="preserve"> GALLERY</tspan><tspan x="-253.2" y="184">&amp; EVENTS</tspan><tspan x="-175.44" y="276" xml:space="preserve"> SPACE</tspan></text>
+    </g>
+    <text id="_BROMLEY_GALLERY_EVENTS_SPACE-6" data-name=" BROMLEY
+ GALLERY
+&amp; EVENTS
+ SPACE" transform="translate(261 113)" stroke="rgba(82,80,77,0.85)" stroke-linejoin="round" stroke-width="1" font-size="160" font-family="Frunchy-Regular, Frunchy" fill="none"><tspan x="-259.36" y="0" xml:space="preserve"> BROMLEY</tspan><tspan x="-242.72" y="92" xml:space="preserve"> GALLERY</tspan><tspan x="-253.2" y="184">&amp; EVENTS</tspan><tspan x="-175.44" y="276" xml:space="preserve"> SPACE</tspan></text>
+  </g>
+</svg>

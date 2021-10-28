@@ -43,6 +43,60 @@ body {
   padding-right: 10px;
 }
 
+#loading-screen {
+  position: fixed;
+  background-color: rgb(153,	148,	139);
+  left: 0; top: 0;
+  z-index: 20;
+  transition: all 8s cubic-bezier(0.25,1.05,1,1);
+}
+
+#loading-screen.finish {
+  transform: translateX(-9999px);
+}
+
+#loading-screen #loading-logo-svg {
+  position: absolute;
+  top: calc(50vh - 260px);
+  /* left: 400px; */
+  height: 520px;
+  opacity: 0;
+  animation: moveLogoToTop 2s 1s forwards cubic-bezier(0.25,1.05,1,1);
+  z-index: 32;
+}
+
+@keyframes moveLogoToTop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: calc(50vh - 260px);
+    height: 520px;
+  }
+  100% {
+    opacity: 1;
+    top: 24px;
+    height: 150px;
+  }
+}
+
+#skip-loading svg {
+  animation: skip 1s 1s infinite ease-in-out;
+}
+
+@keyframes skip {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 footer {
   padding-left: 10px;
   padding-right: 10px;
@@ -127,15 +181,6 @@ footer {
     transform: rotate(-45deg);
     top: 0;
   }
-
-  header {
-    background-image: url('/img/logo.svg');
-    background-repeat: no-repeat;
-    background-position: 94% 45%;
-    background-size: 15%;
-    background-color: #F6F6F3;
-  }
-
   .menu {
     background-color: #F6F6F3;
     display: none
@@ -347,15 +392,12 @@ footer {
     display: block;
   }
 
-    .nav-toggle {
-      display: none;
-    }
+  .menu-item.item-logo:hover {
+    border: none;
+  }
 
-    .menu {
-    background-image: url('/img/logo.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 15%;
+  .nav-toggle {
+    display: none;
   }
 
   .menu-item {
