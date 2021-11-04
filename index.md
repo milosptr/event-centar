@@ -2,18 +2,16 @@
 layout: homepage
 title: Homepage
 big_title: Welcome to our home!
-description: Capitol Grand is a community of creative collaborators in residence,
-  bringing together artists, culinary experts, designers, fashion and hospitality
-  in one destination.
+description: 'Playing host to a community of artists, designers, culinary experts,
+  fashion, hospitality and retail, Capitol Grand is a prestigious home for like-minded
+  creatives to collaborate.  '
 first_section_first_title: Here is the headline about capitol grand location etc.
 first_section_second_title: " Elevate your next event in the splendour of Capitol
   Grand’s stunning event spaces. "
-first_section_first_text: |-
-  Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
-  Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue consequat eros vel lobortis. Sed ultricies libero vitae scelerisque volutpat. Duis laoreet eu nisl eu sagittis.
-  Nam vitae odio vel lorem tempus condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi.
-  Nunc venenatis eros mattis libero dignissim feugiat vitae non mi.
+first_section_first_text: The city’s newest hospitality venue, Capitol Grand is situated
+  in one of Melbourne’s most iconic locales, on the famed corner of Chapel Street
+  and Toorak Road. The building offers a beautiful sanctuary from the busy hum of
+  its cosmopolitan location and the unpredictable Melbourne weather outside.
 first_section_second_text: 'With capacity for 20 up to 300 people, our four distinct
   spaces can be used independently or connected for one seamless event. Wow your guests
   as opulent light fixtures surround and original art pieces adorn our walls. Vast
