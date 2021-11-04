@@ -30,7 +30,7 @@ members:
     ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
     Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
     tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
-- name: Name Name
+- name: John Demetrios
   position: CEO
   image: "/assets/images/team-member1.jpg"
   about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
