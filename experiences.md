@@ -5,21 +5,17 @@ title: Experiences
 big-title: Here should be a headline about the experiencesHere should be a headline
   about the experiences
 section-title: Weddings
-section_first_text: |-
-  Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
-  Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum,
-  id pulvinar mi blandit blandit.
-big_title: here should be a headline about the experiences
+section_first_text: 'Picture the most incredible day of your life in one of the city’s
+  newest and most beautiful settings with every intricate detail handled by our experienced
+  events team. Our customisable spaces allow for the perfect day into night celebration
+  whether it be a small and intimate seated reception or a large party with live entertainment
+  and dancing til the wee hours. '
+big_title: an event or occurrence that leaves an impression
 section_title: Weddings
-section_second_text: "Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
-  Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum,
-  id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue
-  consequat eros vel lobortis. \n\n\nSed ultricies libero vitae scelerisque volutpat.
-  Duis laoreet eu nisl eu sagittis. Nam vitae odio vel lorem tempus condimentum. Class
-  aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-  \n\n\nhimenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi. Nunc
-  venenatis eros mattis libero dignissim feugiat vitae non mi."
+section_second_text: 'We will work with you to ensure your day is perfect beyond comprehension.
+  Our wedding packages are filled to the brim with delectable dining and extensive
+  beverage options. Let us bring your dreams to life so you can savour your special
+  day. '
 section_picture: "/assets/images/meal.jpg"
 first_section_title: PRIVATE CELEBRATIONS
 second_section_title: WEDDINGS
