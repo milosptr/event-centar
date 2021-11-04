@@ -59,9 +59,16 @@ members:
     Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
     tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
 - name: Sherena Mulgrave
-  position: ''
+  position: Event Manager
   image: ''
-  about: ''
+  about: " \nEvent Manager Sherena Mulgrave arrived in Australia from the UK in the
+    late 90s. After years following a career as a professional athlete, her excellent
+    communications skills manifested a successful role change into the fast-paced
+    world of event management. Her intuition and calm perseverance are legendary,
+    and with a CV that encompasses Jackalope Hotel, The National Gallery and Sandhurst
+    Golf Club, she is accustomed to serving a diverse audience. A communication professional,
+    her expertise will ensure an enjoyable, smooth and successful experience as your
+    event needs are realised with us at Capitol Grand. \n"
 main_photo: "/assets/images/interior-2x.jpg"
 first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
