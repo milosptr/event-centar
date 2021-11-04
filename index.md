@@ -52,12 +52,16 @@ members:
     Pastry Chef at Capitol Grand his craft is delightfully enjoyed in our restaurants,
     and his innovative masterpieces can be discovered on all of our event menus. '
 - name: Myron Kloppers
-  position: waiter
+  position: Sommelier
   image: "/assets/images/team-member1.jpg"
-  about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
-    ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
-    Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
-    tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
+  about: 'The world is a playground for South African sommelier Myron Kloppers. Hailing
+    from one of wine''s most globally significant countries, Myron has a unique comprehension
+    of old and new world vintages. Purchasing wine for high-end restaurants in the
+    Middle East meant European wineries were his marketplace from small boutique producers
+    to fabled historic Chateauxs. Then, in a move to Australia, his passion for Australian
+    (and most notably Victorian) wines piqued. His robust industry relationships ensure
+    a wide selection of vintages are available to Capitol Grand, and his understanding
+    of our cuisine results in the perfect match every time. '
 - name: Sherena Mulgrave
   position: Event Manager
   image: ''
