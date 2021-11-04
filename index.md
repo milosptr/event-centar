@@ -23,6 +23,10 @@ second_section_text: |-
 third_section_title: Our team
 third_section_text: Here is an introduction headline about our team
 members:
+- name: Sherena Mulgrave
+  position: ''
+  image: ''
+  about: ''
 - name: Stephen Nairn
   position: chef
   image: "/assets/images/team-member1.jpg"
