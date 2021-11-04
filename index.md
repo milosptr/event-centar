@@ -38,12 +38,19 @@ members:
     showcase his unique skills and craftsmanship not only in our restaurants, but
     as part of our incredible event offering.
 - name: John Demetrios
-  position: CEO
+  position: 'Executive Pastry Chef '
   image: "/assets/images/team-member1.jpg"
-  about: Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam,
-    ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
-    Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque
-    tempor id purus id sagittis. Nam congue consequat eros vel lobortis.
+  about: 'Born in Melbourne, John Demetrios is one of the country’s greatest pastry
+    chefs. His culinary journey took him to the Michelin starred kitchens of London
+    and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous Knightsbridge
+    restaurant. He spent an additional few years in northern Europe at two Michelin
+    starred establishments in Sweden and Amsterdam before returning home. In Australia,
+    his CV reads like the who''s who of restaurants from local institution Circa The
+    Prince to Executive Pastry Chef at Vue de Monde. Today his sweet art can be tasted
+    throughout Capitol Grand, from iconic desserts served at Omnia Bistro & Bar (liquid
+    centre cheesecake anyone?) to the exquisite delicacies of Yugen Tea Bar. As Executive
+    Pastry Chef at Capitol Grand his craft is delightfully enjoyed in our restaurants,
+    and his innovative masterpieces can be discovered on all of our event menus. '
 - name: Myron Kloppers
   position: waiter
   image: "/assets/images/team-member1.jpg"
