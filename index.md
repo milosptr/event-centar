@@ -6,20 +6,31 @@ description: Capitol Grand is a community of creative collaborators in residence
   bringing together artists, culinary experts, designers, fashion and hospitality
   in one destination.
 first_section_first_title: Here is the headline about capitol grand location etc.
-first_section_second_title: Here is the headline about our event spaces.
+first_section_second_title: " Elevate your next event in the splendour of Capitol
+  Grand’s stunning event spaces. "
 first_section_first_text: |-
   Maecenas et quam aliquam, ultrices ipsum et, tristique odio.
   Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue consequat eros vel lobortis. Sed ultricies libero vitae scelerisque volutpat. Duis laoreet eu nisl eu sagittis.
   Nam vitae odio vel lorem tempus condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In arcu lectus, interdum et nulla ac, imperdiet porta nisi.
   Nunc venenatis eros mattis libero dignissim feugiat vitae non mi.
-first_section_second_text: Maecenas et quam aliquam, ultrices ipsum et, tristique
-  odio. Quisque et placerat lectus, ut lobortis augue. Curabitur egestas sagittis
-  ipsum, id pulvinar mi blandit blandit.
-second_section_title: Here is the intro headline about dining. Our chef etc. Experiences.
-second_section_text: |-
-  Here is a short intro text about dining, chef, kitchen…Maecenas et quam aliquam, ultrices ipsum et, tristique odio. Quisque et placerat lectus, ut lobortis augue.
-  Curabitur egestas sagittis ipsum, id pulvinar mi blandit blandit. Pellentesque tempor id purus id sagittis. Nam congue consequat eros vel lobortis
+first_section_second_text: 'With capacity for 20 up to 300 people, our four distinct
+  spaces can be used independently or connected for one seamless event. Wow your guests
+  as opulent light fixtures surround and original art pieces adorn our walls. Vast
+  floor to ceiling windows command awe, capturing natural light and uninterrupted
+  views. An oversized service bar demands attention while a window peering into the
+  kitchen allows for a ringside seat and multi-sensory experience. Be it a wedding,
+  conference, private dining or birthday party, we have a space to suit your every
+  need. '
+second_section_title: 'An event destination where the fare is as show-stopping as
+  the space. '
+second_section_text: "Dining with us is a 360 degree sensory experience. Set amongst
+  an art gallery, the event space is beautifully enhanced by the innovative works
+  of Australian artist David Bromley. A hand-selected team of culinary experts from
+  Michelin starred restaurants throughout the world meticulously curate menus to rival
+  the finest dining establishments. Using only the most superior ingredients, our
+  space allows you to watch as they create your perfect meal while you sip on your
+  flawlessly matched wine selected by our in-house sommelier. \n"
 third_section_title: Our team
 third_section_text: Here is an introduction headline about our team
 members:
