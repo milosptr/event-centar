@@ -73,7 +73,7 @@ members:
     of our cuisine results in the perfect match every time. '
 - name: Sherena Mulgrave
   position: Event Manager
-  image: ''
+  image: "/assets/images/team-member1.jpg"
   about: " \nEvent Manager Sherena Mulgrave arrived in Australia from the UK in the
     late 90s. After years following a career as a professional athlete, her excellent
     communications skills manifested a successful role change into the fast-paced
