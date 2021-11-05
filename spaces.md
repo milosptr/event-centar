@@ -32,9 +32,14 @@ facilities:
 - AV Hire
 - Wifi
 - Parking
-section_first_text: 'Enjoy private dining among  the art of the Gallery. '
-section_second_text: 20 to 100 guests
+section_first_text: 'Bromley & Co Gallery welcomes your next event to be situated
+  in an operating art gallery. The gallery’s high ceilings command a feeling of spaciousness
+  while its walls are adorned with the unmistakable works of David Bromley. Striking
+  handmade chandeliers and mood-enhancing lighting illuminate the gallery, offering
+  the perfect setting for more intimate celebrations and those seeking a truly extraordinary
+  space.  '
+section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
-section_third_text: " cocktail 20 to 50 guests dining"
+section_third_text: 0 to 50 guests seated
 
 ---
