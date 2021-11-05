@@ -268,7 +268,7 @@ footer {
     font-family: Stylish;
     font-size: 220px;
     line-height: 160px;
-    bottom: 0px;
+    top: 60%;
     left: 10%;
   }
 
