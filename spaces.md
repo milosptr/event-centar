@@ -2,12 +2,20 @@
 layout: spaces
 title: Space
 big-title: space is here!
-big_title: Our space is imaginative and versatile. We look forward to welcoming you
-  and your guests.
-space_text: |-
-  Individual rooms can be enjoyed independently or connected for one seamless event.
-  Each area has been purposefully designed and curated.
-  Capitol Grand Executive Chef Stephen Nairn and his team have crafted a selection of menus for your consideration.
+big_title: " Bromley Gallery & Events opens its doors at Capitol Grand for you to
+  host a truly extraordinary event. "
+space_text: "From weddings, corporate events, media and product launches, birthday
+  parties, private dinners and anything in between, our imaginative and versatile
+  spaces can be transformed to offer a spectacular setting for any occasion. \n\nThe
+  venue’s breathtaking decor features striking light fixtures and walls dripping with
+  the original art pieces of David Bromley. An oversized service bar demands your
+  attention (and favourite cocktail order) while a window peering into the kitchen
+  allows for a ringside seat to ignite your senses as you witness culinary masters
+  at work. Vast floor to ceiling windows are a magnet for natural light and invite
+  uninterrupted views of the world outside to dazzle your guests.\n\nChoose from four
+  incredible spaces to enjoy, independently or connected, for one seamless event.
+  Our creative team will work with you to plan and execute an event as unique and
+  memorable as you. \n\n"
 first_section_title: Bromley & Co  Gallery
 second_section_title: The Kitchen  Table
 third_section_title: The Corner  Room
