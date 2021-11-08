@@ -96,6 +96,28 @@ body {
     transform: translateX(0);
   }
 }
+/*for inner menu*/
+.active-red {
+  background-color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-zoom-in-out{
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-zoom-in-out:hover{
+  -webkit-transform: scale(1.08);
+      -ms-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+/**/
 
 footer {
   padding-left: 10px;
@@ -205,6 +227,7 @@ footer {
    border-bottom: 1px solid #2B2E34;
   }
 
+
   .menu-item:hover {
    color: #2B2E34;
    border-bottom: 1px solid #2B2E34;
@@ -264,7 +287,7 @@ footer {
     line-height: 120px;
   }
 
-  .wedding-headline {
+  .experience-headline {
     font-family: Stylish;
     font-size: 220px;
     line-height: 160px;

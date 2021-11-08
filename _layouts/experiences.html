@@ -10,7 +10,7 @@
   class='experiences-menu flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
       {% for experience in page.experiences %}
       <li class="inner-menu-item cursor-pointer" cursor-pointer
-      data-category-name="{{ experience.title | slugify }}">
+    data-category-name="{{ experience.title | slugify }}">
         {{experience.title}}
         <div class="menu-line"></div></li>
       {% endfor %}
@@ -18,11 +18,12 @@
   </div>
 
   <div class="inbetween-line-light"></div>
+  <div class="experiences-container flex flex-wrap justify-between mt-8">
   {% for experience in page.experiences %}
-  <div class="pt-20 pb-56 wedding wrapper"
-  data-category={{ item.category_title | slugify }}>
-  <img src="{{experience.image}}" alt="meal photo"
-  class="reveal-top w-full">
+  <div class="pt-20 pb-56 experience wrapper "
+  data-category={{ experience.title | slugify}}>
+  <img src="{{experience.image}}" alt="experience photo"
+  class="reveal-top w-full opacity-100">
   <div class="pt-40 flex justify-between pr-16 relative">
     <h3 class="reveal-top w-1/2 pr-4 upper-font">{{experience.title}}</h3>
     <p class="reveal-top little-font w-1/3 mr-12">{{experience.first_text}}</p>
@@ -30,9 +31,10 @@
     <p class="reveal-top little-font mb-56">{{experience.second_text}}</p>
     <button class="reveal-top black-button little-font">{{experience.button}}</button>
     </div>
-    <h2 class="wedding-headline w-1/3 absolute">{{experience.headline}}</h2>
+    <h2 class="experience-headline w-1/3 absolute">{{experience.headline}}</h2>
   </div>
   </div>
   {% endfor %}
+  </div>
 </main>
 {% include footer.html %}
