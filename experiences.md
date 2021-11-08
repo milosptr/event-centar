@@ -21,5 +21,18 @@ first_section_title: PRIVATE CELEBRATIONS
 second_section_title: WEDDINGS
 third_section_title: CORPORATE
 fourth_section_title: bespoke
+experiences:
+- image: "/assets/images/meal.jpg"
+  title: Private  Celebrations
+  second_text: "Whether it be an intimate affair for a small group of friends or family
+    or a festive occasion shared with many, our team can help create a flawless celebration.
+    Choose from a seated (up to 150 guests) or cocktail style (up to 300 guests) event
+    with mouthwatering menus served with delicate precision to meet your unique requirements.
+    \ \n"
+  button: Download the package
+  headline: Private  Celebrations
+  first_text: 'Celebrate a milestone or reflect on a loved ones achievement in the
+    city’s most unique venue. Whatever the cause for celebration, we have the space
+    to spotlight your most treasured moments. '
 
 ---
