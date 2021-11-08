@@ -23,6 +23,16 @@ third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
 - image: "/assets/images/meal-2x.jpg"
+  title: 'Bespoke  '
+  first_text: No matter your style or reason for an event, our space and offering
+    is completely flexible and approach highly customised to suit your specific needs.
+  second_text: "We will work closely with you to produce truly memorable and unique
+    moments that you and your guests won’t easily forget. Offering experiences from
+    2 up to 150 guests seated and up to 300 guests cocktail style, we invite you to
+    contact us today to learn more. \n"
+  button: Download the package
+  headline: Bespoke headline
+- image: "/assets/images/meal-2x.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
     function at Bromley Gallery & Events. Suitable for a multitude of event types
