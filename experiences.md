@@ -23,6 +23,19 @@ third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
 - image: "/assets/images/meal-2x.jpg"
+  title: 'Corporate '
+  first_text: "\nImpress your clients and wow your guests by hosting your next corporate
+    function at Bromley Gallery & Events. Suitable for a multitude of event types
+    including half, full or multi-day conferences, virtual or hybrid events, exhibitions,
+    product launches, company milestones or Christmas parties - look no further for
+    your next ideal corporate event venue partner. \n"
+  second_text: "With four key spaces completely customisable based on your requirements,
+    our rooms can be configured to accommodate small intimate boardroom meetings or
+    transformed to house large functions and conferences. Our space offers custom-made,
+    contemporary furniture and the latest technology and audio visual equipment. \n\n"
+  button: Download the package
+  headline: Corporate  headline
+- image: "/assets/images/meal-2x.jpg"
   title: Weddings
   first_text: |2-
 
