@@ -34,7 +34,7 @@ experiences:
   first_text: 'Celebrate a milestone or reflect on a loved ones achievement in the
     city’s most unique venue. Whatever the cause for celebration, we have the space
     to spotlight your most treasured moments. '
-- image: "/assets/images/meal-2x.jpg"
+- image: "/assets/images/interior-small-2x.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
     function at Bromley Gallery & Events. \n"
