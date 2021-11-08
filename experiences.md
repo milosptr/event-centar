@@ -22,16 +22,18 @@ second_section_title: WEDDINGS
 third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
-- image: "/assets/images/meal-2x.jpg"
-  title: 'Bespoke  '
-  first_text: No matter your style or reason for an event, our space and offering
-    is completely flexible and approach highly customised to suit your specific needs.
-  second_text: "We will work closely with you to produce truly memorable and unique
-    moments that you and your guests won’t easily forget. Offering experiences from
-    2 up to 150 guests seated and up to 300 guests cocktail style, we invite you to
-    contact us today to learn more. \n"
+- image: "/assets/images/meal.jpg"
+  title: Private  Celebrations
+  second_text: "Whether it be an intimate affair for a small group of friends or family
+    or a festive occasion shared with many, our team can help create a flawless celebration.
+    Choose from a seated (up to 150 guests) or cocktail style (up to 300 guests) event
+    with mouthwatering menus served with delicate precision to meet your unique requirements.
+    \ \n"
   button: Download the package
-  headline: Bespoke headline
+  headline: Private  Celebrations
+  first_text: 'Celebrate a milestone or reflect on a loved ones achievement in the
+    city’s most unique venue. Whatever the cause for celebration, we have the space
+    to spotlight your most treasured moments. '
 - image: "/assets/images/meal-2x.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
@@ -59,17 +61,15 @@ experiences:
     to life so you can savour your special day.\n\n"
   button: Download the package
   headline: Weddings headline
-- image: "/assets/images/meal.jpg"
-  title: Private  Celebrations
-  second_text: "Whether it be an intimate affair for a small group of friends or family
-    or a festive occasion shared with many, our team can help create a flawless celebration.
-    Choose from a seated (up to 150 guests) or cocktail style (up to 300 guests) event
-    with mouthwatering menus served with delicate precision to meet your unique requirements.
-    \ \n"
+- image: "/assets/images/meal-2x.jpg"
+  title: 'Bespoke  '
+  first_text: No matter your style or reason for an event, our space and offering
+    is completely flexible and approach highly customised to suit your specific needs.
+  second_text: "We will work closely with you to produce truly memorable and unique
+    moments that you and your guests won’t easily forget. Offering experiences from
+    2 up to 150 guests seated and up to 300 guests cocktail style, we invite you to
+    contact us today to learn more. \n"
   button: Download the package
-  headline: Private  Celebrations
-  first_text: 'Celebrate a milestone or reflect on a loved ones achievement in the
-    city’s most unique venue. Whatever the cause for celebration, we have the space
-    to spotlight your most treasured moments. '
+  headline: Bespoke headline
 
 ---
