@@ -69,6 +69,45 @@ fields:
   label: fourth section title
 - name: experiences
   type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: first_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: first_text
+  - name: second_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: second_text
+  - name: button
+    type: text
+    config:
+      required: false
+    label: button
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
   config:
     min: 
     max: 
