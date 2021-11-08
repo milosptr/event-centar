@@ -67,5 +67,12 @@ fields:
   config:
     required: false
   label: fourth section title
+- name: experiences
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: experiences
 pages:
 - experiences.md
