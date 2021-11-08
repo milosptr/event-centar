@@ -287,6 +287,10 @@ footer {
     line-height: 120px;
   }
 
+  .experience-image {
+   /*opacity: 100% !important;*/
+  }
+
   .experience-headline {
     font-family: Stylish;
     font-size: 220px;

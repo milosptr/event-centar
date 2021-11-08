@@ -12,7 +12,6 @@
           inline: 'center'
       })
         filterProducts(e.target.dataset.categoryName)
-        console.log('category name:', e.target.dataset.categoryName)
       })
     })
 
