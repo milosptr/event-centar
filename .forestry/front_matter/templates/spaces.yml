@@ -79,5 +79,47 @@ fields:
   config:
     required: false
   label: section third text
+- name: spaces
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: text
+  - name: amount1
+    type: text
+    config:
+      required: false
+    label: amount1
+  - name: amount2
+    type: text
+    config:
+      required: false
+    label: amount2
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: spaces
 pages:
 - spaces.md
