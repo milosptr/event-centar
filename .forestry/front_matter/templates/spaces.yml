@@ -52,11 +52,6 @@ fields:
   config:
     required: false
   label: fifth section title
-- name: section_picture
-  type: file
-  config:
-    maxSize: 64
-  label: section picture
 - name: facilities
   type: list
   config:
@@ -64,21 +59,6 @@ fields:
     min: 
     max: 
   label: facilities
-- name: section_first_text
-  type: text
-  config:
-    required: false
-  label: section first text
-- name: section_second_text
-  type: text
-  config:
-    required: false
-  label: section second text
-- name: section_third_text
-  type: text
-  config:
-    required: false
-  label: section third text
 - name: spaces
   type: field_group_list
   fields:
