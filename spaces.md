@@ -42,6 +42,40 @@ section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
 section_third_text: 0 to 50 guests seated
 spaces:
+- title: 'Bromley & Co Gallery '
+  headline: 'Bromley & Co Gallery '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: 'Bromley & Co Gallery welcomes your next event to be situated in an operating
+    art gallery. The gallery’s high ceilings command a feeling of spaciousness while
+    its walls are adorned with the unmistakable works of David Bromley. Striking handmade
+    chandeliers and mood-enhancing lighting illuminate the gallery, offering the perfect
+    setting for more intimate celebrations and those seeking a truly extraordinary
+    space.  '
+  amount1: '20 to 100 guests cocktail '
+  amount2: 20 to 50 guests seated
+- title: 'The Corner Room '
+  headline: 'The Corner Room '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: The Corner Room capitalises on its position in the corner of the building
+    allowing for natural light to flood through its floor-to-ceiling windows illuminating
+    the stunningly unique space. Perfect for mid-sized groups.
+  amount1: '40 to 100 guests cocktail '
+  amount2: 20 to 50 guests seated
+- title: 'The Window Room '
+  headline: 'The Window Room '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: 'Our most intimate space, The Window Room is ideal for small groups and private
+    dining. The Window Room offers a truly distinctive experience with a window peering
+    into the action of the kitchen. Watch as award-winning chefs prepare a meal for
+    you and your guests to savour now and reminisce over later.  '
+  amount1: 10 to 20 guests seated
+  amount2: ''
+- text: ''
+  title: ''
+  headline: ''
+  image: ''
+  amount1: ''
+  amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
   image: "/assets/images/interior-small-2x.jpg"
@@ -56,33 +90,5 @@ spaces:
     your unique event needs.  \n"
   amount1: 'Up to 300 guests cocktail '
   amount2: Up to 150 guests seated
-- title: 'The Window Room '
-  headline: 'The Window Room '
-  image: "/assets/images/interior-small-2x.jpg"
-  text: 'Our most intimate space, The Window Room is ideal for small groups and private
-    dining. The Window Room offers a truly distinctive experience with a window peering
-    into the action of the kitchen. Watch as award-winning chefs prepare a meal for
-    you and your guests to savour now and reminisce over later.  '
-  amount1: 10 to 20 guests seated
-  amount2: ''
-- title: 'The Corner Room '
-  headline: 'The Corner Room '
-  image: "/assets/images/interior-small-2x.jpg"
-  text: The Corner Room capitalises on its position in the corner of the building
-    allowing for natural light to flood through its floor-to-ceiling windows illuminating
-    the stunningly unique space. Perfect for mid-sized groups.
-  amount1: '40 to 100 guests cocktail '
-  amount2: 20 to 50 guests seated
-- title: 'Bromley & Co Gallery '
-  headline: 'Bromley & Co Gallery '
-  image: "/assets/images/interior-small-2x.jpg"
-  text: 'Bromley & Co Gallery welcomes your next event to be situated in an operating
-    art gallery. The gallery’s high ceilings command a feeling of spaciousness while
-    its walls are adorned with the unmistakable works of David Bromley. Striking handmade
-    chandeliers and mood-enhancing lighting illuminate the gallery, offering the perfect
-    setting for more intimate celebrations and those seeking a truly extraordinary
-    space.  '
-  amount1: '20 to 100 guests cocktail '
-  amount2: 20 to 50 guests seated
 
 ---
