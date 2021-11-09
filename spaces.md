@@ -42,6 +42,15 @@ section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
 section_third_text: 0 to 50 guests seated
 spaces:
+- title: 'The Window Room '
+  headline: 'The Window Room '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: 'Our most intimate space, The Window Room is ideal for small groups and private
+    dining. The Window Room offers a truly distinctive experience with a window peering
+    into the action of the kitchen. Watch as award-winning chefs prepare a meal for
+    you and your guests to savour now and reminisce over later.  '
+  amount1: 10 to 20 guests seated
+  amount2: ''
 - title: 'The Corner Room '
   headline: 'The Corner Room '
   image: "/assets/images/interior-small-2x.jpg"
