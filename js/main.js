@@ -1,19 +1,21 @@
 (function() {
   //for inner menu on experinces page
     const categories = document.querySelectorAll('.inner-menu-item')
-    categories[0].classList.add('active')
-    filterProducts(categories[0].dataset.categoryName)
+    if(categories && categories.length) {
+      categories[0].classList.add('active')
+      filterProducts(categories[0].dataset.categoryName)
 
-    categories.forEach((c) => {
-      c.addEventListener('click', (e) => {
-        c.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center'
+      categories.forEach((c) => {
+        c.addEventListener('click', (e) => {
+          c.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        })
+          filterProducts(e.target.dataset.categoryName)
+        })
       })
-        filterProducts(e.target.dataset.categoryName)
-      })
-    })
+    }
 
 
  function filterProducts(category) {
