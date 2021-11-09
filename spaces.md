@@ -42,6 +42,14 @@ section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
 section_third_text: 0 to 50 guests seated
 spaces:
+- title: 'The Corner Room '
+  headline: 'The Corner Room '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: The Corner Room capitalises on its position in the corner of the building
+    allowing for natural light to flood through its floor-to-ceiling windows illuminating
+    the stunningly unique space. Perfect for mid-sized groups.
+  amount1: '40 to 100 guests cocktail '
+  amount2: 20 to 50 guests seated
 - title: 'Bromley & Co Gallery '
   headline: 'Bromley & Co Gallery '
   image: "/assets/images/interior-small-2x.jpg"
