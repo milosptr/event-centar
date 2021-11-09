@@ -70,12 +70,6 @@ spaces:
     you and your guests to savour now and reminisce over later.  '
   amount1: 10 to 20 guests seated
   amount2: ''
-- text: ''
-  title: ''
-  headline: ''
-  image: ''
-  amount1: ''
-  amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
   image: "/assets/images/interior-small-2x.jpg"
