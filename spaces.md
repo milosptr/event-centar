@@ -42,6 +42,20 @@ section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
 section_third_text: 0 to 50 guests seated
 spaces:
+- title: 'The Grand Room '
+  headline: 'The Grand Room '
+  image: "/assets/images/interior-small-2x.jpg"
+  text: "\nThe Grand Room is our largest and most impressive space. Overlooking South
+    Yarra, Toorak, Prahran and beyond, The Grand Room marries The Corner Room and
+    The Window Room to create a glamorous and expansive space perfect for larger scale
+    events ranging from impressive corporate lunches to beautiful wedding receptions.
+    The elaborate design-led interior features oak floorboards, walls fixed with a
+    gleaming water-ripple effect, high smoked chocolate-coloured ceilings and dazzling
+    lighting fixtures. Coupled with a flood of natural light by day and the shimmer
+    of nightlights of an evening, The Grand Room offers a spectacular backdrop for
+    your unique event needs.  \n"
+  amount1: 'Up to 300 guests cocktail '
+  amount2: Up to 150 guests seated
 - title: 'The Window Room '
   headline: 'The Window Room '
   image: "/assets/images/interior-small-2x.jpg"
