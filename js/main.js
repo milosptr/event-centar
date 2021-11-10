@@ -35,6 +35,48 @@
   })
 }
 
+   //inner-menu-item-spaces
+
+   const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
+    if(categoriesSpaces && categoriesSpaces.length) {
+      categoriesSpaces[0].classList.add('active')
+      filterRooms(categoriesSpaces[0].dataset.categoryName)
+
+      categoriesSpaces.forEach((c) => {
+        c.addEventListener('click', (e) => {
+          c.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        })
+        filterRooms(e.target.dataset.categoryName)
+        })
+      })
+    }
+
+    function filterRooms(room) {
+      const rooms = [...document.querySelector('.spaces-container').children]
+      console.log(rooms.length)
+      rooms.forEach((p) => {
+        console.log('p.dataset.room', p.dataset.room)
+        p.style = ''
+        p.classList.remove('hide')
+        p.style.opacity = 1
+        if(p.dataset.room !== room)
+        p.classList.add('hide')
+      })
+      rooms.forEach((c,idx) => {
+        console.log('c.dataset.categoryName',c.dataset.categoryName)
+        console.log('room', room)
+        c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+        c.classList.remove('active')
+        if(c.dataset.categoryName === room)
+          c.classList.add('active')
+      })
+    }
+
+
+
 // Loading Screen Animation
   if(document.getElementById('loading-screen')) {
     let tl = gsap.timeline()

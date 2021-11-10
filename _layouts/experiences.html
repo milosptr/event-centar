@@ -9,7 +9,7 @@
   <ul
   class='experiences-menu flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
       {% for experience in page.experiences %}
-      <li class="inner-menu-item cursor-pointer" cursor-pointer
+      <li class="inner-menu-item" cursor-pointer
     data-category-name="{{ experience.title | slugify }}">
         {{experience.title}}
         <div class="menu-line"></div></li>
@@ -18,7 +18,7 @@
   </div>
 
   <div class="inbetween-line-light"></div>
-  <div class="experiences-container flex flex-wrap justify-between mt-8">
+  <div class="experiences-container flex flex-wrap justify-between mt-8"><!---->
   {% for experience in page.experiences %}
   <div class="pt-20 pb-56 experience wrapper "
   data-category={{ experience.title | slugify}}>

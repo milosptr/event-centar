@@ -455,6 +455,19 @@ footer {
     animation: load ease-out forwards 0.5s;
   }
 
+  .inner-menu-item-spaces {
+    transition: 0.5s;
+  }
+
+  .inner-menu-item-spaces:hover {
+    color: #2B2E34;
+  }
+
+  .inner-menu-item-spaces:hover .menu-line {
+    background-color: #2B2E34;
+    animation: load ease-out forwards 0.5s;
+  }
+
   @keyframes load {
     0% { width: 0%; }
     100% { width: 100%; }
