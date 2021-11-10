@@ -50,19 +50,20 @@
             inline: 'center'
         })
         filterRooms(e.target.dataset.categoryName)
-        console.log(e.target.dataset.categoryName)
+        console.log('e.target.dataset.categoryName', e.target.dataset.categoryName)
         })
       })
     }
 
     function filterRooms(category) {
+
       const rooms = [...document.querySelector('.spaces-container').children]
       rooms.forEach((p) => {
-        p.style = ''
         p.classList.remove('hide')
         p.style.opacity = 1
         if(p.dataset.category !== category)
         p.classList.add('hide')
+
       })
       categoriesSpaces.forEach((c,idx) => {
         c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')

@@ -105,6 +105,12 @@ body {
   display: none;
 }
 
+.space {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
 .btn-zoom-in-out{
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;

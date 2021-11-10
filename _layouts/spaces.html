@@ -16,32 +16,11 @@
   </ul>
   </div>
   <div class="inbetween-line-light"></div>
-<!--<div class='spaces-container flex flex-wrap justify-between'>
-    {% for space in page.spaces %}
-    <div class="mt-8 py-16 wrapper flex justify-between"
-    data-category={{ space.title | slugify}}>
-  <div class="flex flex-col justify-between pr-16">
-    <h3 class="page-section-title mb-10">{{space.title}}</h3>
-    <div>
-    <p class="little-font mb-10 w-2/3">{{space.text}}</p>
-    <p class="little-font">{{space.amount1}}</p>
-    <p class="little-font mb-10">{{space.amount2}}</p>
-
-    <button class="button little-font w-full mb-4">find out more</button>
-    <button class="black-button little-font w-full">book the event</button>
-    </div>
-  </div>
-    <img src="{{space.image}}" alt="interior"
-    class="reveal-right w-2/3">
-  </div>
-</div>
-  {% endfor %}
-</div>-->
-
 <div class='spaces-container flex flex-wrap justify-between'>
   {% for space in page.spaces %}
-  <div class="mt-8 py-16 wrapper flex justify-between"
+  <div class="mt-8 py-16 wrapper hide"
   data-category={{ space.title | slugify}}>
+  <div class="flex justify-between ">
 <div class="flex flex-col justify-between pr-16">
   <h3 class="page-section-title mb-10">{{space.title}}</h3>
   <div>
@@ -54,7 +33,8 @@
   </div>
 </div>
   <img src="{{space.image}}" alt="interior"
-  class="reveal-right w-2/3">
+  class="w-2/3">
+</div>
 </div>
 {% endfor %}
 </div>
