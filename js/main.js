@@ -35,7 +35,7 @@
   })
 }
 
-   //inner-menu-item-spaces
+   //spaces page
 
    const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
     if(categoriesSpaces && categoriesSpaces.length) {
