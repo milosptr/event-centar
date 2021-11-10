@@ -50,31 +50,27 @@
             inline: 'center'
         })
         filterRooms(e.target.dataset.categoryName)
+        console.log(e.target.dataset.categoryName)
         })
       })
     }
 
-    function filterRooms(room) {
+    function filterRooms(category) {
       const rooms = [...document.querySelector('.spaces-container').children]
-      console.log(rooms.length)
       rooms.forEach((p) => {
-        console.log('p.dataset.room', p.dataset.room)
         p.style = ''
         p.classList.remove('hide')
         p.style.opacity = 1
-        if(p.dataset.room !== room)
+        if(p.dataset.category !== category)
         p.classList.add('hide')
       })
-      rooms.forEach((c,idx) => {
-        console.log('c.dataset.categoryName',c.dataset.categoryName)
-        console.log('room', room)
+      categoriesSpaces.forEach((c,idx) => {
         c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
         c.classList.remove('active')
-        if(c.dataset.categoryName === room)
+        if(c.dataset.categoryName === category)
           c.classList.add('active')
       })
     }
-
 
 
 // Loading Screen Animation
