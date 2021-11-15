@@ -445,6 +445,7 @@ footer {
 
   .inner-menu-item {
     transition: 0.5s;
+    cursor: pointer;
   }
 
   .menu-line {
@@ -463,6 +464,7 @@ footer {
 
   .inner-menu-item-spaces {
     transition: 0.5s;
+    cursor: pointer;
   }
 
   .inner-menu-item-spaces:hover {
