@@ -109,11 +109,6 @@ body {
 }
 
 
-/*.space {
-  display: flex;
-  justify-content: space-between;
-}*/
-
 .btn-zoom-in-out{
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
@@ -127,11 +122,6 @@ body {
 }
 
 /**/
-
-/*footer {
-  padding-left: 10px;
-  padding-right: 10px;
-}*/
 
   .list {
    height: 350px;
@@ -172,7 +162,7 @@ body {
     outline: none;
     border: none;
     transition: all 0.3s;
-    background-color: #9C968D;
+    background-color: #2B2E34;
     border-radius: 2px;
   }
 
@@ -182,7 +172,7 @@ body {
     width: 26px;
     height: 2px;
     transition: all 0.3s;
-    background-color: #9C968D;
+    background-color: #2B2E34;
     border-radius: 2px;
     top: 5px;
     left: 0;
@@ -194,7 +184,7 @@ body {
     width: 26px;
     height: 2px;
     transition: all 0.3s;
-    background-color: #9C968D;
+    background-color: #2B2E34;
     border-radius: 2px;
     bottom: 5px;
     left: 0;
