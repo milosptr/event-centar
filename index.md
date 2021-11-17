@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: Homepage
-big_title: Welcome to our home!
+big_title: Welcome to our home
 description: 'Playing host to a community of artists, designers, culinary experts,
   fashion, hospitality and retail, Capitol Grand is a prestigious home for like-minded
   creatives to collaborate.  '
