@@ -59,8 +59,10 @@
 
       const rooms = [...document.querySelector('.spaces-container').children]
       rooms.forEach((p) => {
+        p.style = ''
         p.classList.remove('hide')
         p.style.opacity = 1
+
         if(p.dataset.category !== category)
         p.classList.add('hide')
 
@@ -73,6 +75,44 @@
       })
     }
 
+
+//homepage team members mobile version slider
+
+const controls = document.querySelectorAll('.slider-control')
+    if(controls && controls.length) {
+      controls[0].classList.add('control-active')
+      filterMembers(controls[0].dataset.categoryName)
+
+      controls.forEach((c) => {
+        c.addEventListener('click', (e) => {
+          c.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        })
+        filterMembers(e.target.dataset.categoryName)
+        })
+      })
+    }
+
+    function filterMembers(category) {
+
+      const sliderItems = [...document.querySelector('.slider-list').children]
+      sliderItems.forEach((p) => {
+        p.style = ''
+        p.classList.remove('hide-member')
+        p.style.opacity = 1
+        if(p.dataset.category !== category)
+        p.classList.add('hide-member')
+
+      })
+      controls.forEach((c,idx) => {
+        c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+        c.classList.remove('control-active')
+        if(c.dataset.categoryName === category)
+          c.classList.add('control-active')
+      })
+    }
 
 // Loading Screen Animation
   if(document.getElementById('loading-screen')) {

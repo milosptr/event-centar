@@ -105,10 +105,15 @@ body {
   display: none;
 }
 
+.hide-member {
+  display: none;
+}
+
+
 .space {
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
 }
 
 .btn-zoom-in-out{
@@ -345,6 +350,52 @@ footer {
     color: #2B2E34;
   }
 
+  /*.slider {
+    outline: 1px solid aquamarine;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    display: flex;
+  }
+
+  .slider-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+  }*/
+
+
+  .slider-list {
+   /*display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;*/
+  }
+
+  .slider-controls  {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+
+  }
+
+  .slider-control {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #2B2E34;
+    border-radius: 50%;
+  }
+
+  .control-active {
+    background-color: #2B2E34;
+  }
+
   /*for line between the page sections, bc line is wider than page sections*/
   .inbetween-line {
     width: 100%;
@@ -399,6 +450,40 @@ footer {
   }
 
   @media (min-width: 1024px) {
+    .slider-controls  {
+      display: none;
+    }
+
+    .hide-member {
+      display: block;
+    }
+
+    /*.slider-list {
+      display: block;
+
+     }*/
+    /*.slider {
+      outline: 1px solid aquamarine;
+      height: 800px;
+      position: relative;
+      overflow: hidden;
+      flex-wrap: nowrap;
+      display: flex;
+      display: block;
+      height: auto;
+    }
+
+    .slider-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      position: relative;
+      transition: all 0.3s;
+      background-repeat: no-repeat;
+      text-align: center;
+      background-size: cover;
+      display: block;
+    }*/
+
     .wrapper {
       padding-left: 50px;
       padding-right: 50px;
