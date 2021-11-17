@@ -46,8 +46,8 @@
           {{page.third_section_text}}</p>
             <ul class="slider-list ">
           {% for member in page.members %}
-        <li class="text-left team-member lg:w-1/2 xl:w-2/5 mb-8"
-        data-category={{ member.name | slugify}}> <!--animate__animated animate__fadeInRight-->
+        <li class="animate__animated animate__fadeInRight text-left team-member lg:w-1/2 xl:w-2/5 mb-8"
+        data-category={{ member.name | slugify}}>
           <img src="{{member.image}}" alt="team member" class="w-full mb-10 ">
           <div class="sm:flex sm:justify-between">
             <div>
@@ -59,7 +59,6 @@
           </li>
         {% endfor %}
       </ul>
-
       <ul class='slider-controls my-8'>
         {% for member in page.members %}
         <li class="slider-control" cursor-pointer
@@ -68,7 +67,6 @@
       </ul>
       </div>
       </div>
-
 </main>
 
 
