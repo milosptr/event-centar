@@ -20,8 +20,9 @@
   {% for space in page.spaces %}
   <div class="mt-8 py-16 wrapper hide"
   data-category={{ space.title | slugify}}>
-  <div class="flex justify-between">
+  <div class="flex justify-between bg-green-200">
 <div class="flex flex-col justify-between pr-20">
+
   <h3 class="page-section-title mb-10">{{space.title}}</h3>
   <div class="">
   <p class="animate__animated animate__fadeInUp little-font mb-5 ">{{space.text}}</p><!--w-2/3-->
@@ -32,8 +33,9 @@
   <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
   </div>
 </div>
-  <img src="{{space.image}}" alt="interior"
-  class="w-2/3 animate__animated animate__fadeIn animate__slow">
+
+<img src="{{space.image}}" alt="interior"
+class="w-2/3 animate__animated animate__fadeIn animate__slow">
 </div>
 </div>
 {% endfor %}

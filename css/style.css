@@ -273,8 +273,8 @@ body {
   .upper-middle-font {
     font-family: Frunchy;
     text-transform: uppercase;
-    font-size: 75px;
-    line-height: 72px;
+    font-size: 55px;
+    line-height: 50px;
   }
 
   .about-title {
@@ -303,6 +303,7 @@ body {
 
  .upper-experience-title {
    border-bottom: 1px solid #9C968D;
+   position: relative;
  }
 
 
@@ -425,12 +426,29 @@ body {
       margin: 0 auto;
       max-width: 1000px;
     }
+
+
+    /*?????????????*/
+
+    .upper-big-font  {
+      font-family: Frunchy;
+      text-transform: uppercase;
+      font-size: 60px;
+      line-height: 40px;
+    }
   }
 
   @media (min-width: 1024px) {
     footer {
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    .upper-middle-font {
+      font-family: Frunchy;
+      text-transform: uppercase;
+      font-size: 75px;
+      line-height: 72px;
     }
 
     .experience-headline {

@@ -1,6 +1,8 @@
 (function() {
 
   //experience mobile menu
+
+  if(document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experiences-container");
 
   experienceSection.addEventListener("click", function (event) {
@@ -15,10 +17,11 @@
       }
     }
 })
+}
 
-
+   console.log(screen.width)
     const categories = document.querySelectorAll('.inner-menu-item')
-    if(categories && categories.length & screen.width > 1024 ) {
+    if(categories && categories.length && screen.width > 1024 ) {
       categories[0].classList.add('active')
       filterProducts(categories[0].dataset.categoryName)
 
