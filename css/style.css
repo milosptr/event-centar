@@ -123,9 +123,6 @@ body {
 
 /**/
 
-  .list {
-   height: 350px;
-    }
 
   .facility {
    position: relative;
@@ -406,6 +403,12 @@ body {
     100% { width: 100%; }
   }
 
+  .list {
+    height: 500px;
+    padding-left: 10px;
+     }
+
+
   @media (min-width: 768px) {
     header {
       background-size: 7%;
@@ -465,6 +468,11 @@ body {
       font-size: 120px;
       line-height: 100px;
     }
+
+    .list {
+      height: 350px;
+      padding-left: auto;
+       }
 
     .experiences-menu {
       display: flex;
