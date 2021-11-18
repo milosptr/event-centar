@@ -286,6 +286,10 @@ body {
     line-height: 120px;
   }
 
+  .experiences-menu {
+    display: none;
+  }
+
   .experience-headline {
     font-family: Stylish;
     font-size: 100px;
@@ -295,6 +299,15 @@ body {
 
   .experiences-container {
     position: relative;
+  }
+
+ .upper-experience-title {
+   border-bottom: 1px solid #9C968D;
+ }
+
+
+  .upper-experience-title:hover {
+   color: #2B2E34;
   }
 
   .page-section-title {
@@ -365,7 +378,7 @@ body {
   .inbetween-line {
     width: 100%;
     height: 1px;
-    background-color: #9C968D;;
+    background-color: #9C968D;
   }
 
   .inbetween-line-light {
@@ -420,7 +433,6 @@ body {
       padding-right: 10px;
     }
 
-
     .experience-headline {
       font-family: Stylish;
       font-size: 220px;
@@ -434,6 +446,10 @@ body {
       text-transform: uppercase;
       font-size: 120px;
       line-height: 100px;
+    }
+
+    .experiences-menu {
+      display: flex;
     }
 
     .slider-controls  {

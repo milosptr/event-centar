@@ -1,7 +1,24 @@
 (function() {
-  //for inner menu on experinces page
+
+  //experience mobile menu
+  let experienceSection = document.querySelector(".experiences-container");
+
+  experienceSection.addEventListener("click", function (event) {
+    let target = event.target;
+    if (target.classList.contains("upper-experience-title")) {
+      let hiddenInfo = target.nextElementSibling;
+      if (hiddenInfo.classList.contains('hidden')) {
+        hiddenInfo.classList.remove('hidden')
+      }
+      else {
+        hiddenInfo.classList.add('hidden')
+      }
+    }
+})
+
+
     const categories = document.querySelectorAll('.inner-menu-item')
-    if(categories && categories.length) {
+    if(categories && categories.length & screen.width > 1024 ) {
       categories[0].classList.add('active')
       filterProducts(categories[0].dataset.categoryName)
 
@@ -50,7 +67,6 @@
             inline: 'center'
         })
         filterRooms(e.target.dataset.categoryName)
-        console.log('e.target.dataset.categoryName', e.target.dataset.categoryName)
         })
       })
     }
