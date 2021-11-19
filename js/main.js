@@ -2,6 +2,8 @@
 
   //experience mobile menu
 
+  //const experienceTitle = document.querySelector(".upper-experience-title");
+
   if(document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experiences-container");
 
@@ -11,9 +13,11 @@
       let hiddenInfo = target.nextElementSibling;
       if (hiddenInfo.classList.contains('hidden')) {
         hiddenInfo.classList.remove('hidden')
+        target.classList.add('upper-experience-title--minus');
       }
       else {
         hiddenInfo.classList.add('hidden')
+        target.classList.remove('upper-experience-title--minus');
       }
     }
 })

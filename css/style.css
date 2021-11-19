@@ -123,10 +123,21 @@ body {
 
 /**/
 
-
   .facility {
    position: relative;
     }
+
+  .facility::before {
+      position: absolute;
+      content: '';
+      background-image: url('/img/tick.svg');
+      background-repeat: no-repeat;
+      bottom: 8px;
+      left: -15px;
+      height: 12px;
+      width: 12px;
+      }
+
 
   .center {
     margin: 0 auto;
@@ -138,17 +149,6 @@ body {
     text-align: center;
     font-size: 100px;
   }
-
-  .facility::before {
-    position: absolute;
-    content: '';
-    background-image: url('/img/tick.svg');
-    background-repeat: no-repeat;
-    bottom: 8px;
-    left: -15px;
-    height: 12px;
-    width: 12px;
-    }
 
   .nav-toggle {
     outline: none;
@@ -302,6 +302,53 @@ body {
    border-bottom: 1px solid #9C968D;
    position: relative;
  }
+
+
+ .upper-experience-title:before {
+  position: absolute ;
+  content: "";
+  width: 12px;
+  height: 2px;
+  top: 50%;
+  right: 10px;
+  background-color: #9C968D;
+}
+
+.upper-experience-title:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: calc(50% - 5px);
+  right: 15px;
+  background-color: #9C968D;
+}
+
+.upper-experience-title--minus:after {
+  background-color: transparent;
+}
+
+/*
+.film__about::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  top: 17px;
+  right: 10px;
+  background-color: $main-color;
+}
+
+.film__about::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: 12px;
+  right: 15px;
+  background-color: $main-color;
+}
+*/
 
 
   .upper-experience-title:hover {
