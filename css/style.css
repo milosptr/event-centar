@@ -225,7 +225,7 @@ header {
 .menu-list {
   width: 100%;
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
 }
 
@@ -271,6 +271,7 @@ header {
  .social {
   position: relative;
   padding-right: 50px;
+  font-size: 20px;
  }
 
  .social:before {
@@ -560,6 +561,11 @@ header {
   .menu-list {
       position: static;
     }
+
+  .menu-item  {
+    font-size: 20px;
+    color: #9C968D;
+  }
 
   .experiences-menu {
       display: flex;
