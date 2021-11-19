@@ -1,17 +1,21 @@
-<header class=" fixed lg:static w-full lg:h-auto lg:relative text-right pt-6">
-  <div class="pb-16 lg:pb-0">
-  <div class="nav-toggle ml-2" aria-label="Open menu" type="button">
+<header class="w-full lg:h-auto lg:relative text-right py-12"> <!--lg:fixed lg:static-->
+  <div class="lg:pb-0 ">
+    <div class="nav-toggle" aria-label="Open menu" type="button">
+      </div>
   </div>
-  </div>
-  <nav class="wrapper menu fixed lg:static h-screen lg:h-auto w-full">
-    <ul class="text-center lg:flex items-center lg:justify-between lg:little-font main-color lg:pb-40">
+  <nav class="menu lg:static h-screen lg:h-auto w-full"><!--wrapper w-full-->
+    <ul class="menu-list text-right lg:flex lg:text-center lg:items-center lg:justify-between lg:little-font lg:main-color lg:pb-40">
       <li><a href="/" class="menu-item">Home</a></li>
       <li><a href="/experiences" class="menu-item">Experiences</a></li>
       <li><a href="/spaces" class="menu-item">Event Spaces</a></li>
-      <li class="item-logo"><a class="menu-item" href="/"><img src="/img/logo.svg" width="206" /></a></li>
+      <li class="item-logo"><a class="hidden lg:block menu-item" href="/"><img src="/img/logo.svg" width="206"/></a></li>
       <li><a href="/about" class="menu-item">About Bromley</a></li>
       <li><a href="/gallery" class="menu-item">Gallery</a></li>
       <li><a href="/contact" class="menu-item">Contact</a></li>
+      <li class="lg:hidden mt-12 social"><a href="#"><!--social-->
+        cgevents
+      </a>
+      </li>
     </ul>
   </nav>
 </header>

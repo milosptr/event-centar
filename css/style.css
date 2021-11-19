@@ -95,10 +95,18 @@ body {
     transform: translateX(0);
   }
 }
-/*for inner menu*/
-.active-red {
-  background-color: red;
+
+header {
+ /* background-image: none;
+  background-color: violet;*/
+  background-image: url('/img/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-position: 50% 80%;
 }
+/*for inner menu*/
 
 .hide {
   display: none;
@@ -151,27 +159,36 @@ body {
   }
 
   .nav-toggle {
-    outline: none;
+    /*outline: none;
     border: none;
     width: 26px;
-    height: 2px;
+    height: 3px;
     position: relative;
+    position: fixed;
     outline: none;
     border: none;
     transition: all 0.3s;
     background-color: #2B2E34;
-    border-radius: 2px;
+    border-radius: 2px;*/
+    position: fixed;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/img/menu_icon.svg');
+    z-index: 1000;
   }
 
-  .nav-toggle::before {
+  /*.nav-toggle::before {
     position: absolute;
     content: "";
     width: 26px;
-    height: 2px;
+    height: 3px;
     transition: all 0.3s;
     background-color: #2B2E34;
     border-radius: 2px;
-    top: 5px;
+    top: 7px;
     left: 0;
   }
 
@@ -179,11 +196,11 @@ body {
     position: absolute;
     content: "";
     width: 26px;
-    height: 2px;
+    height: 3px;
     transition: all 0.3s;
     background-color: #2B2E34;
     border-radius: 2px;
-    bottom: 5px;
+    bottom: 7px;
     left: 0;
   }
 
@@ -198,36 +215,76 @@ body {
   .nav-toggle--close::after {
     transform: rotate(-45deg);
     top: 0;
-  }
-  .menu {
-    background-color: #F6F6F3;
-    display: none
-  }
+  }*/
+.menu {
+  background-color: #9C968D;
+  display: none;
+  padding: 20px;
+ }
 
-  .menu--opened {
-   display: block;
-  }
+.menu-list {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.menu--opened {
+  display: flex;
+  position: fixed;
+  text-align: right;
+  /*justify-content: space-between;*/
+  right: 0;
+  top: 0;
+  z-index: 20;
+  animation: mobileMenuAnimation 0.3s ease-out forwards;
+}
+
+@keyframes mobileMenuAnimation {
+  0% { right: -100%; }
+  100% { right: 0; }
+}
 
   body.menu--opened {
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
   }
 
   .menu-item {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    font-size: 28px;
+    line-height: 58px;
+    font-family: Sohne-Leicht;
   }
 
   .active {
    color: #2B2E34;
-   border-bottom: 1px solid #2B2E34;
+   border-bottom: 2px solid #2B2E34;
   }
 
 
   .menu-item:hover {
    color: #2B2E34;
-   border-bottom: 1px solid #2B2E34;
+   border-bottom: 2px solid #2B2E34;
   }
+
+ .social {
+  position: relative;
+  padding-right: 50px;
+ }
+
+ .social:before {
+  content:'';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('/img/instagram.svg');
+  background-repeat: no-repeat;
+  right: 0;
+  top: -6px;
+  background-size: contain;
+ }
+
 
   .main-color {
     color: #9C968D;
@@ -243,7 +300,8 @@ body {
     color: #2B2E34;
     font-family: Stylish;
     text-align: center;
-    font-size: 70px;
+    font-size: 110px;
+    line-height: 90px;
     }
 
   .upper-font {
@@ -331,10 +389,6 @@ body {
 
 .upper-experience-title--minus:after {
   background-color: transparent;
-}
-
-.upper-experience-title--minus:before {
-  background-color: #2B2E34;
 }
 
   .upper-experience-title:hover {
@@ -498,45 +552,50 @@ body {
       line-height: 100px;
     }
 
-    .list {
+  .list {
       height: 350px;
       padding-left: auto;
-       }
+    }
 
-    .experiences-menu {
+  .menu-list {
+      position: static;
+    }
+
+  .experiences-menu {
       display: flex;
     }
 
-    .slider-controls  {
+  .slider-controls  {
       display: none;
     }
 
-    .hide-member {
+  .hide-member {
       display: block;
     }
 
-    .wrapper {
+  .wrapper {
       padding-left: 50px;
       padding-right: 50px;
     }
 
-    .upper-little-font {
+  .upper-little-font {
       font-size: 26px;
       line-height: 28px;
     }
 
-    .upper-font {
+  .upper-font {
       font-size: 42px;
       line-height: 40px;
     }
 
-    header {
+  header {
       background-image: none;
     }
 
-    .menu {
+  .menu {
     display: block;
-  }
+    background-color: #F6F6F3;
+   }
 
   .menu-item.item-logo:hover {
     border: none;
@@ -550,7 +609,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
 
   .inner-menu-item {
     transition: 0.5s;
