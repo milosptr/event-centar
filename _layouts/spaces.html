@@ -1,10 +1,11 @@
+{% assign current_page = 'spaces' %}
 {% include head.html %}
 
 {% include nav.html %}
-<main class="pt-32 lg:pt-0 ">
+<main class="pt-16 sm:pt-32 lg:pt-0 ">
   <div class="wrapper">
-  <h1 class="text-left upper-middle-font mb-20 animate__animated animate__fadeInUp animate__slow">{{page.big_title}}</h1>
-  <p class="my-44 center little-font max-w-lg text-left animate__animated animate__fadeInUp animate__slow">{{page.space_text}}
+  <h1 class="text-center upper-middle-font mb-8 lg:mb-20 animate__animated animate__fadeInUp animate__slow">{{page.big_title}}</h1>
+  <p class="hidden lg:block my-44 center little-font max-w-lg text-left animate__animated animate__fadeInUp animate__slow">{{page.space_text}}
   </p>
   <ul class='mt-20 hidden sm:flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
     {% for space in page.spaces %}
@@ -15,12 +16,13 @@
     {% endfor %}
   </ul>
   </div>
-  <div class="inbetween-line-light hidden sm:block"></div>
-<div class='spaces-container flex flex-wrap justify-between'>
+  <div class="hidden sm:block inbetween-line-light"></div>
+<div class='spaces-container flex flex-wrap justify-between flex-col'>
   {% for space in page.spaces %}
-  <div class="mt-8 py-8 sm:py-16 wrapper hide"
+  <div class="sm:py-16 wrapper"
   data-category={{ space.title | slugify}}>
-  <div class="sm:flex sm:justify-between sm:flex-row-reverse">
+  <h3 class="w-full upper-space-title lg:hidden py-4 upper-font main-color">{{space.title}}</h3>
+  <div class="hidden sm:flex sm:justify-between sm:flex-row-reverse">
     <img src="{{space.image}}" alt="interior"
 class="w-full sm:w-2/3 animate__animated animate__fadeIn animate__slow">
 <div class="flex flex-col justify-between pr-8 sm:pr-20">
@@ -46,7 +48,7 @@ class="w-full sm:w-2/3 animate__animated animate__fadeIn animate__slow">
 
 <div>
   <div class="reveal-top wrapper pb-8 upper-middle-font section w-full">
-    <h2>Event spase facilities</h2>
+    <h2>Event space facilities</h2>
   </div>
   <div class="inbetween-line"></div>
   <ul class='wrapper py-6 list section flex flex-col flex-wrap'>
