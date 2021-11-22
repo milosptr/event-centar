@@ -97,14 +97,12 @@ body {
 }
 
 header {
- /* background-image: none;
-  background-color: violet;*/
   background-image: url('/img/logo.svg');
   background-repeat: no-repeat;
-  background-size: 30%;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-position: 50% 80%;
+  background-size: 35%;
+  height: 130px;
+  padding-top: 50px;
+  background-position: 50% 90%;
 }
 /*for inner menu*/
 
@@ -156,6 +154,7 @@ header {
     font-family: Stylish;
     text-align: center;
     font-size: 100px;
+    line-height: 85px;
   }
 
   .nav-toggle {
@@ -565,6 +564,12 @@ header {
       line-height: 100px;
     }
 
+    .contact-title {
+      font-size: 120px;
+      line-height: 120px;
+    }
+
+
   .list {
       height: 350px;
       padding-left: auto;
@@ -581,8 +586,6 @@ header {
 
   .menu-item--active {
     color: #2B2E34;
-    /*border-bottom: 2px solid #2B2E34;*/
-    /*border-bottom: 2px solid #2B2E34;*/
   }
 
   .experiences-menu {
