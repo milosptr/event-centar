@@ -180,6 +180,12 @@ header {
     z-index: 1000;
   }
 
+  .nav-toggle--closed {
+    background-image: url('/img/menu_icon_closed.svg');
+    width: 25px;
+    height: 25px;
+  }
+
   /*.nav-toggle::before {
     position: absolute;
     content: "";
@@ -271,7 +277,8 @@ header {
  .social {
   position: relative;
   padding-right: 50px;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 300;
  }
 
  .social:before {

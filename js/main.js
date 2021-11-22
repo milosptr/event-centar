@@ -2,8 +2,6 @@
 
   //experience mobile menu
 
-  //const experienceTitle = document.querySelector(".upper-experience-title");
-
   if(document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experiences-container");
 
@@ -173,7 +171,7 @@ const controls = document.querySelectorAll('.slider-control')
 
   navToggle.addEventListener('click', function() {
   navMain.classList.toggle('menu--opened')
-  navToggle.classList.toggle('nav-toggle--close');
+  navToggle.classList.toggle('nav-toggle--closed');
   }
   );
 
