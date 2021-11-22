@@ -101,7 +101,7 @@ header {
   background-repeat: no-repeat;
   background-size: 35%;
   height: 130px;
-  padding-top: 50px;
+  padding-top: 40px;
   background-position: 50% 90%;
 }
 /*for inner menu*/
@@ -617,6 +617,8 @@ header {
 
   header {
       background-image: none;
+      height: auto;
+      padding-bottom: 80px;
     }
 
   .menu {
