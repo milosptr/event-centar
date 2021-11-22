@@ -251,11 +251,7 @@ header {
   100% { right: 0; }
 }
 
-  body.menu--opened {
-    /*overflow-y: hidden;*/
-  }
-
-  .menu-item {
+ .menu-item {
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
     font-size: 28px;
@@ -263,9 +259,18 @@ header {
     font-family: Sohne-Leicht;
   }
 
+  .menu-item--active {
+    color: #2B2E34;
+    border-bottom: 2px solid #2B2E34;
+  }
+
   .active {
    color: #2B2E34;
    border-bottom: 2px solid #2B2E34;
+  }
+
+  .active-menu {
+    color: #2B2E34;
   }
 
 
@@ -572,6 +577,12 @@ header {
   .menu-item  {
     font-size: 20px;
     color: #9C968D;
+  }
+
+  .menu-item--active {
+    color: #2B2E34;
+    /*border-bottom: 2px solid #2B2E34;*/
+    /*border-bottom: 2px solid #2B2E34;*/
   }
 
   .experiences-menu {

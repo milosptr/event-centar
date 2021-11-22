@@ -155,9 +155,9 @@ const controls = document.querySelectorAll('.slider-control')
   menuItems.forEach((m) => {
     const menuUrl = m.getAttribute('href')?.replaceAll('/', '')
     const url = location.pathname.replaceAll('/', '')
-    m.classList.remove('active')
+    m.classList.remove('menu-item--active')
     if(menuUrl === url)
-      m.classList.add('active')
+      m.classList.add('menu-item--active')
   })
 
   var members = document.querySelectorAll('.team-member');
