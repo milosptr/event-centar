@@ -4,7 +4,7 @@
 {% include nav.html %}
 <main class="pt-8 lg:pt-0">
   <div class="wrapper">
-  <h1 class='upper-big-font my-16 sm:my-20 text-center reveal'>
+  <h1 class='upper-big-font my-16 lg:my-20 text-center reveal'>
     {{page.big_title}}</h1>
   <ul class='experiences-menu w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
       {% for experience in page.experiences %}
@@ -15,22 +15,22 @@
       {% endfor %}
 </ul>
   </div>
-  <div class="hidden sm:block inbetween-line-light"></div>
+  <div class="hidden lg:block inbetween-line-light"></div>
   <div class="experiences-container flex flex-wrap justify-between mt-8 flex-col">
   {% for experience in page.experiences %}
-  <div class="sm:pt-20 sm:pb-56 experience wrapper"
+  <div class="lg:pt-20 lg:pb-56 experience wrapper"
   data-category={{ experience.title | slugify}}>
   <h3 class="w-full upper-experience-title lg:hidden py-4 upper-font main-color">{{experience.title}}</h3>
   <div class="hidden lg:block">
-  <img  class="pb-12 sm:pb-0 w-full lg:animate__slow animate__animated animate__fadeIn experience-image" src="{{experience.image}}"
+  <img  class="pb-12 lg:pb-0 w-full lg:animate__slow animate__animated animate__fadeIn experience-image" src="{{experience.image}}"
   alt="experience photo">
   <h2 class="experience-headline w-1/3">{{experience.headline}}</h2>
-  <div class="pt-64 sm:pt-40 sm:flex justify-between sm:pr-16 relative">
-    <h3 class="hidden sm:block lg:animate__animated animate__fadeIn animate__slower sm:w-1/2 sm:pr-4 upper-font">{{experience.title}}</h3>
-    <p class="lg:animate__animated animate__fadeInUp animate__slower little-font sm:w-1/3 sm:mr-12">{{experience.first_text}}</p>
-      <div class="sm:w-1/3 sm:pr-4 lg:animate__animated animate__fadeInUp animate__slower ">
-    <p class="little-font sm:mb-56">{{experience.second_text}}</p>
-    <button class="my-8 sm:my-0 w-full lg:animate__fadeIn animate__slower animate__animated black-button little-font">{{experience.button}}</button>
+  <div class="pt-64 lg:pt-40 lg:flex justify-between lg:pr-16 relative">
+    <h3 class="hidden lg:block lg:animate__animated animate__fadeIn animate__slower lg:w-1/2 lg:pr-4 upper-font">{{experience.title}}</h3>
+    <p class="lg:animate__animated animate__fadeInUp animate__slower little-font lg:w-1/3 lg:mr-12">{{experience.first_text}}</p>
+      <div class="lg:w-1/3 lg:pr-4 lg:animate__animated animate__fadeInUp animate__slower ">
+    <p class="little-font lg:mb-56">{{experience.second_text}}</p>
+    <button class="my-8 lg:my-0 w-full lg:animate__fadeIn animate__slower animate__animated black-button little-font">{{experience.button}}</button>
     </div>
   </div>
   </div>
