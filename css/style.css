@@ -501,7 +501,7 @@ header {
   }
 
   .list {
-    height: 400px;
+    max-height: 400px;
     padding-left: 10px;
      }
 
