@@ -23,7 +23,7 @@
 }
 
     const categories = document.querySelectorAll('.inner-menu-item')
-    if(categories && categories.length && screen.width > 1024 ) {
+    if(categories && categories.length && screen.width >=  1024 ) {
       categories[0].classList.add('active')
       filterProducts(categories[0].dataset.categoryName)
 
@@ -81,7 +81,7 @@
 
 
    const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
-    if (categoriesSpaces && categoriesSpaces.length && screen.width > 1024) {
+    if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
       categoriesSpaces[0].classList.add('active')
       filterRooms(categoriesSpaces[0].dataset.categoryName)
 

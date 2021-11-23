@@ -606,7 +606,7 @@ header {
     }
 
     .page-section-title {
-      width: 80%;
+      /*width: 80%;*/
       font-size: 120px;
     }
 
@@ -747,10 +747,10 @@ header {
      padding-left:  90px;
    }
 
-   .wrapper {
+   /*.wrapper {
     padding-left: 80px;
     padding-right: 80px;
-  }
+  }*/
 
   .team-member:nth-child(even) {
     margin-left: 60%;
@@ -769,6 +769,10 @@ header {
     top: 250px;
     right: 120px;
     width: 30%;
+    }
+
+    .page-section-title {
+      width: 80%;
     }
   }
 
