@@ -158,17 +158,6 @@ header {
   }
 
   .nav-toggle {
-    /*outline: none;
-    border: none;
-    width: 26px;
-    height: 3px;
-    position: relative;
-    position: fixed;
-    outline: none;
-    border: none;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;*/
     position: fixed;
     right: 20px;
     width: 35px;
@@ -185,42 +174,7 @@ header {
     height: 25px;
   }
 
-  /*.nav-toggle::before {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 3px;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;
-    top: 7px;
-    left: 0;
-  }
 
-  .nav-toggle::after {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 3px;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;
-    bottom: 7px;
-    left: 0;
-  }
-
-  .nav-toggle--close {
-    background-color: transparent;
-  }
-
-  .nav-toggle--close::before {
-    transform: rotate(45deg);
-    top: 0;
-  }
-  .nav-toggle--close::after {
-    transform: rotate(-45deg);
-    top: 0;
-  }*/
 .menu {
   background-color: #9C968D;
   display: none;
@@ -238,7 +192,6 @@ header {
   display: flex;
   position: fixed;
   text-align: right;
-  /*justify-content: space-between;*/
   right: 0;
   top: 0;
   z-index: 20;
@@ -260,12 +213,12 @@ header {
 
   .menu-item--active {
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
+    border-bottom: 1px solid #2B2E34;
   }
 
   .active {
    color: #2B2E34;
-   border-bottom: 2px solid #2B2E34;
+   border-bottom: 1px solid #2B2E34;
   }
 
   .active-menu {
@@ -275,7 +228,7 @@ header {
 
   .menu-item:hover {
    color: #2B2E34;
-   border-bottom: 2px solid #2B2E34;
+   border-bottom: 1px solid #2B2E34;
   }
 
  .social {
@@ -413,8 +366,6 @@ header {
   transition: all 0.3s;
 }
 
-/*! one class for both pages */
-
 .upper-space-title:before {
   position: absolute ;
   content: "";
@@ -470,6 +421,14 @@ header {
     border: 1px solid #2B2E34;
     background-color: #2B2E34;
     color: white;
+  }
+
+  .button:focus {
+    outline: white;
+  }
+
+  .black-button:focus {
+    outline: white;
   }
 
 .black-button {
@@ -615,7 +574,7 @@ header {
     }
 
   .list {
-      height: 350px;
+      height: 300px;
       padding-left: auto;
     }
 
@@ -811,6 +770,10 @@ body {
 
     .even {
       margin-left: 60%;
+    }
+
+    .inner-menu-item-spaces {
+      width: 180px;
     }
 
     .headline {
