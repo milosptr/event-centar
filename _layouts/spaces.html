@@ -51,12 +51,12 @@ class="w-full sm:w-2/3 animate__animated animate__fadeIn animate__slow">
     <h2>Event space facilities</h2>
   </div>
   <div class="inbetween-line"></div>
-  <ul class='wrapper py-6 list section flex flex-col flex-wrap'>
+  <ul class='wrapper py-8 lg:pt-16 list section flex flex-col flex-wrap'>
     {% for facility in page.facilities %}
-    <li class="reveal-top facility my-5">{{facility}}</li>
+    <li class="reveal-top facility my-5 lg:my-7">{{facility}}</li>
     {% endfor %}
   </ul>
-  <div class=" sm:hidden">
+  <div class="sm:hidden">
     <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">find out more</button>
     <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
     </div>

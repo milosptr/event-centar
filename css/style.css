@@ -574,7 +574,9 @@ header {
     }
 
   .list {
-      height: 300px;
+      /*padding-top: 50px;
+      padding-bottom: 50px;*/
+      height: 350px;
       padding-left: auto;
     }
 
