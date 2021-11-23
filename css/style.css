@@ -302,8 +302,9 @@ header {
     font-family: Stylish;
     text-align: center;
     margin-top: 20px;
-    font-size: 170px;
-    line-height: 120px;
+    margin-bottom: 60px;
+    font-size: 100px;
+    line-height: 100px;
   }
 
   .experiences-menu {
@@ -542,6 +543,16 @@ header {
     .contact-title {
       font-size: 110px;
     }
+
+    .button {
+      padding-left: 15px;
+      padding-right: 15px;
+      }
+
+    .black-button {
+      padding-left: 15px;
+      padding-right: 15px;
+      }
   }
 
   @media (min-width: 1024px) {
@@ -549,6 +560,16 @@ header {
       padding-left: 10px;
       padding-right: 10px;
     }
+
+    .button {
+      padding-left: 35px;
+      padding-right: 35px;
+      }
+
+    .black-button {
+      padding-left: 35px;
+      padding-right: 35px;
+      }
 
     .upper-middle-font {
       font-family: Frunchy;
@@ -574,6 +595,13 @@ header {
 
     .contact-title {
       font-size: 120px;
+      line-height: 120px;
+    }
+
+    .about-title {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 170px;
       line-height: 120px;
     }
 
