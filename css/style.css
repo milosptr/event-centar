@@ -149,6 +149,10 @@ header {
     margin: 0 auto;
   }
 
+  .team {
+    padding-top: 15px;
+  }
+
   .contact-title {
     color: #2B2E34;
     font-family: Stylish;
@@ -617,6 +621,11 @@ header {
       padding-left: auto;
     }
 
+
+  .team {
+  padding-bottom: 450px;
+    }
+
   .menu-list {
       position: static;
     }
@@ -782,6 +791,11 @@ body {
   padding-right: 100px;
   padding-left: 100px;
 }
+
+.team-member-wrapper {
+  display: flex;
+  justify-content: space-between;
+ }
 
     .upper-font {
       font-family: Frunchy;
