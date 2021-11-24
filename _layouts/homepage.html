@@ -42,13 +42,17 @@
       <div>
       <div class="xl:pt-20 team lg:relative wrapper">
         <h2 class="reveal-top upper-font mb-4 lg:mb-10 main-color">{{page.third_section_title}}</h2>
-        <p class="sm:reveal-right upper-little-font headline pb-10 ">
+        <div class='headline'>
+        <p class="sm:reveal-right upper-little-font pb-1 ">
           {{page.third_section_text}}</p>
-            <ul class="slider-list ">
+          <p class="sm:reveal-right little-font pb-8">
+            {{page.third_section_little_text}}</p>
+            </div>
+            <ul class="slider-list">
           {% for member in page.members %}
         <li class="lg:relative text-left team-member lg:w-1/2 lg:w-2/5 mb-20"
         data-category={{ member.name | slugify}}>
-          <img src="{{member.image}}" alt="team member" class="w-full sm:mt-24 lg:mt-4 mb-10">
+          <img src="{{member.image}}" alt="team member" class="w-full  lg:mt-4 mb-10">
           <div class="team-member-wrapper lg:absolute ">
             <div>
           <p class="little-font">{{member.position}}</p>
