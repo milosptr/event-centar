@@ -12,11 +12,7 @@ description: "Playing host to a community of artists, designers, culinary expert
 first_section_first_title: " Elevate your next event in the splendour of Capitol Grand’s
   stunning event spaces. "
 first_section_second_title: ''
-first_section_first_text: The city’s newest hospitality venue, Capitol Grand is situated
-  in one of Melbourne’s most iconic locales, on the famed corner of Chapel Street
-  and Toorak Road. The building offers a beautiful sanctuary from the busy hum of
-  its cosmopolitan location and the unpredictable Melbourne weather outside.
-first_section_second_text: 'With capacity for 20 up to 300 people, our four distinct
+first_section_first_text: 'With capacity for 20 up to 300 people, our four distinct
   spaces can be used independently or connected for one seamless event. Wow your guests
   as opulent light fixtures surround and original art pieces adorn our walls. Vast
   floor to ceiling windows command awe, capturing natural light and uninterrupted
@@ -24,6 +20,7 @@ first_section_second_text: 'With capacity for 20 up to 300 people, our four dist
   kitchen allows for a ringside seat and multi-sensory experience. Be it a wedding,
   conference, private dining or birthday party, we have a space to suit your every
   need. '
+first_section_second_text: ''
 second_section_title: 'An event destination where the fare is as show-stopping as
   the space. '
 second_section_text: "Dining with us is a 360 degree sensory experience. Set amongst
