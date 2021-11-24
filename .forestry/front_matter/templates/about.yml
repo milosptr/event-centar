@@ -44,5 +44,10 @@ fields:
   config:
     maxSize: 64
   label: right picture
+- name: mobile_interior
+  type: file
+  config:
+    maxSize: 64
+  label: mobile interior
 pages:
 - about.md
