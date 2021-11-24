@@ -11,7 +11,7 @@
   class="animate__animated animate__fadeInUp animate__slower w-full mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
   <p class="reveal-top upper-font mb-8 sm:mb-12 lg:mb-32 main-color">
     {{page.description}} </p>
-    <div class="xl:flex xl:justify-between mb-8 lg:mb-32 ">
+    <div class="xl:flex xl:justify-between mb-8 lg:mb-32">
       <div class="mb-12 lg:mb-32 xl:mb-0 xl:w-1/2 xl:pr-40">
         <img src="{{ page.first_section_photo }}" alt="high building"
         class="reveal-left w-full">
@@ -47,12 +47,12 @@
             <ul class="slider-list ">
           {% for member in page.members %}
         <li class=" text-left team-member lg:w-1/2 xl:w-2/5 mb-8"
-        data-category={{ member.name | slugify}}> <!--lg:animate__animated lg:animate__fadeInRight-->
+        data-category={{ member.name | slugify}}> <!--lg:animate__animated lg:animate__fadeInRight relative-->
           <img src="{{member.image}}" alt="team member" class="w-full mb-10 ">
-          <div class="sm:flex sm:justify-between">
+          <div class=" sm:flex sm:justify-between"><!--absolute-->
             <div>
           <p class="little-font">{{member.position}}</p>
-          <h3 class="upper-font main-color lg:mr-8">{{member.name}}</h3>
+          <h3 class="upper-font main-color lg:mr-4">{{member.name}}</h3>
         </div>
           <p class="little-font sm:w-4/6">{{member.about}}</p>
             </div>
