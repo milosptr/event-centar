@@ -1,5 +1,41 @@
 (function() {
 
+
+  if(document.getElementById('loading-text'))
+    new Vara("#loading-text","/fonts/font.json",[{
+      text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
+      fontSize: 30,
+      duration:15000,
+      y:10
+    }], {
+      strokeWidth: 0.7,
+      textAlign:"center"
+    });
+
+  // if(document.getElementById('about-broomley'))
+  //   new Vara("#about-broomley","/fonts/font.json",[{
+  //     text: "Bromley",
+  //     fontSize: 68,
+  //     duration:2000,
+  //     y:10
+  //   },
+  //   {
+  //     text: "& Co.",
+  //     fontSize: 68,
+  //     duration:1000,
+  //     y: -100,
+  //   },
+  //   {
+  //     text: "Galler",
+  //     fontSize: 68,
+  //     duration:2000,
+  //     y:-120
+  //   }], {
+  //     strokeWidth: 0.85,
+  //     textAlign:"left"
+  //   });
+
+  //
   //experience mobile menu
 
   if(document.body.id === 'experience') {
