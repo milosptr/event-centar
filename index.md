@@ -62,7 +62,7 @@ members:
     and his innovative masterpieces can be discovered on all of our event menus. '
 - name: Myron Kloppers
   position: Sommelier
-  image: "/assets/images/team-member1.jpg"
+  image: "/assets/images/myron_kloppers.jpg"
   about: 'The world is a playground for South African sommelier Myron Kloppers. Hailing
     from one of wine''s most globally significant countries, Myron has a unique comprehension
     of old and new world vintages. Purchasing wine for high-end restaurants in the
