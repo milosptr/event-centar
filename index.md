@@ -34,7 +34,7 @@ third_section_text: Here is an introduction headline about our team
 members:
 - name: Stephen Nairn
   position: Culinary Director
-  image: "/assets/images/team-member1.jpg"
+  image: "/assets/images/stephen_nairn.jpg"
   about: Born in Scotland, Stephen Nairn's skills were honed in some of the country’s
     most rigid and exacting kitchens. A year in New York, with the three Michelin
     starred team at the world-renowned Eleven Madison Park, ignited a desire to travel.
