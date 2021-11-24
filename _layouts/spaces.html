@@ -1,12 +1,13 @@
+{% assign current_page = 'spaces' %}
 {% include head.html %}
 
 {% include nav.html %}
-<main class="pt-32 lg:pt-0 ">
+<main class="pt-16 lg:pt-32 lg:pt-0 ">
   <div class="wrapper">
-  <h1 class="text-left upper-middle-font mb-20 animate__animated animate__fadeInUp animate__slow">{{page.big_title}}</h1>
-  <p class="my-44 center little-font max-w-lg text-left animate__animated animate__fadeInUp animate__slow">{{page.space_text}}
+  <h1 class="text-center upper-middle-font mb-8 lg:mb-20 animate__animated animate__fadeInUp animate__slow">{{page.big_title}}</h1>
+  <p class="hidden lg:block my-44 center little-font max-w-lg text-left animate__animated animate__fadeInUp animate__slow">{{page.space_text}}
   </p>
-  <ul class='mt-20 flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
+  <ul class='mt-20 hidden lg:flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
     {% for space in page.spaces %}
     <li class="inner-menu-item-spaces mr-8 max-w-sm xl:max-w-lg xl:mr-8" cursor-pointer
     data-category-name="{{ space.title | slugify }}">{{space.title}}<div class="menu-line">
@@ -15,27 +16,30 @@
     {% endfor %}
   </ul>
   </div>
-  <div class="inbetween-line-light"></div>
-<div class='spaces-container flex flex-wrap justify-between'>
+  <div class="hidden lg:block inbetween-line-light"></div>
+<div class='spaces-container flex flex-wrap justify-between flex-col'>
   {% for space in page.spaces %}
-  <div class="mt-8 py-16 wrapper hide"
+  <div class="lg:py-20 wrapper"
   data-category={{ space.title | slugify}}>
-  <div class="flex justify-between">
-<div class="flex flex-col justify-between pr-20">
+  <h3 class="w-full upper-space-title lg:hidden py-4 upper-font main-color">{{space.title}}</h3>
+  <div class="hidden lg:flex lg:justify-between lg:flex-row-reverse">
+    <img src="{{space.image}}" alt="interior"
+class="w-full lg:w-2/3 animate__animated animate__fadeIn animate__slow">
+<div class="flex flex-col justify-between pr-8 lg:pr-12">
 
   <h3 class="page-section-title mb-10">{{space.title}}</h3>
-  <div class="">
-  <p class="animate__animated animate__fadeInUp little-font mb-5 ">{{space.text}}</p><!--w-2/3-->
+  <div>
+  <p class="animate__animated animate__fadeInUp little-font mb-5 ">{{space.text}}</p>
   <p class="animate__animated animate__fadeInUP animate__slower little-font">{{space.amount1}}</p>
   <p class="animate__animated animate__fadeInup animate__slower little-font mb-5">{{space.amount2}}</p>
 
+  <div class="hidden lg:block">
   <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">find out more</button>
   <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
   </div>
 </div>
 
-<img src="{{space.image}}" alt="interior"
-class="w-2/3 animate__animated animate__fadeIn animate__slow">
+</div>
 </div>
 </div>
 {% endfor %}
@@ -43,16 +47,19 @@ class="w-2/3 animate__animated animate__fadeIn animate__slow">
 </div>
 
 <div>
-  <div class="reveal-top wrapper pb-8 upper-font section w-full">
-    <h2>Event spase facilities</h2>
+  <div class="reveal-top wrapper py-8 upper-middle-font section w-full">
+    <h2>Event space facilities</h2>
   </div>
   <div class="inbetween-line"></div>
-  <ul class='wrapper py-16 list section flex flex-col flex-wrap'>
+  <ul class='wrapper py-8 lg:pt-16 list section flex flex-col flex-wrap'>
     {% for facility in page.facilities %}
-    <li class="reveal-top facility my-5">{{facility}}</li>
+    <li class="reveal-top facility my-5 lg:my-7">{{facility}}</li>
     {% endfor %}
   </ul>
-
+  <div class="lg:hidden pb-8">
+    <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">find out more</button>
+    <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
+    </div>
 </div>
 </main>
 

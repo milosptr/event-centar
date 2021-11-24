@@ -149,6 +149,10 @@ header {
     margin: 0 auto;
   }
 
+  .team {
+    padding-top: 15px;
+  }
+
   .contact-title {
     color: #2B2E34;
     font-family: Stylish;
@@ -158,17 +162,6 @@ header {
   }
 
   .nav-toggle {
-    /*outline: none;
-    border: none;
-    width: 26px;
-    height: 3px;
-    position: relative;
-    position: fixed;
-    outline: none;
-    border: none;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;*/
     position: fixed;
     right: 20px;
     width: 35px;
@@ -185,42 +178,7 @@ header {
     height: 25px;
   }
 
-  /*.nav-toggle::before {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 3px;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;
-    top: 7px;
-    left: 0;
-  }
 
-  .nav-toggle::after {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 3px;
-    transition: all 0.3s;
-    background-color: #2B2E34;
-    border-radius: 2px;
-    bottom: 7px;
-    left: 0;
-  }
-
-  .nav-toggle--close {
-    background-color: transparent;
-  }
-
-  .nav-toggle--close::before {
-    transform: rotate(45deg);
-    top: 0;
-  }
-  .nav-toggle--close::after {
-    transform: rotate(-45deg);
-    top: 0;
-  }*/
 .menu {
   background-color: #9C968D;
   display: none;
@@ -238,7 +196,6 @@ header {
   display: flex;
   position: fixed;
   text-align: right;
-  /*justify-content: space-between;*/
   right: 0;
   top: 0;
   z-index: 20;
@@ -260,12 +217,12 @@ header {
 
   .menu-item--active {
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
+    border-bottom: 1px solid #2B2E34;
   }
 
   .active {
    color: #2B2E34;
-   border-bottom: 2px solid #2B2E34;
+   border-bottom: 1px solid #2B2E34;
   }
 
   .active-menu {
@@ -275,7 +232,7 @@ header {
 
   .menu-item:hover {
    color: #2B2E34;
-   border-bottom: 2px solid #2B2E34;
+   border-bottom: 1px solid #2B2E34;
   }
 
  .social {
@@ -348,9 +305,10 @@ header {
     color: #2B2E34;
     font-family: Stylish;
     text-align: center;
-    margin-top: 20px;
-    font-size: 170px;
-    line-height: 120px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 100px;
+    line-height: 100px;
   }
 
   .experiences-menu {
@@ -403,20 +361,58 @@ header {
   background-color: transparent;
 }
 
-  .upper-experience-title:hover {
-   color: #2B2E34;
+.upper-experience-title:hover {
+  color: #2B2E34;
+}
+
+.upper-space-title {
+  border-bottom: 1px solid #9C968D;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.upper-space-title:before {
+  position: absolute ;
+  content: "";
+  width: 12px;
+  height: 2px;
+  top: 50%;
+  right: 10px;
+  background-color: #9C968D;
+}
+
+.upper-space-title:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: calc(50% - 5px);
+  right: 15px;
+  background-color: #9C968D;
+}
+
+.upper-space-title--minus {
+  border-bottom: 1px solid transparent;
+}
+
+.upper-space-title--minus:after {
+  background-color: transparent;
+}
+
+.upper-space-title:hover {
+  color: #2B2E34;
+}
+
+
+.page-section-title {
+  font-family: Stylish;
+  font-size: 100px;
+  line-height: 100px;
+  bottom: 0px;
+  padding-top: 50px;
   }
 
-  .page-section-title {
-    font-family: Stylish;
-    font-size: 120px;
-    line-height: 100px;
-    bottom: 0px;
-    padding-top: 50px;
-    width: 80%;
-  }
-
-  .button {
+.button {
     border: 1px solid #2B2E34;
     outline: none;
     padding-top: 8px;
@@ -426,68 +422,77 @@ header {
     transition: 0.3s;
     }
 
-  .button:hover {
+.button:hover {
     border: 1px solid #2B2E34;
     background-color: #2B2E34;
     color: white;
   }
 
-  .black-button {
+  .button:focus {
+    outline: white;
+  }
+
+  .black-button:focus {
+    outline: white;
+  }
+
+.black-button {
     background-color: #2B2E34;
     color: #F6F6F3;
     border: none;
     outline: none;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 35px;
-    padding-right: 35px;
+    /*padding-left: 35px;
+    padding-right: 35px;*/
+    /*width: 100%;*/
     border: 1px solid #2B2E34;
     transition: 0.3s;
     }
 
-  .black-button:hover {
+.black-button:hover {
     border: 1px solid #2B2E34;
     background-color:  #F6F6F3;
     color: #2B2E34;
   }
 
-  .slider-controls  {
+.slider-controls  {
     display: flex;
     justify-content: space-between;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
-
+    padding-top: 30px;
   }
 
-  .slider-control {
+.slider-control {
     height: 8px;
     width: 8px;
     border: 1px solid #2B2E34;
     border-radius: 50%;
   }
 
-  .control-active {
+.control-active {
     background-color: #2B2E34;
   }
 
-  .inbetween-line {
+.inbetween-line {
     width: 100%;
     height: 1px;
     background-color: #9C968D;
   }
 
-  .inbetween-line-light {
+.inbetween-line-light {
     width: 0%;
     height: 1px;
     background-color: #9C968D;
   }
 
-  .animated-line {
+.animated-line {
     animation: load 1.5s ease-out forwards;
   }
 
-  .animated-light {
+.animated-light {
     animation: loadLight 1.9s ease-out forwards 0.1s;
   }
 
@@ -502,19 +507,19 @@ header {
   }
 
   .list {
-    height: 500px;
+    max-height: 400px;
     padding-left: 10px;
      }
 
 
   @media (min-width: 768px) {
     header {
-      background-size: 7%;
+      background-size: 20%;
     }
 
     body {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
     }
 
     /*class for horizontal paddings on each section*/
@@ -534,6 +539,25 @@ header {
       font-size: 60px;
       line-height: 40px;
     }
+
+    .slider-controls  {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+    .contact-title {
+      font-size: 110px;
+    }
+
+    .button {
+      padding-left: 15px;
+      padding-right: 15px;
+      }
+
+    .black-button {
+      padding-left: 15px;
+      padding-right: 15px;
+      }
   }
 
   @media (min-width: 1024px) {
@@ -541,6 +565,16 @@ header {
       padding-left: 10px;
       padding-right: 10px;
     }
+
+    .button {
+      padding-left: 35px;
+      padding-right: 35px;
+      }
+
+    .black-button {
+      padding-left: 35px;
+      padding-right: 35px;
+      }
 
     .upper-middle-font {
       font-family: Frunchy;
@@ -569,10 +603,27 @@ header {
       line-height: 120px;
     }
 
+    .about-title {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 170px;
+      line-height: 120px;
+    }
+
+    .page-section-title {
+      font-size: 120px;
+    }
 
   .list {
+      /*padding-top: 50px;
+      padding-bottom: 50px;*/
       height: 350px;
       padding-left: auto;
+    }
+
+
+  .team {
+  padding-bottom: 450px;
     }
 
   .menu-list {
@@ -692,7 +743,7 @@ header {
 
   .headline {
     position: absolute;
-    top: 150px;
+    top: 100px;
     right: 120px;
     width: 30%;
     }
@@ -705,7 +756,7 @@ header {
      padding-left:  90px;
    }
 
-   .wrapper {
+  .wrapper {
     padding-left: 80px;
     padding-right: 80px;
   }
@@ -728,6 +779,10 @@ header {
     right: 120px;
     width: 30%;
     }
+
+    .page-section-title {
+      width: 80%;
+    }
   }
 
   @media (min-width: 1440px) {
@@ -736,6 +791,11 @@ body {
   padding-right: 100px;
   padding-left: 100px;
 }
+
+.team-member-wrapper {
+  display: flex;
+  justify-content: space-between;
+ }
 
     .upper-font {
       font-family: Frunchy;
@@ -767,6 +827,10 @@ body {
 
     .even {
       margin-left: 60%;
+    }
+
+    .inner-menu-item-spaces {
+      width: 180px;
     }
 
     .headline {

@@ -1,3 +1,4 @@
+
 (function() {
 
 
@@ -57,9 +58,8 @@
 })
 }
 
-   console.log(screen.width)
     const categories = document.querySelectorAll('.inner-menu-item')
-    if(categories && categories.length && screen.width > 1024 ) {
+    if(categories && categories.length && screen.width >=  1024 ) {
       categories[0].classList.add('active')
       filterProducts(categories[0].dataset.categoryName)
 
@@ -95,8 +95,29 @@
 
    //spaces page
 
+   if (document.body.id === 'spaces') {
+    let spacesSection = document.querySelector(".spaces-container");
+
+    spacesSection.addEventListener("click", function (event) {
+      let target = event.target;
+      if (target.classList.contains("upper-space-title")) {
+        let hiddenInfo = target.nextElementSibling;
+        if (hiddenInfo.classList.contains('hidden')) {
+          hiddenInfo.classList.remove('hidden')
+          target.classList.add('upper-space-title--minus');
+        }
+        else {
+          hiddenInfo.classList.add('hidden')
+          target.classList.remove('upper-space-title--minus');
+        }
+      }
+  })
+  }
+
+
+
    const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
-    if(categoriesSpaces && categoriesSpaces.length) {
+    if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
       categoriesSpaces[0].classList.add('active')
       filterRooms(categoriesSpaces[0].dataset.categoryName)
 
@@ -120,7 +141,7 @@
         p.classList.remove('hide')
         p.style.opacity = 1
 
-        if(p.dataset.category !== category)
+        if (p.dataset.category !== category)
         p.classList.add('hide')
 
       })
