@@ -11,7 +11,8 @@ description: "Playing host to a community of artists, designers, culinary expert
   \ "
 first_section_first_title: " Elevate your next event in the splendour of Capitol Grand’s
   stunning event spaces. "
-first_section_second_title: ''
+first_section_second_title: " An event destination where the fare is as show-stopping
+  as the space. "
 first_section_first_text: 'With capacity for 20 up to 300 people, our four distinct
   spaces can be used independently or connected for one seamless event. Wow your guests
   as opulent light fixtures surround and original art pieces adorn our walls. Vast
@@ -20,7 +21,13 @@ first_section_first_text: 'With capacity for 20 up to 300 people, our four disti
   kitchen allows for a ringside seat and multi-sensory experience. Be it a wedding,
   conference, private dining or birthday party, we have a space to suit your every
   need. '
-first_section_second_text: ''
+first_section_second_text: "Dining with us is a 360 degree sensory experience. Set
+  amongst an art gallery, the event space is beautifully enhanced by the innovative
+  works of Australian artist David Bromley. A hand-selected team of culinary experts
+  from Michelin starred restaurants throughout the world meticulously curate menus
+  to rival the finest dining establishments. Using only the most superior ingredients,
+  our space allows you to watch as they create your perfect meal while you sip on
+  your flawlessly matched wine selected by our in-house sommelier. \n"
 second_section_title: 'An event destination where the fare is as show-stopping as
   the space. '
 second_section_text: "Dining with us is a 360 degree sensory experience. Set amongst
