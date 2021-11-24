@@ -25,5 +25,6 @@ second_text: "Cras sem orci, elementum nec laoreet vitae, sodales a diam. Phasel
   eget nisi ac erat faucibus hendrerit eu id enim. Lorem ipsum dolor sit amet, consectetur
   adipiscing elit.\nNullam ac rutrum mauris. Suspendisse nec enim ac ante commodo
   volutpat. Vivamus arcu lacus, consectetur et tincidunt non, placerat eu risus."
+mobile_interior: "/assets/images/mobile-interior.png"
 
 ---
