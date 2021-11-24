@@ -38,7 +38,7 @@ second_section_text: "Dining with us is a 360 degree sensory experience. Set amo
   space allows you to watch as they create your perfect meal while you sip on your
   flawlessly matched wine selected by our in-house sommelier. \n"
 third_section_title: Our team
-third_section_text: Here is an introduction headline about our team
+third_section_text: " Your event is in impeccably experienced and imaginative hands. "
 members:
 - name: Stephen Nairn
   position: Culinary Director
