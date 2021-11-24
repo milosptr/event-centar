@@ -1,20 +1,25 @@
 {% include head.html %}
 {% include nav.html %}
 
-<main class="pt-8 lg:pt-0 wrapper">
-  <h1 class="upper-middle-font mb-20 w-full animate__animated animate__fadeInUp animate__slow">{{page.big_text}}</h1>
+<main class="pt-12 lg:pt-0 wrapper">
+  <h1 class="upper-middle-font mb-16 w-full text-center animate__animated animate__fadeInUp animate__slow">{{page.big_text}}</h1>
   <img src="{{page.picture}}" alt="interior"
-  class="w-full animate__animated animate__fadeInUp animate__slow">
+  class="hidden lg:block w-full animate__animated animate__fadeInUp animate__slow">
+  <img src="{{page.mobile_interior}}" alt="interior"
+  class="lg:hidden w-full animate__animated animate__fadeInUp animate__slow">
   <div class="bt-16 lg:py-16 section">
     <div class="lg:flex lg:justify-between">
   <div class="lg:flex flex-col justify-between lg:w-1/2">
-    <h3 class="about-title lg:w-1/2">{{page.big_title}}</h3>
+    <h3 class="text-left lg:text-center about-title lg:mr-0 lg:w-1/2">{{page.big_title}}</h3>
     <img src="/img/art.jpg" alt="picture" class="hidden lg:block mb-12 lg:mb-0 reveal-left w-full">
   </div>
     <div class="lg:flex flex-col justify-between  lg:w-1/2 lg:ml-32">
    <div>
     <p class="reveal-top little-font">
       {{page.text}}
+    </p>
+    <p class="mt-8 reveal-top little-font">
+      {{page.second_text}}
     </p>
     <button class="hidden lg:block reveal-top button little-font my-12">book your event at Bromley Gallery</button>
     </div>
