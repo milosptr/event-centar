@@ -1,6 +1,10 @@
 
 (function() {
 
+  // remove animation if clicked on home link in nav
+  if(window.location.pathname === '#' && document.getElementById('loading-screen'))
+    document.getElementById('loading-screen').remove()
+
 
   if(document.getElementById('loading-text'))
     new Vara("#loading-text","/fonts/font.json",[{
