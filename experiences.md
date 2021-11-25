@@ -46,7 +46,7 @@ experiences:
     with delectable dining and extensive beverage options. Let us bring your dreams
     to life so you can savour your special day.\n\n"
   button: Download the package
-  headline: Weddings headline
+  headline: Weddings
 - image: "/assets/images/interior-small-2x.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
