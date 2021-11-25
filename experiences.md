@@ -23,7 +23,7 @@ third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
 - image: "/assets/images/caviar-2x.jpg"
-  title: Private  Celebrations
+  title: ''
   second_text: "Whether it be an intimate affair for a small group of friends or family
     or a festive occasion shared with many, our team can help create a flawless celebration.
     Choose from a seated (up to 150 guests) or cocktail style (up to 300 guests) event
