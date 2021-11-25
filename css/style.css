@@ -260,7 +260,7 @@ header {
   }
 
   .little-font {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Söhne;
     font-weight: Leicht;
     }
@@ -775,7 +775,7 @@ header {
 
   .headline {
     position: absolute;
-    top: 250px;
+    /*top: 250px;*/
     right: 120px;
     width: 30%;
     }
@@ -835,7 +835,7 @@ body {
 
     .headline {
       position: absolute;
-      top: 250px;
+      top: 100px;
       right: 120px;
       width: 30%;
       }
