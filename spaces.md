@@ -54,9 +54,9 @@ spaces:
   amount1: '20 to 100 guests cocktail '
   amount2: 20 to 50 guests seated
 - title: 'The Corner Room '
-  headline: Coming soon
+  headline: ''
   image: ''
-  text: ''
+  text: Coming soon
   amount1: ''
   amount2: ''
 - title: 'The Window Room '
