@@ -38,9 +38,22 @@ body {
   background-color: #F6F6F3;
   color: #2B2E34;
   margin: 0;
+  opacity: 0;
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
+  -webkit-animation: showBody 1s forwards;
+  animation: showBody 1s forwards;
+}
+
+@keyframes showBody {
+  70% { opacity: 0;}
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes showBody {
+  70% { opacity: 0;}
+  100% { opacity: 1; }
 }
 
 #loading-screen {

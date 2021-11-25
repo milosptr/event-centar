@@ -1,20 +1,16 @@
 
 (function() {
-
-  // remove animation if clicked on home link in nav
-  if(window.location.search === '?a=hidden' && document.getElementById('loading-screen'))
-    document.getElementById('loading-screen').remove()
-
-
   if(document.getElementById('loading-text'))
     new Vara("#loading-text","/fonts/font.json",[{
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
       fontSize: 30,
       duration:15000,
+      delay: 2000,
       y:10
     }], {
       strokeWidth: 0.7,
-      textAlign:"center"
+      textAlign:"center",
+      delay: 2000,
     });
 
   // if(document.getElementById('about-broomley'))
@@ -209,7 +205,7 @@ const controls = document.querySelectorAll('.slider-control')
       if(document.querySelector('.finish') === null)
         document.getElementById('loading-screen').classList.add('finish')
         document.body.style.overflow = ''
-    }, 18500);
+    }, 19000);
   }
 
   const menuItems = document.querySelectorAll('.menu-item')
