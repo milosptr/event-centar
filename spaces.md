@@ -42,6 +42,12 @@ section_second_text: '20 to 100 guests cocktail '
 second_third_text: " cocktail 20 to 50 guests dining"
 section_third_text: 0 to 50 guests seated
 spaces:
+- title: The Corner Room test
+  headline: Coming soon
+  image: ''
+  text: ''
+  amount1: ''
+  amount2: ''
 - title: 'Bromley & Co Gallery '
   headline: 'Bromley & Co Gallery '
   image: "/assets/images/interior-small-2x.jpg"
