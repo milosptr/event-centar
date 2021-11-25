@@ -55,12 +55,10 @@ spaces:
   amount2: 20 to 50 guests seated
 - title: 'The Corner Room '
   headline: 'The Corner Room '
-  image: "/assets/images/interior-small-2x.jpg"
-  text: The Corner Room capitalises on its position in the corner of the building
-    allowing for natural light to flood through its floor-to-ceiling windows illuminating
-    the stunningly unique space. Perfect for mid-sized groups.
-  amount1: '40 to 100 guests cocktail '
-  amount2: 20 to 50 guests seated
+  image: ''
+  text: ''
+  amount1: ''
+  amount2: ''
 - title: 'The Window Room '
   headline: 'The Window Room '
   image: "/assets/images/interior-small-2x.jpg"
