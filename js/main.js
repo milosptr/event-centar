@@ -2,7 +2,7 @@
 (function() {
 
   // remove animation if clicked on home link in nav
-  if(window.location.pathname === '#' && document.getElementById('loading-screen'))
+  if(window.location.search === '?a=hidden' && document.getElementById('loading-screen'))
     document.getElementById('loading-screen').remove()
 
 
