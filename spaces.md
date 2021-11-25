@@ -54,7 +54,7 @@ spaces:
   amount1: '20 to 100 guests cocktail '
   amount2: 20 to 50 guests seated
 - title: 'The Corner Room '
-  headline: 'The Corner Room '
+  headline: Coming soon
   image: ''
   text: ''
   amount1: ''
