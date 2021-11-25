@@ -56,7 +56,7 @@ members:
     as part of our incredible event offering.
 - name: John Demetrios
   position: 'Executive Pastry Chef '
-  image: "/assets/images/john_demetrios.jpg"
+  image: "/assets/images/john_demetrios_small.jpg"
   about: 'Born in Melbourne, John Demetrios is one of the country’s greatest pastry
     chefs. His culinary journey took him to the Michelin starred kitchens of London
     and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous Knightsbridge
