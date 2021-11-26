@@ -56,7 +56,7 @@ spaces:
 - title: 'The Corner Room '
   headline: ''
   image: ''
-  text: Coming soon
+  text: ''
   amount1: ''
   amount2: ''
 - title: 'The Window Room '
