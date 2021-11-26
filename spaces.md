@@ -62,11 +62,8 @@ spaces:
 - title: 'The Window Room '
   headline: 'The Window Room '
   image: ''
-  text: 'Our most intimate space, The Window Room is ideal for small groups and private
-    dining. The Window Room offers a truly distinctive experience with a window peering
-    into the action of the kitchen. Watch as award-winning chefs prepare a meal for
-    you and your guests to savour now and reminisce over later.  '
-  amount1: 10 to 20 guests seated
+  text: "  "
+  amount1: ''
   amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
