@@ -97,6 +97,11 @@
 
    if (document.body.id === 'spaces') {
     let spacesSection = document.querySelector(".spaces-container");
+    const rooms1 = [...document.querySelector('.spaces-container').children]
+    console.log('rooms1',rooms1)
+    /*
+
+    */
 
     spacesSection.addEventListener("click", function (event) {
       let target = event.target;
@@ -145,7 +150,6 @@
 
         if (p.dataset.category !== 'bromley-co-gallery')
         p.classList.add('coming-soon')
-        console.log('br')
 
       })
       categoriesSpaces.forEach((c,idx) => {
@@ -159,11 +163,11 @@
 
 //homepage team members mobile version slider
   if(document.querySelector('.our-team-members')){
-    if(window.innerWidth < 1024){ 
+    if(window.innerWidth < 1024){
       document.querySelector('.our-team-members').classList.add('swiper')
       document.querySelector('.our-team-members-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('swiper-slide'))
-      
+
       new Swiper(".our-team-members", {
         speed: 600,
         centrared: true,
