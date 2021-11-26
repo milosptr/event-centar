@@ -99,6 +99,9 @@
     let spacesSection = document.querySelector(".spaces-container");
     const rooms1 = [...document.querySelector('.spaces-container').children]
     console.log('rooms1',rooms1)
+    rooms1[1].classList.add('coming-soon')
+    rooms1[2].classList.add('coming-soon')
+    rooms1[3].classList.add('coming-soon')
     /*
 
     */

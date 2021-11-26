@@ -164,11 +164,11 @@ header {
   display: none;
   color: #2B2E34;
   font-family: Stylish;
-  left: 25%;
-  top: 150px;
+  left: 0px;
+  top: 100px;
   text-align: center;
-  font-size: 200px;
-  line-height: 180px;
+  font-size: 150px;
+  line-height: 80px;
 }
 
 
@@ -567,6 +567,7 @@ header {
 
 
   @media (min-width: 768px) {
+
     header {
       background-size: 20%;
     }
@@ -608,6 +609,14 @@ header {
       padding-right: 15px;
       }
 
+    .soon {
+      left: 0px;
+      top: 50px;
+      text-align: center;
+      font-size: 150px;
+      line-height: 80px;
+      }
+
     .black-button {
       padding-left: 15px;
       padding-right: 15px;
@@ -620,6 +629,15 @@ header {
       padding-right: 10px;
     }
 
+    .soon {
+      display: none;
+      left: 25%;
+      top: 150px;
+      text-align: center;
+      font-size: 200px;
+      line-height: 180px;
+    }
+
     .button {
       padding-left: 35px;
       padding-right: 35px;
@@ -628,7 +646,7 @@ header {
     .black-button {
       padding-left: 35px;
       padding-right: 35px;
-      width: 80%;
+      /*width: 80%;*/
       }
 
     .upper-middle-font {
