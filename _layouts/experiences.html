@@ -19,13 +19,13 @@
   <div class="experiences-container flex flex-wrap justify-between mt-8 flex-col">
   {% for experience in page.experiences %}
   <div class="lg:pt-20 experience wrapper lg:pb-40"
-  data-category={{ experience.title | slugify}}><!-- -->
+  data-category={{ experience.title | slugify}}>
   <h3 class="w-full upper-experience-title lg:hidden py-4 upper-font main-color">{{experience.title}}</h3>
   <div class="hidden lg:block">
   <img  class="pb-12 lg:pb-0 w-full lg:animate__slow animate__animated animate__fadeIn experience-image" src="{{experience.image}}"
   alt="experience photo">
   <h2 class="experience-headline w-1/3">{{experience.headline}}</h2>
-  <div class="pt-40 lg:pt-20  lg:pr-16 relative lg:flex justify-between"><!---->
+  <div class="pt-40 lg:pt-20  lg:pr-16 relative lg:flex justify-between">
   <h3 class="hidden lg:block lg:animate__animated animate__fadeIn animate__slower lg:w-1/2 lg:pr-4 upper-font">{{experience.title}}</h3>
     <p class="mt-8 lg:mt-0 lg:animate__animated animate__fadeInUp animate__slower little-font lg:w-1/3 lg:mr-12">{{experience.first_text}}</p>
       <div class="lg:w-1/3 lg:pr-4 lg:animate__animated animate__fadeInUp animate__slower ">
