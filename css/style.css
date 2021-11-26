@@ -274,7 +274,8 @@ header {
 
   .menu-item--active {
     color: #2B2E34;
-    /* border-bottom: 1px solid #2B2E34; */
+    border-bottom: 1px solid #2B2E34;
+    padding-bottom: 5px;
   }
 
   .menu-item--active .menu-line{
@@ -582,6 +583,11 @@ header {
       background-size: 20%;
     }
 
+    .menu-item--active {
+      padding-bottom: 0;
+      border-bottom: none
+    }
+
     body {
       padding-left: 25px;
       padding-right: 25px;
@@ -812,7 +818,6 @@ header {
     line-height: 165px;
     position: relative;
     z-index: 10;
-    margin-bottom: -70px;
   }
 
   .even {
@@ -902,7 +907,6 @@ body {
     .big-font {
       font-size: 250px;
       line-height: 290px;
-      margin-bottom: -100px;
        }
 
     .even {
