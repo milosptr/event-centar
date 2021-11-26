@@ -268,7 +268,6 @@ header {
     /* padding-bottom: 5px; */
     border-bottom: 2px solid transparent;
     font-size: 28px;
-    line-height: 58px;
     font-family: Sohne-Leicht;
   }
 
@@ -719,7 +718,7 @@ header {
       position: static;
     }
 
-  .menu-item  {
+  .menu-item {
     font-size: 20px;
     color: #9C968D;
   }
@@ -788,7 +787,7 @@ header {
     color: #2B2E34;
   }
 
-  .inner-menu-item:hover .menu-line { 
+  .inner-menu-item:hover .menu-line {
     background-color: #2B2E34;
     animation: load ease-out forwards 0.5s;
   }
