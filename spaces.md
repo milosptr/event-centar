@@ -70,7 +70,7 @@ spaces:
   amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
-  image: "/assets/images/interior-small-2x.jpg"
+  image: ''
   text: "\nThe Grand Room is our largest and most impressive space. Overlooking South
     Yarra, Toorak, Prahran and beyond, The Grand Room marries The Corner Room and
     The Window Room to create a glamorous and expansive space perfect for larger scale
