@@ -499,7 +499,8 @@ header {
     border: none;
     outline: none;
     padding: 8px;
-    width: 100%;
+    /*width: 100%;*/
+
     border: 1px solid #2B2E34;
     transition: 0.3s;
     }
