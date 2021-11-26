@@ -46,7 +46,7 @@ experiences:
     with delectable dining and extensive beverage options. Let us bring your dreams
     to life so you can savour your special day.\n\n"
   button: Download the package
-  headline: Weddings headline
+  headline: Weddings
 - image: "/assets/images/interior-small-2x.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
@@ -60,7 +60,7 @@ experiences:
     custom-made, contemporary furniture and the latest technology and audio visual
     equipment. \n\n"
   button: Download the package
-  headline: Corporate  headline
+  headline: 'Corporate '
 - image: "/assets/images/meal-2x.jpg"
   title: 'Bespoke  '
   first_text: No matter your style or reason for an event, our space and offering
@@ -70,6 +70,6 @@ experiences:
     2 up to 150 guests seated and up to 300 guests cocktail style, we invite you to
     contact us today to learn more. \n"
   button: Download the package
-  headline: Bespoke headline
+  headline: Bespoke
 
 ---

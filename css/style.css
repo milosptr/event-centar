@@ -109,6 +109,17 @@ body {
   }
 }
 
+.swiper-pagination-bullet {
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  width: 9px !important;
+  height: 9px !important;
+  margin: 0 25px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
 header {
   background-image: url('/img/logo.svg');
   background-repeat: no-repeat;
@@ -117,6 +128,7 @@ header {
   padding-top: 40px;
   background-position: 50% 90%;
 }
+
 /*for inner menu*/
 
 .hide {
@@ -125,6 +137,38 @@ header {
 
 .hide-member {
   display: none;
+}
+
+.coming-soon {
+
+}
+
+.coming-soon .soon {
+  display: block;
+}
+
+.coming-soon .space-content {
+  /*display: none;*/
+  opacity: 0;
+  height: auto;
+}
+
+.space-content {
+  display: block;
+  opacity: 100%;
+  /*height: 400px;*/
+}
+
+
+.soon {
+  display: none;
+  color: #2B2E34;
+  font-family: Stylish;
+  left: 0;
+  top: 100px;
+  text-align: center;
+  font-size: 200px;
+  line-height: 180px;
 }
 
 
@@ -201,7 +245,7 @@ header {
 .menu-list {
   width: 100%;
   position: absolute;
-  bottom: 60px;
+  bottom: 90px;
   right: 20px;
 }
 
@@ -754,7 +798,7 @@ header {
 
   .headline {
     position: absolute;
-    top: 100px;
+    top: 0px;
     right: 120px;
     width: 30%;
     }
@@ -846,8 +890,8 @@ body {
 
     .headline {
       position: absolute;
-      top: 100px;
-      right: 120px;
+      top: 0px;
+      right: 110px;
       width: 30%;
       }
     }
