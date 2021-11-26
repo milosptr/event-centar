@@ -98,7 +98,6 @@
    if (document.body.id === 'spaces') {
     let spacesSection = document.querySelector(".spaces-container");
     const rooms1 = [...document.querySelector('.spaces-container').children]
-    console.log('rooms1',rooms1)
     rooms1[1].classList.add('coming-soon')
     rooms1[2].classList.add('coming-soon')
     rooms1[3].classList.add('coming-soon')
@@ -141,7 +140,6 @@
     }
 
     function filterRooms(category) {
-     console.log(category)
       const rooms = [...document.querySelector('.spaces-container').children]
       rooms.forEach((p) => {
         p.style = ''
@@ -202,11 +200,13 @@
   }
 
   const menuItems = document.querySelectorAll('.menu-item')
-  menuItems.forEach((m) => {
+  menuItems.forEach((m, idx) => {
     const menuUrl = m.getAttribute('href')?.replaceAll('/', '')
     const url = location.pathname.replaceAll('/', '')
     m.classList.remove('menu-item--active')
     if(menuUrl === url)
+      m.classList.add('menu-item--active')
+    if(url.length === 0 & idx === 0)
       m.classList.add('menu-item--active')
   })
 
