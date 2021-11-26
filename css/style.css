@@ -233,7 +233,7 @@ header {
 }
 
  .menu-item {
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     border-bottom: 2px solid transparent;
     font-size: 28px;
     line-height: 58px;
@@ -242,7 +242,16 @@ header {
 
   .menu-item--active {
     color: #2B2E34;
-    border-bottom: 1px solid #2B2E34;
+    /* border-bottom: 1px solid #2B2E34; */
+  }
+
+  .menu-item--active .menu-line{
+    background-color: #2B2E34;
+  }
+
+  .menu-item:hover .menu-line {
+    background-color: #2B2E34;
+    animation: load ease-out forwards 0.5s;
   }
 
   .active {
@@ -257,7 +266,7 @@ header {
 
   .menu-item:hover {
    color: #2B2E34;
-   border-bottom: 1px solid #2B2E34;
+   /* border-bottom: 1px solid #2B2E34; */
   }
 
  .social {
@@ -708,11 +717,6 @@ header {
     display: none;
   }
 
-  .menu-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
   .inner-menu-item {
     transition: 0.5s;
     cursor: pointer;
@@ -727,7 +731,7 @@ header {
     color: #2B2E34;
   }
 
-  .inner-menu-item:hover .menu-line {
+  .inner-menu-item:hover .menu-line { 
     background-color: #2B2E34;
     animation: load ease-out forwards 0.5s;
   }
