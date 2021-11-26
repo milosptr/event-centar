@@ -56,12 +56,12 @@ spaces:
 - title: 'The Corner Room '
   headline: ''
   image: ''
-  text: Coming soon
+  text: ''
   amount1: ''
   amount2: ''
 - title: 'The Window Room '
   headline: 'The Window Room '
-  image: "/assets/images/interior-small-2x.jpg"
+  image: ''
   text: 'Our most intimate space, The Window Room is ideal for small groups and private
     dining. The Window Room offers a truly distinctive experience with a window peering
     into the action of the kitchen. Watch as award-winning chefs prepare a meal for
@@ -70,7 +70,7 @@ spaces:
   amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
-  image: "/assets/images/interior-small-2x.jpg"
+  image: ''
   text: "\nThe Grand Room is our largest and most impressive space. Overlooking South
     Yarra, Toorak, Prahran and beyond, The Grand Room marries The Corner Room and
     The Window Room to create a glamorous and expansive space perfect for larger scale
