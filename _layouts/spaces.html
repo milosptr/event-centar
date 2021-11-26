@@ -24,24 +24,25 @@
   {% for space in page.spaces %}
   <div class="lg:py-20 wrapper"
   data-category={{ space.title | slugify}}>
+
   <h3 class="w-full upper-space-title lg:hidden py-4 upper-font main-color">{{space.title}}</h3>
-  <div class="hidden lg:flex lg:justify-between lg:flex-row-reverse">
+  <div class="hidden relative lg:flex lg:justify-between lg:flex-row-reverse">
+    <div class="soon absolute">Coming soon</div>
     <img src="{{space.image}}"
 class="w-full lg:w-2/3 animate__animated animate__fadeIn animate__slow">
-<div class="flex flex-col justify-between pr-8 lg:pr-12">
+<div class="space-content flex flex-col justify-between pr-8 lg:pr-12">
 
   <h3 class="page-section-title mb-10">{{space.title}}</h3>
-  <div>
-  <p class="animate__animated animate__fadeInUp little-font mb-5 ">{{space.text}}</p>
-  <p class="animate__animated animate__fadeInUP animate__slower little-font">{{space.amount1}}</p>
-  <p class="animate__animated animate__fadeInup animate__slower little-font mb-5">{{space.amount2}}</p>
+  <div class='animate__animated animate__fadeInUp animate__slow'>
+  <p class=" little-font mb-5">{{space.text}}</p>
+  <p class=" little-font">{{space.amount1}}</p>
+  <p class=" little-font mb-5">{{space.amount2}}</p>
 
   <div class="hidden lg:block">
-  <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">find out more</button>
-  <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
+  <button class=" button little-font w-full mb-4">find out more</button><!--animate__animated animate__fadeInUp animate__slower-->
+  <button class=" black-button little-font w-full">book the event</button>
   </div>
 </div>
-
 </div>
 </div>
 </div>

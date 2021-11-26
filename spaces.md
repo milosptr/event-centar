@@ -62,25 +62,14 @@ spaces:
 - title: 'The Window Room '
   headline: 'The Window Room '
   image: ''
-  text: 'Our most intimate space, The Window Room is ideal for small groups and private
-    dining. The Window Room offers a truly distinctive experience with a window peering
-    into the action of the kitchen. Watch as award-winning chefs prepare a meal for
-    you and your guests to savour now and reminisce over later.  '
-  amount1: 10 to 20 guests seated
+  text: "  "
+  amount1: ''
   amount2: ''
 - title: 'The Grand Room '
   headline: 'The Grand Room '
   image: ''
-  text: "\nThe Grand Room is our largest and most impressive space. Overlooking South
-    Yarra, Toorak, Prahran and beyond, The Grand Room marries The Corner Room and
-    The Window Room to create a glamorous and expansive space perfect for larger scale
-    events ranging from impressive corporate lunches to beautiful wedding receptions.
-    The elaborate design-led interior features oak floorboards, walls fixed with a
-    gleaming water-ripple effect, high smoked chocolate-coloured ceilings and dazzling
-    lighting fixtures. Coupled with a flood of natural light by day and the shimmer
-    of nightlights of an evening, The Grand Room offers a spectacular backdrop for
-    your unique event needs.  \n"
-  amount1: 'Up to 300 guests cocktail '
-  amount2: Up to 150 guests seated
+  text: "\n\n"
+  amount1: ''
+  amount2: ''
 
 ---
