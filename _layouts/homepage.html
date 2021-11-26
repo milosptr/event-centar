@@ -2,7 +2,10 @@
 {% include loading.html %}
 
 {% include nav.html %}
-<script>document.body.style.overflow = 'hidden'</script>
+<script>
+if(window.location.search !== '?a=hidden')
+  document.body.style.overflow = 'hidden'
+</script>
 
 <main class="pt-20 lg:pt-0">
   <div class="wrapper">
@@ -51,7 +54,7 @@
                 {{page.third_section_little_text}}
               </p>
             </div>
-            
+
             <div class="our-team-members mb-12 lg:mb-0">
               <ul class="slider-list our-team-members-wrapper">
                 {% for member in page.members %}
