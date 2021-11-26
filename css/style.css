@@ -109,6 +109,17 @@ body {
   }
 }
 
+.swiper-pagination-bullet {
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  width: 9px !important;
+  height: 9px !important;
+  margin: 0 25px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
 header {
   background-image: url('/img/logo.svg');
   background-repeat: no-repeat;

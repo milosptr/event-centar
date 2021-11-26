@@ -155,42 +155,25 @@
 
 
 //homepage team members mobile version slider
-
-const controls = document.querySelectorAll('.slider-control')
-    if(controls && controls.length) {
-      controls[0].classList.add('control-active')
-      filterMembers(controls[0].dataset.categoryName)
-
-      controls.forEach((c) => {
-        c.addEventListener('click', (e) => {
-          c.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest',
-            inline: 'center'
-        })
-        filterMembers(e.target.dataset.categoryName)
-        })
-      })
+  if(document.querySelector('.our-team-members')){
+    if(window.innerWidth < 1024){ 
+      document.querySelector('.our-team-members').classList.add('swiper')
+      document.querySelector('.our-team-members-wrapper').classList.add('swiper-wrapper')
+      document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('swiper-slide'))
+      
+      new Swiper(".our-team-members", {
+        speed: 600,
+        centrared: true,
+        slidesPerView: window.innerWidth < 640 ? 1.15 : 2,
+        loop: true,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
     }
+  }
 
-    function filterMembers(category) {
-
-      const sliderItems = [...document.querySelector('.slider-list').children]
-      sliderItems.forEach((p) => {
-        p.style = ''
-        p.classList.remove('hide-member')
-        p.style.opacity = 1
-        if(p.dataset.category !== category)
-        p.classList.add('hide-member')
-
-      })
-      controls.forEach((c,idx) => {
-        c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
-        c.classList.remove('control-active')
-        if(c.dataset.categoryName === category)
-          c.classList.add('control-active')
-      })
-    }
 
 // Loading Screen Animation
   if(document.getElementById('loading-screen')) {
