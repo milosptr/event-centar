@@ -166,6 +166,7 @@
   if(document.querySelector('.our-team-members')){
     if(window.innerWidth < 1024){
       document.querySelector('.our-team-members').classList.add('swiper')
+      document.querySelector('.our-team-members').classList.add('reveal-top')
       document.querySelector('.our-team-members-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('swiper-slide'))
 
@@ -179,6 +180,9 @@
           el: ".swiper-pagination",
         },
       });
+    }
+    else{
+      document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('reveal-top'))
     }
   }
 
