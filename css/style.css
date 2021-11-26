@@ -148,16 +148,27 @@ header {
 }
 
 .coming-soon .space-content {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
+  height: auto;
 }
 
 .space-content {
   display: block;
+  opacity: 100%;
+  /*height: 400px;*/
 }
 
 
 .soon {
   display: none;
+  color: #2B2E34;
+  font-family: Stylish;
+  left: 0;
+  top: 100px;
+  text-align: center;
+  font-size: 200px;
+  line-height: 180px;
 }
 
 
