@@ -128,6 +128,27 @@ header {
   display: none;
 }
 
+.coming-soon {
+
+}
+
+.coming-soon .soon {
+  display: block;
+}
+
+.coming-soon .space-content {
+  display: none;
+}
+
+.space-content {
+  display: block;
+}
+
+
+.soon {
+  display: none;
+}
+
 
 .btn-zoom-in-out{
   -webkit-transition: all .3s ease-in-out;

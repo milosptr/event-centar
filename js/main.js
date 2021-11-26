@@ -115,7 +115,6 @@
   }
 
 
-
    const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
     if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
       categoriesSpaces[0].classList.add('active')
@@ -134,7 +133,7 @@
     }
 
     function filterRooms(category) {
-
+     console.log(category)
       const rooms = [...document.querySelector('.spaces-container').children]
       rooms.forEach((p) => {
         p.style = ''
@@ -143,6 +142,10 @@
 
         if (p.dataset.category !== category)
         p.classList.add('hide')
+
+        if (p.dataset.category !== 'bromley-co-gallery')
+        p.classList.add('coming-soon')
+        console.log('br')
 
       })
       categoriesSpaces.forEach((c,idx) => {
