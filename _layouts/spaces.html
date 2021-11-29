@@ -20,6 +20,7 @@
     </ul>
   </div>
   <div class="hidden lg:block inbetween-line-light"></div>
+<<<<<<< HEAD
 <div class='spaces-container flex flex-wrap justify-between flex-col'>
   {% for space in page.spaces %}
   <div class="lg:py-20 wrapper"
@@ -71,8 +72,52 @@ class="w-full lg:w-2/3 animate__animated animate__fadeIn animate__slow">
     <a href="mailto:info@cgevents.au">
     <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">email us</button>
   </a>
+=======
+  <div class='spaces-container flex flex-wrap justify-between flex-col'>
+    {% for space in page.spaces %}
+    <div class="lg:py-20 wrapper" data-category={{ space.title | slugify}}>
+      <h3 class="animate__animated animate__fadeInUp animate__slower w-full upper-space-title lg:hidden py-4 upper-font main-color">
+        {{space.title}}
+      </h3>
+      <div class="hidden relative lg:flex lg:justify-between lg:flex-row-reverse">
+        <div class="soon absolute">Coming soon</div>
+        <img 
+          class="w-full lg:w-2/3 animate__animated animate__fadeIn animate__slow"
+          src="{{space.image}}" 
+        >
+        <div class="space-content flex flex-col justify-between pr-8 lg:pr-12">
+          <h3 class="animate__animated animate__fadeInUp animate__slow page-section-title mb-16">{{space.title}}</h3>
+          <div class="animate__animated animate__fadeInUp animate__slow">
+            <p class=" little-font mb-5">{{space.text}}</p>
+            <p class=" little-font">{{space.amount1}}</p>
+            <p class=" little-font mb-5">{{space.amount2}}</p>
+            <div class="hidden lg:block">
+              <button class=" button little-font w-full mb-4">call us</button>
+              <button class=" black-button little-font w-full">email</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </div>
+  <div>
+    <div class="reveal-top wrapper py-8 upper-middle-font section w-full">
+      <h2>Event space facilities</h2>
+>>>>>>> 086922bd542a960e7d8b39dc72740a27d6d35102
+    </div>
+    <div class="inbetween-line"></div>
+    <ul class='wrapper py-8 lg:pt-16 list section flex flex-col flex-wrap'>
+      {% for facility in page.facilities %}
+        <li class="reveal-top facility my-5 lg:my-7">{{facility}}</li>
+      {% endfor %}
+    </ul>
+    <div class="lg:hidden pb-8">
+      <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">find out more</button>
+      <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">book the event</button>
+    </div>
+  </div>
 </main>
 
 {% include footer.html %}
