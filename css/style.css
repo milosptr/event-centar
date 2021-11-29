@@ -869,6 +869,19 @@ header {
     }
   }
 
+  @media (min-width: 1280px) and (max-width: 1440px) {
+    header{
+      padding-bottom: 50px;
+    }
+    .big-font {
+      font-size: 170px;
+      margin-bottom: 6rem;
+      margin-top: 0;
+    }
+
+
+  }
+
   @media (min-width: 1440px) {
 
 body {
