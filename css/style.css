@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Copyright Klim Type Foundry';
-  src: url('https://event-centar.vercel.app/fonts/Sohne-Leicht.eot');
-  src: url('https://event-centar.vercel.app/fonts/Sohne-Leicht.eot?#iefix') format('embedded-opentype'),
-      url('https://event-centar.vercel.app/fonts/Sohne-Leicht.woff2') format('woff2'),
-      url('https://event-centar.vercel.app/fonts/Sohne-Leicht.woff') format('woff'),
-      url('https://event-centar.vercel.app/fonts/Sohne-Leicht.ttf') format('truetype');
+  src: url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.eot');
+  src: url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.eot?#iefix') format('embedded-opentype'),
+      url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.woff2') format('woff2'),
+      url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.woff') format('woff'),
+      url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'Stylish';
-  src: url('https://event-centar.vercel.app/fonts/Stylish.eot');
-  src: url('https://event-centar.vercel.app/fonts/Stylish.eot?#iefix') format('embedded-opentype'),
-      url('https://event-centar.vercel.app/fonts/Stylish.woff2') format('woff2'),
-      url('https://event-centar.vercel.app/fonts/Stylish.woff') format('woff'),
-      url('https://event-centar.vercel.app/fonts/Stylish.ttf') format('truetype');
+  src: url('https://event-centar-theta.vercel.app/fonts/Stylish.eot');
+  src: url('https://event-centar-theta.vercel.app/fonts/Stylish.eot?#iefix') format('embedded-opentype'),
+      url('https://event-centar-theta.vercel.app/fonts/Stylish.woff2') format('woff2'),
+      url('https://event-centar-theta.vercel.app/fonts/Stylish.woff') format('woff'),
+      url('https://event-centar-theta.vercel.app/fonts/Stylish.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,11 +24,11 @@
 
 @font-face {
   font-family: 'Frunchy';
-  src: url('https://event-centar.vercel.app/fonts/Frunchy-Regular.eot');
-  src: url('https://event-centar.vercel.app/fonts/Frunchy-Regular.eot?#iefix') format('embedded-opentype'),
-      url('https://event-centar.vercel.app/fonts/Frunchy-Regular.woff2') format('woff2'),
-      url('https://event-centar.vercel.app/fonts/Frunchy-Regular.woff') format('woff'),
-      url('https://event-centar.vercel.app/fonts/Frunchy-Regular.ttf') format('truetype');
+  src: url('https://event-centar-theta.vercel.app/fonts/Frunchy-Regular.eot');
+  src: url('https://event-centar-theta.vercel.app/fonts/Frunchy-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://event-centar-theta.vercel.app/fonts/Frunchy-Regular.woff2') format('woff2'),
+      url('https://event-centar-theta.vercel.app/fonts/Frunchy-Regular.woff') format('woff'),
+      url('https://event-centar-theta.vercel.app/fonts/Frunchy-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
