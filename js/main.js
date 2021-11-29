@@ -9,8 +9,8 @@
       y:10
     }
     if(window.innerWidth <= 500) {
-      options.fontSize = 22
-      options.y = 80
+      options.fontSize = 20
+      options.y = 60
       options.duration = 14000
     }
     new Vara("#loading-text","/fonts/font.json",[options], {
