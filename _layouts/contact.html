@@ -4,23 +4,25 @@
 
 <main class="pt-8 lg:pt-0">
   <div class="section py-8 lg:pb-24 lg:pt-0 text-center">
-  <h1 class="contact-title animate__animated animate__fadeInUp animate__slower">
+    <div class='animate__animated animate__fadeInUp animate'>
+  <h1 class="contact-title">
     {{page.big_title}}
   </h1>
-  <p class="little-font pt-16 animate__animated animate__fadeInUp animate__slower text-left md:text-center">
+  <p class="little-font pt-16 text-left md:text-center">
     {{page.text}}
   </p>
+  </div>
   <div class="flex flex-col lg:flex-col-reverse">
     <img class="hidden lg:block mt-12 reveal-top-delay" src="{{page.picture}}" alt="meal">
     <img class="lg:hidden mt-12 reveal-top-delay" src="{{page.mobile_picture}}" alt="meal">
-  <div class="animate__animated animate__fadeInUp animate__slower buttons-wrapper sm:mt-6 lg:flex lg:justify-between lg:px-32 lg:py-12">
+  <div class=" buttons-wrapper sm:mt-6 lg:flex lg:justify-between lg:px-32 lg:py-12"><!--animate__animated animate__fadeInUp animate__slower-->
     <a href="tel:0380808080">
-      <button class="w-full button lg:w-64 mt-8 sm:mt-4 sm:mx-2">
+      <button class="animate__animated animate__fadeInLeft animate__slower w-full button lg:w-64 mt-8 sm:mt-4 sm:mx-2">
         call us
       </button>
     </a>
     <a href="mailto:info@cgevents.au">
-      <button class="w-full black-button lg:w-64 mt-8 sm:mt-4 sm:mx-2">
+      <button class="animate__animated animate__fadeInRight animate__slower w-full button lg:w-64 mt-8 sm:mt-4 sm:mx-2">
         email us
       </button>
     </a>
