@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Copyright Klim Type Foundry';
+  font-family: 'Sohne-Leicht';
   src: url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.eot');
   src: url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.eot?#iefix') format('embedded-opentype'),
       url('https://event-centar-theta.vercel.app/fonts/Sohne-Leicht.woff2') format('woff2'),
@@ -45,6 +45,7 @@ body {
   -webkit-animation: showBody 1s forwards;
   animation: showBody 1s forwards;
   scroll-behavior: smooth;
+  font-family: Sohne-Leicht;
 }
 
 @keyframes showBody {
@@ -351,8 +352,7 @@ header {
 
   .little-font {
     font-size: 14px;
-    font-family: Söhne;
-    font-weight: Leicht;
+    font-family: Sohne-Leicht;
     }
 
   .big-font {
@@ -510,6 +510,8 @@ header {
     padding-left: 35px;
     padding-right: 35px;
     transition: 0.3s;
+    font-family: Sohne-Leicht;
+    font-size: 14px;
     }
 
 .button:hover {
