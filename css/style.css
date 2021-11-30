@@ -44,6 +44,7 @@ body {
   padding-right: 20px;
   -webkit-animation: showBody 1s forwards;
   animation: showBody 1s forwards;
+  scroll-behavior: smooth;
 }
 
 @keyframes showBody {
