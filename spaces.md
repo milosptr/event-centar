@@ -23,15 +23,15 @@ fourth_section_title: The Window  Room
 fifth_section_title: The Grand  Room
 section_picture: "/assets/images/interior-small-2x.jpg"
 facilities:
-- DIY Theming
-- Microphone
-- External Music
-- Dissability Access
-- Dietary Equipment
-- Bar Tab
-- AV Hire
-- Wifi
 - Parking
+- Wifi
+- AV Hire
+- Bar Tab
+- Dietary Equipment
+- Dissability Access
+- External Music
+- Microphone
+- DIY Theming
 section_first_text: 'Bromley & Co Gallery welcomes your next event to be situated
   in an operating art gallery. The gallery’s high ceilings command a feeling of spaciousness
   while its walls are adorned with the unmistakable works of David Bromley. Striking
