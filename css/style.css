@@ -45,7 +45,7 @@ body {
   -webkit-animation: showBody 1s forwards;
   animation: showBody 1s forwards;
   scroll-behavior: smooth;
-  font-family: Sohne-Leicht;
+  font-family: "Sohne-Leicht", sans-serif;
 }
 
 @keyframes showBody {
@@ -188,7 +188,7 @@ header {
 .soon {
   display: none;
   color: #2B2E34;
-  font-family: Stylish;
+  font-family: "Stylish", sans-serif;
   left: 0px;
   top: 100px;
   text-align: center;
@@ -213,6 +213,7 @@ header {
 
   .facility {
    position: relative;
+   font-size: 16px;
     }
 
   .facility::before {
@@ -237,7 +238,7 @@ header {
 
   .contact-title {
     color: #2B2E34;
-    font-family: Stylish;
+    font-family: "Stylish", sans-serif;
     text-align: center;
     font-size: 100px;
     line-height: 85px;
@@ -293,7 +294,7 @@ header {
     /* padding-bottom: 5px; */
     border-bottom: 2px solid transparent;
     font-size: 28px;
-    font-family: Sohne-Leicht;
+    font-family: "Sohne-Leicht", sans-serif;
   }
 
   .menu-item--active {
@@ -352,7 +353,7 @@ header {
 
   .little-font {
     font-size: 14px;
-    font-family: Sohne-Leicht;
+    font-family: "Sohne-Leicht", sans-serif;
     }
 
   .big-font {
@@ -364,28 +365,28 @@ header {
     }
 
   .upper-font {
-    font-family: Frunchy;
+    font-family: "Frunchy", sans-serif;
     text-transform: uppercase;
     font-size: 28px;
     line-height: 26px;
     }
 
   .upper-big-font {
-    font-family: Frunchy;
+    font-family: "Frunchy", sans-serif;
     text-transform: uppercase;
     font-size: 60px;
     line-height: 40px;
   }
 
   .upper-little-font {
-    font-family: Frunchy;
+    font-family: "Frunchy", sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     line-height: 22px;
   }
 
   .upper-middle-font {
-    font-family: Frunchy;
+    font-family: "Frunchy", sans-serif;
     text-transform: uppercase;
     font-size: 55px;
     line-height: 50px;
@@ -393,7 +394,7 @@ header {
 
   .about-title {
     color: #2B2E34;
-    font-family: Stylish;
+    font-family: "Stylish", sans-serif;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -406,7 +407,7 @@ header {
   }
 
   .experience-headline {
-    font-family: Stylish;
+    font-family: "Stylish", sans-serif;
     font-size: 100px;
     line-height: 80px;
     position: absolute;
@@ -495,7 +496,7 @@ header {
 
 
 .page-section-title {
-  font-family: Stylish;
+  font-family: "Stylish", sans-serif;
   font-size: 100px;
   line-height: 100px;
   bottom: 0px;
@@ -510,7 +511,7 @@ header {
     padding-left: 35px;
     padding-right: 35px;
     transition: 0.3s;
-    font-family: Sohne-Leicht;
+    font-family: "Sohne-Leicht", sans-serif;
     font-size: 14px;
     }
 
@@ -630,7 +631,7 @@ header {
     }
 
     .upper-big-font  {
-      font-family: Frunchy;
+      font-family: "Frunchy", sans-serif;
       text-transform: uppercase;
       font-size: 60px;
       line-height: 40px;
@@ -691,14 +692,14 @@ header {
       }
 
     .upper-middle-font {
-      font-family: Frunchy;
+      font-family: "Frunchy", sans-serif;
       text-transform: uppercase;
       font-size: 75px;
       line-height: 55px;
     }
 
     .experience-headline {
-      font-family: Stylish;
+      font-family: "Stylish", sans-serif;
       font-size: 220px;
       line-height: 160px;
       bottom: 10%;
@@ -706,7 +707,7 @@ header {
     }
 
     .upper-big-font {
-      font-family: Frunchy;
+      font-family: "Frunchy", sans-serif;
       text-transform: uppercase;
       font-size: 120px;
       line-height: 70px;
@@ -921,14 +922,14 @@ body {
  }
 
     .upper-font {
-      font-family: Frunchy;
+      font-family: "Frunchy", sans-serif;
       text-transform: uppercase;
       font-size: 44px;
       line-height: 42px;
       }
 
     .upper-little-font {
-      font-family: Frunchy;
+      font-family: Frunchy, sans-serif;
       text-transform: uppercase;
       font-size: 32px;
       line-height: 30px;
