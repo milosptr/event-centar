@@ -154,11 +154,6 @@ header {
   background-position: 50% 90%;
 }
 
-img {
-  border: none;
-  outline:  none;
-}
-
 /*for inner menu*/
 
 .hide {
@@ -247,19 +242,46 @@ img {
 
   .nav-toggle {
     position: fixed;
-    right: 20px;
-    width: 35px;
-    height: 35px;
+    right: 25px;
+    width: 32px;
+    height: 25px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/img/menu_icon.svg');
     z-index: 1000;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-toggle--closed {
-    background-image: url('/img/menu_icon_closed.svg');
-    width: 25px;
+    width: 32px;
     height: 25px;
+  }
+  
+  .burger-line{
+    height: 4px;
+    border-radius: 10px;
+    background-color: #2b2e34;
+    width: 32px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .burger-line:nth-child(2){
+    margin: 6px 0;
+  }
+
+  .nav-toggle--closed .burger-line:nth-child(2){
+    opacity: 0;
+  }
+
+  .nav-toggle--closed .burger-line:nth-child(1){
+    -webkit-transform: translateY(10px) rotate(45deg);
+    -ms-transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .nav-toggle--closed .burger-line:nth-child(3){
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
   }
 
 
@@ -758,10 +780,6 @@ img {
   .experiences-menu {
       display: flex;
     }
-
-  .contact-text {
-      margin: 0 auto;
-  }
 
   .slider-controls  {
       display: none;
