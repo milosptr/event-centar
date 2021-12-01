@@ -154,6 +154,11 @@ header {
   background-position: 50% 90%;
 }
 
+img {
+  border: none;
+  outline:  none;
+}
+
 /*for inner menu*/
 
 .hide {
