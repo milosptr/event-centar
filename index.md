@@ -45,17 +45,17 @@ members:
 - name: Stephen Nairn
   position: Culinary Director
   image: "/assets/images/stephen_nairn_small.jpg"
-  about: Born in Scotland, Stephen Nairn's skills were honed in some of the country’s
+  about: Born in Scotland, Stephen Nairn's skills were honed in some of the country's
     most rigid and exacting kitchens. A year in New York, with the three Michelin
     starred team at the world-renowned Eleven Madison Park, ignited a desire to travel.
-    Stephen was drawn to Australia and to Melbourne's exciting dining scene, where
-    the city's culinary institutions welcomed him. As Executive Chef leading the kitchen
+    Stephen was drawn to Australia and Melbourne's exciting dining scene, where the
+    city's culinary institutions welcomed him. As Executive Chef leading the kitchen
     and events at Vue de Monde, his reputation grew. Stephen continued his journey
-    at Estelle by Scott Pickett and then by helping to establish Matilda. Since 2018
-    Stephen has been Culinary Director at Capitol Grand. His understanding of the
-    produce and flavours of Australia enable him to create unmistakable menus that
-    showcase his unique skills and craftsmanship not only in our restaurants, but
-    as part of our incredible event offering.
+    at Estelle by Scott Pickett and helped establish Matilda. Since 2018 Stephen has
+    been Culinary Director at Capitol Grand. His understanding of the produce and
+    flavours of Australia enables him to create unmistakable menus that showcase his
+    unique skills and craftsmanship not only in our restaurants but as part of our
+    incredible event offering.
 - name: John Demetrios
   position: 'Executive Pastry Chef '
   image: "/assets/images/john_demetrios_small.jpg"
