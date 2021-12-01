@@ -4,9 +4,9 @@ title: Homepage
 big_title: Welcome to our home
 description: "Playing host to a community of artists, designers, culinary experts,
   fashion, hospitality and retail, Capitol Grand is a prestigious home for like-minded
-  creatives to collaborate.\nThe city’s newest hospitality venue, Capitol Grand is
-  situated in one of Melbourne’s most iconic locales, on the famed corner of Chapel
-  Street and Toorak Road. The building offers a beautiful sanctuary from the busy
+  creatives to collaborate.\nTHE CITY’S NEWEST HOSPITALITY VENUE, CAPITOL GRAND, IS
+  SITUATED IN ONE OF MELBOURNE’S MOST ICONIC LOCALES ON THE FAMED CORNER OF CHAPEL
+  STREET AND TOORAK ROAD. The building offers a beautiful sanctuary from the busy
   hum of its cosmopolitan location and the unpredictable Melbourne weather outside.
   \ "
 first_section_first_title: " Elevate your next event in the splendour of Capitol Grand’s
