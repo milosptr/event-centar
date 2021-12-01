@@ -38,13 +38,13 @@ experiences:
   title: Weddings
   first_text: |2-
 
-    Picture the most incredible day of your life in one of the city’s newest and most beautiful settings with every intricate detail handled by our experienced events team.
-  second_text: "Our customisable spaces allow for the perfect day into night celebration
+    Picture the most incredible day of your life in one of the city’s newest and most beautiful settings, with every intricate detail handled by our experienced events team.
+  second_text: "Our customisable spaces allow for the perfect day into night celebration,
     whether it be a small and intimate seated reception or a large party with live
-    entertainment and dancing til the wee hours. We will work with you to ensure your
-    day is perfect beyond comprehension. Our wedding packages are filled to the brim
-    with delectable dining and extensive beverage options. Let us bring your dreams
-    to life so you can savour your special day.\n\n"
+    entertainment and dancing till the wee hours. We will work with you to ensure
+    your day is perfect beyond comprehension. Our wedding packages are filled to the
+    brim with delectable dining and extensive beverage options. Let us bring your
+    dreams to life so you can savour your special day.\n\n"
   button: Download the package
   headline: Weddings
 - image: "/assets/images/interior-small-2x.jpg"
