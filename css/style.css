@@ -758,6 +758,10 @@ header {
       display: flex;
     }
 
+  .contact-text {
+      margin: 0 auto;
+  }
+
   .slider-controls  {
       display: none;
     }
