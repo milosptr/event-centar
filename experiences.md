@@ -62,8 +62,9 @@ experiences:
   headline: 'Corporate '
 - image: "/assets/images/meal-2x.jpg"
   title: 'Bespoke  '
-  first_text: No matter your style or reason for an event, our space and offering
-    is completely flexible and approach highly customised to suit your specific needs.
+  first_text: No matter your reason for an event, our space and offering are entirely
+    flexible.  No matter your style, our approach is highly customised to suit your
+    specific needs.
   second_text: "We will work closely with you to produce truly memorable and unique
     moments that you and your guests won’t easily forget. Offering experiences from
     2 up to 150 guests seated and up to 300 guests cocktail style, we invite you to
