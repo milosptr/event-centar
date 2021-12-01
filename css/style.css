@@ -255,7 +255,7 @@ header {
     width: 32px;
     height: 25px;
   }
-  
+
   .burger-line{
     height: 4px;
     border-radius: 10px;
@@ -263,7 +263,7 @@ header {
     width: 32px;
     transition: all 0.5s ease-in-out;
   }
-  
+
   .burger-line:nth-child(2){
     margin: 6px 0;
   }
@@ -758,6 +758,11 @@ header {
       height: 350px;
       padding-left: auto;
     }
+
+
+  .contact-text   {
+    margin: 0 auto;
+  }
 
 
   .team {
