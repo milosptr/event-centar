@@ -68,7 +68,7 @@ members:
     Prince to Executive Pastry Chef at Vue de Monde. Today his sweet art can be tasted
     throughout Capitol Grand, from iconic desserts served at Omnia Bistro & Bar (liquid
     centre cheesecake anyone?) to the exquisite delicacies of Yugen Tea Bar. As Executive
-    Pastry Chef at Capitol Grand his craft is delightfully enjoyed in our restaurants,
+    Pastry Chef at Capitol Grand, his craft is delightfully enjoyed in our restaurants,
     and his innovative masterpieces can be discovered on all of our event menus. '
 - name: Myron Kloppers
   position: Sommelier
