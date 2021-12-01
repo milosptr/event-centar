@@ -98,10 +98,10 @@ main_photo: "/assets/images/interior-2x.jpg"
 first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
 third_section_little_text: 'With experience spread across the globe, our team of culinary
-  experts have cut their teeth at some of the world’s most impressive dining establishments
-  including Eleven Madison Park (New York), Vue de Monde and the NGV to name a few.
+  experts have cut their teeth at some of the world’s most impressive dining establishments,
+  including Eleven Madison Park (New York), Vue de Monde and the NGV, to name a few.
   Allow Culinary Director Stephen Nairn, Executive Pastry Chef John Demetrios, Sommelier
-  Myron Kloppers and Event Manager Sherena Mulgrave bring to life your event beyond
-  your wildest imagination. '
+  Myron Kloppers and Event Manager Sherena Mulgrave to realise your event beyond your
+  wildest imagination. '
 
 ---
