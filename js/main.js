@@ -25,35 +25,35 @@
     // new SmoothScroll(target,speed,smoothe)
     new SmoothScroll(document,50,16)
   }
-  
+
   function SmoothScroll(target, speed, smooth) {
     if (target === document)
-      target = (document.scrollingElement 
-                || document.documentElement 
-                || document.body.parentNode 
-                || document.body) 
-        
+      target = (document.scrollingElement
+                || document.documentElement
+                || document.body.parentNode
+                || document.body)
+
     var moving = false
     var pos = target.scrollTop
-    var frame = target === document.body 
-                && document.documentElement 
-                ? document.documentElement 
+    var frame = target === document.body
+                && document.documentElement
+                ? document.documentElement
                 : target
-    
+
     target.addEventListener('mousewheel', scrolled, { passive: false })
     target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
-  
+
     function scrolled(e) {
       e.preventDefault();
-  
+
       var delta = normalizeWheelDelta(e)
-  
+
       pos += -delta * speed
       pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight))
-  
+
       if (!moving) update()
     }
-  
+
     function normalizeWheelDelta(e){
       if(e.detail){
         if(e.wheelDelta)
@@ -63,20 +63,20 @@
       }else
         return e.wheelDelta/120 // IE,Safari,Chrome
     }
-  
+
     function update() {
       moving = true
-      
+
       var delta = (pos - target.scrollTop) / smooth
-      
+
       target.scrollTop += delta
-      
+
       if (Math.abs(delta) > 0.5)
         requestFrame(update)
       else
         moving = false
     }
-  
+
     var requestFrame = function() { // requestAnimationFrame cross browser
       return (
         window.requestAnimationFrame ||
