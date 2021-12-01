@@ -73,14 +73,14 @@ members:
 - name: Myron Kloppers
   position: Sommelier
   image: "/assets/images/myron_kloppers_small.jpg"
-  about: 'The world is a playground for South African sommelier Myron Kloppers. Hailing
-    from one of wine''s most globally significant countries, Myron has a unique comprehension
+  about: The world is a playground for South African sommelier Myron Kloppers. Hailing
+    from one of wine's most globally significant countries, Myron has a unique understanding
     of old and new world vintages. Purchasing wine for high-end restaurants in the
     Middle East meant European wineries were his marketplace from small boutique producers
-    to fabled historic Chateauxs. Then, in a move to Australia, his passion for Australian
-    (and most notably Victorian) wines piqued. His robust industry relationships ensure
-    a wide selection of vintages are available to Capitol Grand, and his understanding
-    of our cuisine results in the perfect match every time. '
+    to fabled historic Chateaux. Then, his passion for Australian (and most notably
+    Victorian) wines piqued in a move to Australia. His robust industry relationships
+    ensure a wide selection of vintages are available to Capitol Grand, and his understanding
+    of our cuisine results in the perfect match every time.
 - name: Sherena Mulgrave
   position: Event Manager
   image: "/assets/images/sherena_mulgrave_small.jpg"
