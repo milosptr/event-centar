@@ -32,13 +32,15 @@ first_section_second_text: 'Dining with us is a 360-degree sensory experience. D
 '
 second_section_title: 'An event destination where the fare is as show-stopping as
   the space. '
-second_section_text: "Dining with us is a 360 degree sensory experience. Set amongst
-  an art gallery, the event space is beautifully enhanced by the innovative works
-  of Australian artist David Bromley. A hand-selected team of culinary experts from
-  Michelin starred restaurants throughout the world meticulously curate menus to rival
-  the finest dining establishments. Using only the most superior ingredients, our
-  space allows you to watch as they create your perfect meal while you sip on your
-  flawlessly matched wine selected by our in-house sommelier. \n"
+second_section_text: 'Dining with us is a 360-degree sensory experience. Discover
+  our event space found amongst an art gallery, beautifully enhanced by the innovative
+  works of Australian artist David Bromley. A hand-selected team of culinary experts
+  from Michelin starred restaurants throughout the world meticulously curate menus
+  to rival the finest dining establishments.  The space allows you to watch as our
+  chefs, using only superior ingredients, create your perfect meal while you sip on
+  flawlessly matched wine selected by our in-house sommelier.
+
+'
 third_section_title: Our team
 third_section_text: " Your event is in impeccably experienced and imaginative hands. "
 members:
