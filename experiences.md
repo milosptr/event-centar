@@ -53,11 +53,11 @@ experiences:
     function at Bromley Gallery & Events. \n"
   second_text: Suitable for a multitude of event types, including half, full or multi-day
     conferences, virtual or hybrid events, exhibitions, product launches, company
-    milestones or Christmas parties - look no further for your next ideal corporate
-    event venue partner. With four key spaces, each customisable based on your requirements,
-    our rooms can accommodate small intimate boardroom meetings or be transformed
-    to house large functions and conferences. Our space offers custom-made, contemporary
-    furniture and the latest technology and audiovisual equipment.
+    milestones or Christmas parties - look no further for your next ideal corporate  venue
+    partner. With four key spaces, each customisable based on your requirements, our
+    rooms can accommodate small intimate boardroom meetings or be transformed to house
+    large functions and conferences. Our space offers custom-made, contemporary furniture
+    and the latest technology and audiovisual equipment.
   button: Download the package
   headline: 'Corporate '
 - image: "/assets/images/meal-2x.jpg"
