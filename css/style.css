@@ -169,7 +169,6 @@ header {
 }
 
 .coming-soon .space-content {
-  /*display: none;*/
   opacity: 0;
   height: auto;
 }
@@ -177,7 +176,6 @@ header {
 .space-content {
   display: block;
   opacity: 100%;
-  /*height: 400px;*/
 }
 
 
@@ -204,8 +202,6 @@ header {
       -ms-transform: scale(1.08);
           transform: scale(1.08);
 }
-
-/**/
 
   .facility {
    position: relative;
@@ -314,7 +310,6 @@ header {
 }
 
  .menu-item {
-    /* padding-bottom: 5px; */
     border-bottom: 2px solid transparent;
     font-size: 28px;
     font-family: "Sohne-Leicht", sans-serif;
@@ -347,7 +342,6 @@ header {
 
   .menu-item:hover {
    color: #2B2E34;
-   /* border-bottom: 1px solid #2B2E34; */
   }
 
  .social {
@@ -558,8 +552,6 @@ header {
     border: none;
     outline: none;
     padding: 8px;
-    /*width: 100%;*/
-
     border: 1px solid #2B2E34;
     transition: 0.3s;
     }
@@ -711,7 +703,6 @@ header {
     .black-button {
       padding-left: 35px;
       padding-right: 35px;
-      /*width: 80%;*/
       }
 
     .upper-middle-font {
@@ -753,8 +744,6 @@ header {
     }
 
   .list {
-      /*padding-top: 50px;
-      padding-bottom: 50px;*/
       height: 350px;
       padding-left: auto;
     }
@@ -912,7 +901,6 @@ header {
 
   .headline {
     position: absolute;
-    /*top: 250px;*/
     right: 120px;
     width: 30%;
     }
