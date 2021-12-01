@@ -174,7 +174,7 @@ header {
 }
 
 .space-content {
-  display: block;
+  display: flex;
   opacity: 100%;
 }
 
