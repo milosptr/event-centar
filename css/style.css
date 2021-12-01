@@ -169,10 +169,6 @@ img {
   display: none;
 }
 
-/* .coming-soon {
-
-} */
-
 .coming-soon .soon {
   display: block;
 }
@@ -970,5 +966,9 @@ body {
       top: 0px;
       right: 110px;
       width: 30%;
+      }
+
+      .experience-headline {
+        bottom: 10%;
       }
     }
