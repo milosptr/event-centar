@@ -4,14 +4,14 @@
     const options = {
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
       fontSize: 30,
-      duration:15000,
+      duration:7500,
       delay: 2100,
       y:10
     }
     if(window.innerWidth <= 500) {
       options.fontSize = 20
       options.y = 60
-      options.duration = 14000
+      options.duration = 7000
     }
     new Vara("#loading-text","/fonts/font.json",[options], {
       strokeWidth: 0.7,
@@ -281,7 +281,7 @@
       if(document.querySelector('.finish') === null)
         document.getElementById('loading-screen').classList.add('finish')
         document.body.style.overflow = ''
-    }, 19000);
+    }, 10500);
   }
 
   const menuItems = document.querySelectorAll('.menu-item')
