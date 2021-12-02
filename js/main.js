@@ -22,7 +22,7 @@
 
 
   function init(){
-    // new SmoothScroll(target,speed,smoothe)
+    // new SmoothScroll(target,speed,smooth)
     new SmoothScroll(document,50,16)
   }
 
@@ -352,7 +352,21 @@
   }
 
   window.addEventListener('scroll', scrolling);
+  window.addEventListener('scroll', experiencesScroll);
   window.addEventListener('DOMContentLoaded', showAnimatedLines);
+
+//for desktop experience animation
+function experiencesScroll() {
+  console.log('i work')
+if (document.body.id === 'experience') {
+  let experienceSection = document.querySelector(".experience-box");
+  experienceSection.classList.add('experience-desktop-animation-class');
+  const exElements = [...document.querySelector('.experience-box').children]
+  exElements.forEach((c) => {
+    c.classList.remove('animate__animated')
+    })
+  }}
+
 
 
   //for page content scrolling
