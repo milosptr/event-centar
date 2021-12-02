@@ -338,7 +338,7 @@
       }
     }
 
-    if(experienceTitle && experienceFirstText && experienceSecondText && experienceDownloadBtn){
+    if(experienceTitle.length && experienceFirstText && experienceSecondText && experienceDownloadBtn){
       if(window.innerWidth > 1024){
         experienceTitle[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceFirstText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
