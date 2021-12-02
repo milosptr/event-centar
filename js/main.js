@@ -318,6 +318,7 @@
   var animatedLines = document.querySelectorAll(".inbetween-line");
   var animatedLightLines = document.querySelectorAll(".inbetween-line-light");
   const experienceTitle = document.querySelectorAll('.experience-title')
+  const experienceHeadline = document.querySelectorAll('.experience-headline')
   const experienceFirstText = document.querySelectorAll('.experience-first-text')
   const experienceSecondText = document.querySelectorAll('.experience-second-text')
   const experienceDownloadBtn = document.querySelectorAll('.experience-download-btn')
@@ -345,6 +346,7 @@
         experienceFirstText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceSecondText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceDownloadBtn[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+        experienceHeadline[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
       }
       else{
         for(let exp = 0; exp < experienceTitle.length; exp++){
@@ -352,6 +354,7 @@
           experienceFirstText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
           experienceSecondText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
           experienceDownloadBtn[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+          experienceHeadline[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         }
       }
     }
