@@ -354,6 +354,13 @@ header {
    color: #2B2E34;
   }
 
+.inner-menu-item-spaces  {
+  font-family: "Frunchy", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 22px;
+}
+
  .social {
   position: relative;
   padding-right: 50px;
@@ -775,7 +782,7 @@ header {
 
 
   .team {
-  padding-bottom: 350px;
+  padding-bottom: 400px;
     }
 
   .menu-list {
@@ -863,10 +870,21 @@ header {
   .inner-menu-item-spaces {
     transition: 0.5s;
     cursor: pointer;
+    font-size: 26px;
+    line-height: 25px;
   }
+
+  .inner-menu-item:hover {
+    color: #2B2E34;
+    font-size: 26px;
+    line-height: 28px;
+  }
+
 
   .inner-menu-item-spaces:hover {
     color: #2B2E34;
+    font-size: 26px;
+    line-height: 28px;
   }
 
   .inner-menu-item-spaces:hover .menu-line {
@@ -894,7 +912,7 @@ header {
   .headline {
     position: absolute;
     top: 0px;
-    right: 120px;
+    right: 60%;
     width: 30%;
     }
   }
@@ -993,14 +1011,13 @@ body {
     }
 
     .inner-menu-item-spaces {
-      width: 180px;
+      width: 150px;
     }
 
     .headline {
       position: absolute;
       top: 0px;
-      right: 110px;
-      width: 30%;
+      margin-left: 60%;
       }
 
       .experience-headline {
