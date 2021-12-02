@@ -692,7 +692,7 @@ header {
     }
 
     @keyframes loadTop {
-      0% { margin-top: -50px; }
+      0% { margin-top: -70px; }
       100% { margin-top: 0; }
     }
 
