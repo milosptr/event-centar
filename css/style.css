@@ -206,7 +206,7 @@ header {
   .facility {
    position: relative;
    font-size: 16px;
-    }
+  }
 
   .facility::before {
       position: absolute;
@@ -339,6 +339,13 @@ header {
     color: #2B2E34;
   }
 
+
+  .inner-menu-item {
+    font-family: "Frunchy", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+  }
 
   .menu-item:hover {
    color: #2B2E34;
@@ -830,6 +837,8 @@ header {
   .inner-menu-item {
     transition: 0.5s;
     cursor: pointer;
+    font-size: 26px;
+    line-height: 28px;
   }
 
   .menu-line {
@@ -839,6 +848,8 @@ header {
 
   .inner-menu-item:hover {
     color: #2B2E34;
+    font-size: 26px;
+    line-height: 28px;
   }
 
   .inner-menu-item:hover .menu-line {
