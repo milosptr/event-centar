@@ -357,7 +357,7 @@
 
 //for desktop experience animation
 function experiencesScroll() {
-  console.log('i work')
+  console.log('scroll')
 if (document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experience-box");
   experienceSection.classList.add('experience-desktop-animation-class');

@@ -688,7 +688,7 @@ header {
 
 
     .experience-desktop-animation-class {
-      animation: loadTop 0.9s ease-out forwards;
+      animation: loadTop 1s ease-out forwards;
     }
 
     @keyframes loadTop {
