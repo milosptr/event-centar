@@ -168,7 +168,7 @@
       experienceActiveTab = idx
     })
   categories.forEach((c,idx) => {
-    c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+    //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
     c.classList.remove('active')
     if(c.dataset.categoryName === category)
       c.classList.add('active')
@@ -235,7 +235,7 @@
 
       })
       categoriesSpaces.forEach((c,idx) => {
-        c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+        //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
         c.classList.remove('active')
         if(c.dataset.categoryName === category)
           c.classList.add('active')

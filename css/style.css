@@ -858,8 +858,6 @@ header {
 
   .inner-menu-item:hover {
     color: #2B2E34;
-    font-size: 26px;
-    line-height: 28px;
   }
 
   .inner-menu-item:hover .menu-line {
@@ -876,15 +874,11 @@ header {
 
   .inner-menu-item:hover {
     color: #2B2E34;
-    font-size: 26px;
-    line-height: 28px;
   }
 
 
   .inner-menu-item-spaces:hover {
     color: #2B2E34;
-    font-size: 26px;
-    line-height: 28px;
   }
 
   .inner-menu-item-spaces:hover .menu-line {
