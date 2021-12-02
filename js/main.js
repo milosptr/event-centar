@@ -1,4 +1,3 @@
-
 (function() {
   let experienceActiveTab = 0
   if(document.getElementById('loading-text')) {
@@ -185,7 +184,6 @@
     rooms1[2].classList.add('coming-soon')
     rooms1[3].classList.add('coming-soon')
     /*
-
     */
 
     spacesSection.addEventListener("click", function (event) {
@@ -322,7 +320,7 @@
   const experienceFirstText = document.querySelectorAll('.experience-first-text')
   const experienceSecondText = document.querySelectorAll('.experience-second-text')
   const experienceDownloadBtn = document.querySelectorAll('.experience-download-btn')
-  
+
   function scrolling() {
     for (var i = 0; i < animatedLines.length; i++) {
       var animatedLine = animatedLines[i];
