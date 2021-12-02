@@ -94,7 +94,7 @@ members:
     Golf Club, she is accustomed to serving a diverse audience. A communication professional,
     her expertise will ensure an enjoyable, smooth and successful experience as your
     event needs are realised with us at Capitol Grand. \n"
-main_photo: "/assets/images/interior-2x.jpg"
+main_photo: "/assets/images/K3A9145.jpg"
 first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
 third_section_little_text: 'With experience spread across the globe, our team of culinary

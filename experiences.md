@@ -22,7 +22,7 @@ second_section_title: WEDDINGS
 third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
-- image: "/assets/images/caviar-2x.jpg"
+- image: "/assets/images/65A5551.jpg"
   title: Private  Celebrations
   second_text: "Whether it be an intimate affair for a small group of friends or family
     or a festive occasion shared with many, our team can help create a flawless celebration.
@@ -34,7 +34,7 @@ experiences:
   first_text: "\nCelebrate a milestone or reflect on the achievement of a loved one
     in the city’s most unique venue. Whatever the cause for celebration, we have the
     space to spotlight your most treasured moments. "
-- image: "/assets/images/meal-2x.jpg"
+- image: "/assets/images/65A5517.jpg"
   title: Weddings
   first_text: |2-
 
@@ -47,7 +47,7 @@ experiences:
     dreams to life so you can savour your special day.\n\n"
   button: Download the package
   headline: Weddings
-- image: "/assets/images/interior-small-2x.jpg"
+- image: "/assets/images/65A5584.jpg"
   title: 'Corporate '
   first_text: "\nImpress your clients and wow your guests by hosting your next corporate
     function at Bromley Gallery & Events. \n"
@@ -60,7 +60,7 @@ experiences:
     and the latest technology and audiovisual equipment.
   button: Download the package
   headline: 'Corporate '
-- image: "/assets/images/meal-2x.jpg"
+- image: "/assets/images/65A5413.jpg"
   title: 'Bespoke  '
   first_text: No matter your reason for an event, our space and offering are entirely
     flexible.  No matter your style, our approach is highly customised to suit your

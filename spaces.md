@@ -44,7 +44,7 @@ section_third_text: 0 to 50 guests seated
 spaces:
 - title: 'Bromley & Co Gallery '
   headline: 'Bromley & Co Gallery '
-  image: "/assets/images/interior-small-2x.jpg"
+  image: "/assets/images/L1760322.jpg"
   text: 'Bromley & Co Gallery welcomes your next event to be situated in an operating
     art gallery. The gallery’s high ceilings command a feeling of spaciousness while
     its walls are adorned with the unmistakable works of David Bromley. Striking handmade
