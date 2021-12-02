@@ -686,6 +686,16 @@ header {
       padding-right: 10px;
     }
 
+
+    .experience-desktop-animation-class {
+      animation: loadTop 1s ease-out forwards;
+    }
+
+    @keyframes loadTop {
+      0% { margin-top: -70px; }
+      100% { margin-top: 0; }
+    }
+
     .soon {
       display: none;
       left: 25%;
