@@ -75,8 +75,11 @@ body {
   top: calc(50vh - 260px);
   height: 520px;
   opacity: 0;
-  animation: moveLogoToTop 2s 1s forwards cubic-bezier(0.25,1.05,1,1);
+  top: calc(50vh - 260px);
+  height: 520px;
   z-index: 32;
+  opacity: 0.3;
+  /* animation: moveLogoToTop 0.5s forwards cubic-bezier(0.25,1.05,1,1); */
 }
 
 
@@ -84,13 +87,10 @@ body {
   0% {
     opacity: 0;
   }
-  50% {
+  100%{
     opacity: 1;
     top: calc(50vh - 260px);
     height: 520px;
-  }
-  100%{
-    opacity: 0.3;
   }
   /* 100% {
     opacity: 1;
