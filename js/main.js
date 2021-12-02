@@ -1,5 +1,6 @@
 
 (function() {
+  let experienceActiveTab = 0
   if(document.getElementById('loading-text')) {
     const options = {
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
@@ -158,13 +159,15 @@
 
  function filterProducts(category) {
   const products = [...document.querySelector('.experiences-container').children]
-  products.forEach((p) => {
+  products.forEach((p, idx) => {
     p.style = ''
     p.classList.remove('hide')
     p.style.opacity = 1
     if(p.dataset.category !== category)
-    p.classList.add('hide')
-  })
+      p.classList.add('hide')
+    else
+      experienceActiveTab = idx
+    })
   categories.forEach((c,idx) => {
     c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
     c.classList.remove('active')
@@ -314,7 +317,11 @@
 
   var animatedLines = document.querySelectorAll(".inbetween-line");
   var animatedLightLines = document.querySelectorAll(".inbetween-line-light");
-
+  const experienceTitle = document.querySelectorAll('.experience-title')
+  const experienceFirstText = document.querySelectorAll('.experience-first-text')
+  const experienceSecondText = document.querySelectorAll('.experience-second-text')
+  const experienceDownloadBtn = document.querySelectorAll('.experience-download-btn')
+  
   function scrolling() {
     for (var i = 0; i < animatedLines.length; i++) {
       var animatedLine = animatedLines[i];
@@ -331,7 +338,24 @@
         animatedLightLine.classList.add("animated-light");
       }
     }
+
+    if(experienceTitle && experienceFirstText && experienceSecondText && experienceDownloadBtn){
+      if(window.innerWidth > 1024){
+        experienceTitle[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+        experienceFirstText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+        experienceSecondText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+        experienceDownloadBtn[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
       }
+      else{
+        for(let exp = 0; exp < experienceTitle.length; exp++){
+          experienceTitle[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+          experienceFirstText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+          experienceSecondText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+          experienceDownloadBtn[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+        }
+      }
+    }
+  }
 
   //to show animation for light lines without scrolling
 
@@ -351,7 +375,11 @@
       return ((top >= 0) && (bottom <= window.innerHeight));
   }
 
-  window.addEventListener('scroll', scrolling);
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      window.addEventListener('scroll', scrolling);
+    }, 10)
+  })
   window.addEventListener('DOMContentLoaded', showAnimatedLines);
 
 
