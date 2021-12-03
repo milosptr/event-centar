@@ -22,7 +22,7 @@ second_section_title: WEDDINGS
 third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
-- image: "/assets/images/65A5551.jpg"
+- image: "/assets/images/private.jpeg"
   title: Private  Celebrations
   second_text: "Whether it be an intimate affair for a small group of friends or family
     or a festive occasion shared with many, our team can help create a flawless celebration.
@@ -60,7 +60,7 @@ experiences:
     and the latest technology and audiovisual equipment.
   button: Download the package
   headline: 'Corporate '
-- image: "/assets/images/65A5413.jpg"
+- image: "/assets/images/bespoke.jpeg"
   title: 'Bespoke  '
   first_text: No matter your reason for an event, our space and offering are entirely
     flexible.  No matter your style, our approach is highly customised to suit your

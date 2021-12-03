@@ -5,9 +5,9 @@
 <main class="pt-8 pb-16 lg:pb-0 lg:pt-0">
   <div class="wrapper">
     <h1 class='upper-big-font my-12 lg:mb-24 lg:mt-0 text-center animate__animated animate__fadeInUp animate__slow'>
-      {{page.big_title}}
+    {{page.big_title}}
     </h1>
-    <ul class='experiences-menu w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeInUp animate__slow'>
+    <ul class='experiences-menu w-full justify-between main-color pb-4 animate__animated animate__fadeInUp animate__slow'>
         {% for experience in page.experiences %}
         <li class="inner-menu-item" data-category-name="{{ experience.title | slugify }}">
           {{experience.title}}

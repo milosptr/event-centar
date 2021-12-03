@@ -185,6 +185,10 @@ header {
   opacity: 100%;
 }
 
+.facility {
+  margin-bottom: 35px;
+}
+
 
 .soon {
   display: none;
@@ -225,7 +229,9 @@ header {
       height: 12px;
       width: 12px;
       }
-
+.list {
+  max-height: 350px;
+}
 
   .center {
     margin: 0 auto;
@@ -747,7 +753,7 @@ header {
       font-family: "Stylish", sans-serif;
       font-size: 210px;
       line-height: 140px;
-      bottom: 15%;
+      bottom: 10%;
       left: 10%;
     }
 
@@ -858,6 +864,14 @@ header {
   .menu-line {
     height: 1px;
     background-color: transparent;
+  }
+
+  .facility {
+    margin-bottom: 50px;
+  }
+
+  .facility-box {
+    width: fit-content;
   }
 
   .inner-menu-item:hover {
@@ -1019,6 +1033,8 @@ body {
       }
 
       .experience-headline {
-        bottom: 10%;
+        bottom: 8%;
+        font-size: 190px;
+        line-height: 120px;
       }
     }
