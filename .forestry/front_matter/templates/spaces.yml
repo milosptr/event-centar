@@ -120,5 +120,10 @@ fields:
   config:
     required: false
   label: facility8
+- name: facility9
+  type: text
+  config:
+    required: false
+  label: facility9
 pages:
 - spaces.md
