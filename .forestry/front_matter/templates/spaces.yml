@@ -105,5 +105,20 @@ fields:
   config:
     required: false
   label: facility5
+- name: facility6
+  type: text
+  config:
+    required: false
+  label: facility6
+- name: facility7
+  type: text
+  config:
+    required: false
+  label: facility7
+- name: facility8
+  type: text
+  config:
+    required: false
+  label: facility8
 pages:
 - spaces.md
