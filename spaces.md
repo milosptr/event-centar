@@ -71,5 +71,7 @@ spaces:
   text: "\n\n"
   amount1: ''
   amount2: ''
+space_facilities:
+  name: name1
 
 ---
