@@ -22,7 +22,7 @@ second_section_title: WEDDINGS
 third_section_title: CORPORATE
 fourth_section_title: bespoke
 experiences:
-- image: "/assets/images/65A5551.jpg"
+- image: "/assets/images/private.jpeg"
   title: Private  Celebrations
   second_text: "Whether it be an intimate affair for a small group of friends or family
     or a festive occasion shared with many, our team can help create a flawless celebration.
