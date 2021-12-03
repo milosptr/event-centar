@@ -79,12 +79,6 @@ fields:
 - name: space_facilities
   type: field_group
   config: {}
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
   label: space facilities
 pages:
 - spaces.md
