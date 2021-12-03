@@ -80,5 +80,10 @@ fields:
   type: field_group
   config: {}
   label: space facilities
+- name: facility1
+  type: text
+  config:
+    required: false
+  label: facility1
 pages:
 - spaces.md
