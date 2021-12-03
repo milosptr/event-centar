@@ -124,6 +124,10 @@ body {
 #skip-loading svg {
   animation: skip 1s 1s infinite ease-in-out;
 }
+#skip-loading {
+  font-family: 'Frunchy';
+  font-size: 1.75rem;
+}
 
 @keyframes skip {
   0% {
