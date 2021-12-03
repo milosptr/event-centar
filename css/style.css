@@ -979,62 +979,70 @@ header {
 
   }
 
-  @media (min-width: 1440px) {
+@media (min-width: 1440px) {
 
-body {
-  padding-right: 100px;
-  padding-left: 100px;
+  body {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .team-member-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .upper-font {
+    font-family: "Frunchy", sans-serif;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 42px;
+    }
+
+  .upper-little-font {
+    font-family: Frunchy, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .menu {
+    background-size: 13%;
+  }
+
+  .team-member:nth-child(even) {
+    margin-left: 60%;
+  }
+
+  .big-font {
+    font-size: 248px;
+    line-height: 290px;
+  }
+
+  .even {
+    margin-left: 60%;
+  }
+
+  .inner-menu-item-spaces {
+    width: 150px;
+  }
+
+  .headline {
+    position: absolute;
+    top: 0px;
+    margin-left: 60%;
+  }
+
+  .experience-headline {
+    bottom: 12%;
+    font-size: 190px;
+    line-height: 120px;
+  }
+
+  .experience-headline-extra-bottom{
+    bottom: 15%;
+  }
+
+  .experience-second-text p{
+    min-height: 330px;
+  }
 }
-
-.team-member-wrapper {
-  display: flex;
-  justify-content: space-between;
- }
-
-    .upper-font {
-      font-family: "Frunchy", sans-serif;
-      text-transform: uppercase;
-      font-size: 44px;
-      line-height: 42px;
-      }
-
-    .upper-little-font {
-      font-family: Frunchy, sans-serif;
-      text-transform: uppercase;
-      font-size: 32px;
-      line-height: 30px;
-    }
-
-    .menu {
-      background-size: 13%;
-    }
-
-    .team-member:nth-child(even) {
-      margin-left: 60%;
-    }
-
-    .big-font {
-      font-size: 248px;
-      line-height: 290px;
-       }
-
-    .even {
-      margin-left: 60%;
-    }
-
-    .inner-menu-item-spaces {
-      width: 150px;
-    }
-
-    .headline {
-      position: absolute;
-      top: 0px;
-      margin-left: 60%;
-      }
-
-      .experience-headline {
-        bottom: 8%;
-        font-size: 190px;
-        line-height: 120px;
-      }
-    }
