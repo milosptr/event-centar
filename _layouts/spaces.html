@@ -10,7 +10,7 @@
     <p class="hidden lg:block my-44 center little-font max-w-lg text-left animate__animated animate__fadeInUp animate__slow">
       {{page.space_text}}
     </p>
-    <ul class='mt-20 hidden lg:flex w-full justify-between upper-little-font main-color pb-4 animate__animated animate__fadeIn animate__slow'>
+    <ul class='mt-20 hidden lg:flex w-full justify-between main-color pb-4 animate__animated animate__fadeIn animate__slow'>
       {% for space in page.spaces %}
       <li class="inner-menu-item-spaces mr-8 max-w-sm xl:max-w-lg xl:mr-8" cursor-pointer
         data-category-name="{{ space.title | slugify }}">{{space.title}}
@@ -58,10 +58,28 @@
       <h2>Event space facilities</h2>
     </div>
     <div class="inbetween-line"></div>
-    <ul class='wrapper py-8 lg:pt-16 list section flex flex-col flex-wrap'>
+    <ul class='lg:hidden wrapper py-8 lg:pt-16 list section flex flex-col flex-wrap'>
       {% for facility in page.facilities %}
-        <li class="reveal-top facility my-5 lg:my-7">{{facility}}</li>
+        <li class="reveal-top facility lg:flex">{{facility}}</li>
       {% endfor %}
+    </ul>
+    <ul class='hidden lg:flex wrapper py-8 lg:pt-16 list section flex-wrap lg:flex lg:justify-between'>
+      <div class=' facility-box'>
+        <li class="reveal-top facility ">{{page.facility1}}</li>
+        <li class="reveal-top facility ">{{page.facility2}}</li>
+        <li class="reveal-top facility">{{page.facility3}}</li>
+        </div>
+        <div class="facility-box">
+        <li class="reveal-top facility ">{{page.facility4}}</li>
+        <li class="reveal-top facility ">{{page.facility5}}</li>
+        <li class="reveal-top facility ">{{page.facility6}}</li>
+        </div>
+        <div  class="facility-box">
+        <li class="reveal-top facility ">{{page.facility7}}</li>
+        <li class="reveal-top facility ">{{page.facility8}}</li>
+        <li class="reveal-top facility ">{{page.facility9}}</li>
+        </div>
+
     </ul>
     <div class="lg:hidden pb-8">
       <a href="tel:0380808080">

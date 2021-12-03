@@ -301,6 +301,13 @@
       (index % 2 == 0) ?item.classList.add('odd'):item.classList.add('even')
   });
 
+
+  /*var facilities = document.querySelectorAll('.facility');
+  console.log(facilities)
+
+  facilities[6].classList.add('facility--odd');*/
+
+
   const navMain = document.querySelector('.menu');
   const navToggle = document.querySelector('.nav-toggle');
 
