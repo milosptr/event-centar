@@ -60,7 +60,7 @@ experiences:
     and the latest technology and audiovisual equipment.
   button: Download the package
   headline: 'Corporate '
-- image: "/assets/images/65A5413.jpg"
+- image: "/assets/images/bespoke.jpeg"
   title: 'Bespoke  '
   first_text: No matter your reason for an event, our space and offering are entirely
     flexible.  No matter your style, our approach is highly customised to suit your
