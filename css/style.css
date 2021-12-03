@@ -964,6 +964,10 @@ header {
       font-size: 140px;
       line-height: 100px;
     }
+
+    .experience-headline {
+     bottom: 8%;
+    }
   }
 
   @media (min-width: 1280px) and (max-width: 1440px) {
@@ -1034,8 +1038,8 @@ header {
 
   .experience-headline {
     bottom: 12%;
-    font-size: 190px;
-    line-height: 120px;
+    font-size: 220px;
+    line-height: 140px;
   }
 
   .experience-headline-extra-bottom{
