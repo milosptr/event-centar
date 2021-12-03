@@ -2,7 +2,7 @@
 layout: about
 title: About
 big_title: Bromley & Co. Gallery
-picture: "/assets/images/inter2.jpeg"
+picture: "/assets/images/L1760353.jpg"
 big_text: You will be immersed in a visual dining experience among the artwork of
   Australia’s own David Bromley.
 text: 'Born in 1960 in Sheffield, England, David Bromley immigrated to Australia with
