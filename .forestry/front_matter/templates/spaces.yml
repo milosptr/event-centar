@@ -95,5 +95,10 @@ fields:
   config:
     required: false
   label: facility3
+- name: facility4
+  type: text
+  config:
+    required: false
+  label: facility4
 pages:
 - spaces.md
