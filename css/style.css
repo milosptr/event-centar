@@ -968,6 +968,10 @@ header {
     .experience-headline {
      bottom: 8%;
     }
+
+    .dining-box {
+      margin-left: calc(10% + 20px);
+    }
   }
 
   @media (min-width: 1280px) and (max-width: 1440px) {
@@ -1034,6 +1038,7 @@ header {
     position: absolute;
     top: 0px;
     margin-left: 60%;
+    left: 0;
   }
 
   .experience-headline {
