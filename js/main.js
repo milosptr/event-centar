@@ -269,17 +269,23 @@
 
 
 // Loading Screen Animation
+//loading-animated-text
   if(document.getElementById('loading-screen')) {
     let tl = gsap.timeline()
     tl.from("#loading-animated-text path", { duration: 2, delay: 1.8, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
     document.getElementById('skip-loading').addEventListener('click', (e) => {
       document.getElementById('loading-screen').classList.add('finish')
+      document.getElementById('loading-text').classList.add('hide')
+      //document.getElementById('loading-screen').classList.add('fadeOut')
       document.body.style.overflow = ''
     })
     setTimeout(() => {
       if(document.querySelector('.finish') === null)
+      //if(document.querySelector('.fadeOut') === null)
         document.getElementById('loading-screen').classList.add('finish')
+        document.getElementById('loading-text').classList.add('hide')
+        //document.getElementById('loading-screen').classList.add('fadeOut')
         document.body.style.overflow = ''
     }, 10500);
   }
@@ -300,12 +306,6 @@
   members.forEach((item, index) => {
       (index % 2 == 0) ?item.classList.add('odd'):item.classList.add('even')
   });
-
-
-  /*var facilities = document.querySelectorAll('.facility');
-  console.log(facilities)
-
-  facilities[6].classList.add('facility--odd');*/
 
 
   const navMain = document.querySelector('.menu');

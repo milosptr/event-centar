@@ -66,9 +66,28 @@ body {
   transition: transform 8s cubic-bezier(0.25,1.05,1,1);
 }
 
-#loading-screen.finish {
+/*#loading-screen.finish {
   transform: translateX(-9999px);
+}*/
+
+#loading-screen.finish {
+  opacity: 0;
+  animation:  fadeOut 3s forwards cubic-bezier(0.25,1.05,1,1);
 }
+
+#loading-animated-text.finish {
+  opacity: 0;
+  animation:  fadeOut 0.1s forwards cubic-bezier(0.25,1.05,1,1);
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  }
 
 #loading-screen #loading-logo-svg {
   position: absolute;
