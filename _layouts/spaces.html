@@ -23,7 +23,7 @@
   <div class='spaces-container flex flex-wrap justify-between flex-col'>
     {% for space in page.spaces %}
     <div class="lg:py-20 wrapper" data-category={{ space.title | slugify}}>
-      <h3 class="animate__animated animate__fadeInUp animate__slower w-full upper-space-title lg:hidden py-4 upper-font main-color">
+      <h3 class="animate__animated animate__fadeInUp animate__slow w-full upper-space-title lg:hidden py-4 upper-font main-color"><!--animate__slower -->
         {{space.title}}
       </h3>
       <div class="hidden relative lg:flex lg:justify-between lg:flex-row-reverse">
@@ -83,10 +83,10 @@
     </ul>
     <div class="lg:hidden pb-8">
       <a href="tel:0380808080">
-      <button class="animate__animated animate__fadeInUp animate__slower button little-font w-full mb-4">call us</button>
+      <button class="animate__animated animate__fadeInUp animate__slow button little-font w-full mb-4">call us</button><!--animate__slow -->
       </a>
       <a href="mailto:events@lkhospitality.com.au">
-      <button class="animate__animated animate__fadeInUp animate__slower black-button little-font w-full">email us</button>
+      <button class="animate__animated animate__fadeInUp animate__slow black-button little-font w-full">email us</button><!--animate__slow -->
       </a>
     </div>
   </div>

@@ -23,10 +23,10 @@
       <h3 class="w-full upper-experience-title lg:hidden py-4 upper-font main-color">{{experience.title}}</h3>
       <div class="hidden lg:block">
         <img
-          class="pb-12 lg:pb-0 w-full animate__animated animate__fadeIn animate__slower experience-image"
+          class="pb-12 lg:pb-0 w-full animate__animated animate__fadeIn animate__slow experience-image"
           src="{{experience.image}}"
           alt="experience photo"
-        >
+        ><!--animate__slower -->
         <!-- {% assign titleSize = variable.size %} -->
         {% if experience.headline.size > 15 %}
         <h2 class="experience-headline w-1/3" >
