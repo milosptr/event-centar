@@ -276,6 +276,9 @@ if(document.getElementById('loading-screen')) {
   document.getElementById('skip-loading').addEventListener('click', (e) => {
     document.getElementById('loading-screen').classList.add('finish')
     document.getElementById('loading-text').classList.add('hide')
+    setTimeout(() => {
+      document.getElementById('loading-screen').remove()
+    }, 400)
     //document.getElementById('loading-screen').classList.add('fadeOut')
     document.body.style.overflow = ''
   })
@@ -284,6 +287,9 @@ if(document.getElementById('loading-screen')) {
     //if(document.querySelector('.fadeOut') === null)
       document.getElementById('loading-screen').classList.add('finish')
       document.getElementById('loading-text').classList.add('hide')
+      setTimeout(() => {
+        document.getElementById('loading-screen').remove()
+      }, 400)
       //document.getElementById('loading-screen').classList.add('fadeOut')
       document.body.style.overflow = ''
   }, 10500);
