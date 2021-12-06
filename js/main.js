@@ -269,7 +269,6 @@
 
 
 // Loading Screen Animation
-//loading-animated-text
   if(document.getElementById('loading-screen')) {
     let tl = gsap.timeline()
     tl.from("#loading-animated-text path", { duration: 2, delay: 1.8, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
