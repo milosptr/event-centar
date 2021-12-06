@@ -422,7 +422,7 @@ if (document.body.id === 'experience') {
   if(document.querySelector('.reveal-top'))
     ScrollReveal().reveal('.reveal-top', { delay: 300, distance: '30px', duration: 1000, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
   if(document.querySelector('.reveal-top-fast'))
-    ScrollReveal().reveal('.reveal-top-fast', { delay: 100, distance: '100px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
+    ScrollReveal().reveal('.reveal-top-fast', { delay: 200, distance: '50px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
   if(document.querySelector('.reveal-top-delay'))
     ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
 
