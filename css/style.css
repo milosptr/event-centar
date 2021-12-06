@@ -714,6 +714,12 @@ header {
     }
 
 
+    .gallery-button {
+      bottom: 0;
+      position: absolute;
+    }
+
+
     .experience-desktop-animation-class {
       animation: loadTop 1s ease-out forwards;
     }
