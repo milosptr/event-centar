@@ -263,31 +263,31 @@
       });
     }
     else{
-      document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('reveal-top'))
+      document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('reveal-top-fast'))
     }
   }
 
 
 // Loading Screen Animation
-  if(document.getElementById('loading-screen')) {
-    let tl = gsap.timeline()
-    tl.from("#loading-animated-text path", { duration: 2, delay: 1.8, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+if(document.getElementById('loading-screen')) {
+  let tl = gsap.timeline()
+  tl.from("#loading-animated-text path", { duration: 2, delay: 1.8, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
-    document.getElementById('skip-loading').addEventListener('click', (e) => {
+  document.getElementById('skip-loading').addEventListener('click', (e) => {
+    document.getElementById('loading-screen').classList.add('finish')
+    document.getElementById('loading-text').classList.add('hide')
+    //document.getElementById('loading-screen').classList.add('fadeOut')
+    document.body.style.overflow = ''
+  })
+  setTimeout(() => {
+    if(document.querySelector('.finish') === null)
+    //if(document.querySelector('.fadeOut') === null)
       document.getElementById('loading-screen').classList.add('finish')
       document.getElementById('loading-text').classList.add('hide')
       //document.getElementById('loading-screen').classList.add('fadeOut')
       document.body.style.overflow = ''
-    })
-    setTimeout(() => {
-      if(document.querySelector('.finish') === null)
-      //if(document.querySelector('.fadeOut') === null)
-        document.getElementById('loading-screen').classList.add('finish')
-        document.getElementById('loading-text').classList.add('hide')
-        //document.getElementById('loading-screen').classList.add('fadeOut')
-        document.body.style.overflow = ''
-    }, 10500);
-  }
+  }, 10500);
+}
 
   const menuItems = document.querySelectorAll('.menu-item')
   menuItems.forEach((m, idx) => {
@@ -421,6 +421,8 @@ if (document.body.id === 'experience') {
     ScrollReveal().reveal('.reveal-right', { distance: '30px', duration: 700, origin: 'right', easing: 'cubic-bezier(0.3,.62,1,1)' });
   if(document.querySelector('.reveal-top'))
     ScrollReveal().reveal('.reveal-top', { delay: 300, distance: '30px', duration: 1000, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
+  if(document.querySelector('.reveal-top-fast'))
+    ScrollReveal().reveal('.reveal-top-fast', { delay: 100, distance: '100px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
   if(document.querySelector('.reveal-top-delay'))
     ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
 
