@@ -32,8 +32,8 @@ experiences:
   button: Download the package
   headline: Private  Celebrations
   first_text: "\nCelebrate a milestone or reflect on the achievement of a loved one
-    in the city’s most unique venue. Whatever the cause for celebration, we have the
-    space to spotlight your most treasured moments. "
+    in the one of the city’s most unique venues. Whatever the cause for celebration,
+    we have the space to spotlight your most treasured moments. "
 - image: "/assets/images/65A5517.jpg"
   title: Weddings
   first_text: |2-
