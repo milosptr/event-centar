@@ -79,7 +79,7 @@ html {
 }*/
 
 #loading-screen.finish {
-  animation: fadeOut 4s ease-out;
+  animation: fadeOut 3.2s ease-out;
   opacity: 0;
 }
 
@@ -89,22 +89,22 @@ html {
 }
 
 
-/*@keyframes fadeOut {
+@keyframes fadeOut {
   0% {
     opacity: 100%;
   }
-  50%{
-    opacity: 60%;
-  }
+  /*50%{
+    opacity: 50%;
+  }*/
   90%{
-    opacity: 1%;
+    opacity: 5%;
   }
   100%{
     opacity: 0;
   }
-  }*/
+  }
 
-  @keyframes fadeOut {
+  /*@keyframes fadeOut {
     0% {
       opacity: 100%;
     }
@@ -117,7 +117,7 @@ html {
     100%{
       opacity: 0;
     }
-    }
+    }*/
 
 #loading-screen #loading-logo-svg {
   position: absolute;
