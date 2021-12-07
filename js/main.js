@@ -432,6 +432,12 @@ if (document.body.id === 'experience') {
   if(document.querySelector('.reveal-top-delay'))
     ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
 
+  bodymovin.loadAnimation({
+    container: document.getElementById('welcome'),
+    rederer: 'svg',
+    loop: false,
+    path: '../assets/homepageWelcome.json'
+  })
 
   document.body.addEventListener('onload', init())
 })()
