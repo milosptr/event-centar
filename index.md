@@ -13,14 +13,13 @@ first_section_first_title: " Elevate your next event in the splendour of Capitol
   stunning event spaces. "
 first_section_second_title: " An event destination where the fare is as show-stopping
   as the space. "
-first_section_first_text: With a capacity of 20 to 300 people, our four distinct spaces
+first_section_first_text: With a capacity of 2 to 300 people, our four distinct spaces
   can be used independently or connected for one seamless event. Impress your guests
   surrounded by opulent light fixtures and the original art pieces that adorn our
   walls. Vast floor to ceiling windows command awe, capturing natural light and uninterrupted
-  views. An oversized service bar demands attention, while a window peering into the
-  kitchen allows for a ringside seat to the theatre and craftsmanship of our culinary
-  artists. Be it a wedding, conference, private dining or birthday party; we have
-  a space to suit your every need.
+  views. A window peering into the kitchen allows for a ringside seat to the theatre
+  and craftsmanship of our culinary artists. Be it a wedding, conference, private
+  dining or birthday party; we have a space to suit your every need.
 first_section_second_text: 'Dining with us is a 360-degree sensory experience. Discover
   our event space found amongst an art gallery, beautifully enhanced by the innovative
   works of Australian artist David Bromley. A hand-selected team of culinary experts
@@ -61,17 +60,18 @@ members:
 - name: John Demetrios
   position: 'Executive Pastry Chef '
   image: "/assets/images/john_demetrios_small.jpg"
-  about: 'Born in Melbourne, John Demetrios is one of the country’s greatest pastry
-    chefs. His culinary journey took him to the Michelin starred kitchens of London
-    and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous Knightsbridge
-    restaurant. He spent an additional few years in northern Europe at two Michelin
-    starred establishments in Sweden and Amsterdam before returning home. In Australia,
-    his CV reads like the who''s who of restaurants from local institution Circa The
-    Prince to Executive Pastry Chef at Vue de Monde. Today his sweet art can be tasted
-    throughout Capitol Grand, from iconic desserts served at Omnia Bistro & Bar (liquid
-    centre cheesecake anyone?) to the exquisite delicacies of Yugen Tea Bar. As Executive
-    Pastry Chef at Capitol Grand, his craft is delightfully enjoyed in our restaurants,
-    and his innovative masterpieces can be discovered on all of our event menus. '
+  about: 'Born in Melbourne, John Demetrios is one of the country’s most creative
+    pastry chefs. His culinary journey took him to the Michelin starred kitchens of
+    London and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous
+    Knightsbridge restaurant. He spent an additional few years in northern Europe
+    at two Michelin starred establishments in Sweden and Amsterdam before returning
+    home. In Australia, his CV reads like the who''s who of restaurants from local
+    institution Circa The Prince to Executive Pastry Chef at Vue de Monde. Today his
+    sweet art can be tasted throughout Capitol Grand, from iconic desserts served
+    at Omnia Bistro & Bar (liquid centre cheesecake anyone?) to the exquisite delicacies
+    of Yugen Tea Bar. As Executive Pastry Chef at Capitol Grand, his craft is delightfully
+    enjoyed in our restaurants, and his innovative masterpieces can be discovered
+    on all of our event menus. '
 - name: Myron Kloppers
   position: Sommelier
   image: "/assets/images/myron_kloppers_small.jpg"
@@ -80,7 +80,7 @@ members:
     of old and new world vintages. Purchasing wine for high-end restaurants in the
     Middle East meant European wineries were his marketplace from small boutique producers
     to fabled historic Chateaux. Then, his passion for Australian (and most notably
-    Victorian) wines piqued in a move to Australia. His robust industry relationships
+    Victorian) wines piqued a move to Australia. His robust industry relationships
     ensure a wide selection of vintages are available to Capitol Grand, and his understanding
     of our cuisine results in the perfect match every time.
 - name: Sherena Mulgrave
@@ -100,8 +100,7 @@ second_section_photo: "/assets/images/caviar-2x.jpg"
 third_section_little_text: 'With experience spread across the globe, our team of culinary
   experts have cut their teeth at some of the world’s most impressive dining establishments,
   including Eleven Madison Park (New York), Vue de Monde and the NGV, to name a few.
-  Allow Culinary Director Stephen Nairn, Executive Pastry Chef John Demetrios, Sommelier
-  Myron Kloppers and Event Manager Sherena Mulgrave to realise your event beyond your
-  wildest imagination. '
+  Allow our creative and thoughtful team to to realise your event beyond your wildest
+  imagination. '
 
 ---

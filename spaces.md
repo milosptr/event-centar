@@ -8,14 +8,12 @@ space_text: "From weddings, corporate events, media and product launches, birthd
   parties, private dinners and anything in between, our imaginative and versatile
   spaces can be transformed to offer a spectacular setting for any occasion. \n\nThe
   venue’s breathtaking decor features striking light fixtures and walls adorned with
-  original art by David Bromley. An oversized service bar demands your attention (and
-  favourite cocktail order), while a window peering into the kitchen allows for a
-  ringside seat to ignite your senses as you witness culinary masters at work. Vast
-  floor to ceiling windows are a magnet for natural light and invite uninterrupted
-  views of the world outside to dazzle your guests.\n\nChoose from four incredible
-  spaces to enjoy, independently or connected, for one seamless event. Our creative
-  team will work with you to plan and execute an event as unique and memorable as
-  you. \n\n"
+  original art by David Bromley. A window peering into the kitchen allows for a ringside
+  seat to ignite your senses as you witness culinary masters at work. Vast floor to
+  ceiling windows are a magnet for natural light and invite uninterrupted views of
+  the world outside to dazzle your guests.\n\nChoose from four incredible spaces to
+  enjoy, independently or connected, for one seamless event. Our creative team will
+  work with you to plan and execute an event as unique and memorable as you. \n\n"
 first_section_title: Bromley & Co  Gallery
 second_section_title: The Kitchen  Table
 third_section_title: The Corner  Room
@@ -23,7 +21,6 @@ fourth_section_title: The Window  Room
 fifth_section_title: The Grand  Room
 section_picture: "/assets/images/interior-small-2x.jpg"
 facilities:
-- Parking
 - Wifi
 - AV Hire
 - Bar Tab
@@ -73,7 +70,7 @@ spaces:
   amount2: ''
 space_facilities:
   name: name1
-facility1: " Parking"
+facility1: DIY Theming
 facility2: Wifi
 facility3: AV Hire
 facility4: Bar Tab
@@ -81,6 +78,6 @@ facility5: Dietary Equipment
 facility6: Dissability Access
 facility7: External Music
 facility8: Microphone
-facility9: DIY Theming
+facility9: ''
 
 ---

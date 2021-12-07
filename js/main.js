@@ -5,7 +5,8 @@
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
       fontSize: 30,
       duration:7500,
-      delay: 2100,
+      //delay: 2100,
+      delay: 1100,
       y:10
     }
     if(window.innerWidth <= 500) {
@@ -183,8 +184,6 @@
     rooms1[1].classList.add('coming-soon')
     rooms1[2].classList.add('coming-soon')
     rooms1[3].classList.add('coming-soon')
-    /*
-    */
 
     spacesSection.addEventListener("click", function (event) {
       let target = event.target;
@@ -233,9 +232,9 @@
         if (p.dataset.category !== 'bromley-co-gallery')
         p.classList.add('coming-soon')
 
+
       })
       categoriesSpaces.forEach((c,idx) => {
-        //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
         c.classList.remove('active')
         if(c.dataset.categoryName === category)
           c.classList.add('active')
@@ -271,26 +270,29 @@
 // Loading Screen Animation
 if(document.getElementById('loading-screen')) {
   let tl = gsap.timeline()
-  tl.from("#loading-animated-text path", { duration: 2, delay: 1.1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+  tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
   document.getElementById('skip-loading').addEventListener('click', (e) => {
     document.getElementById('loading-screen').classList.add('finish')
-    document.getElementById('loading-text').classList.add('hide')
+    document.getElementById('loading-text').classList.add('finish')
+    document.getElementById('homepage-first-img').classList.add('animate__animated')
+    document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+    document.getElementById('homepage-first-img').classList.add('animate__slower')
     setTimeout(() => {
       document.getElementById('loading-screen').remove()
-    }, 400)
-    //document.getElementById('loading-screen').classList.add('fadeOut')
+    }, 3000)
     document.body.style.overflow = ''
   })
   setTimeout(() => {
     if(document.querySelector('.finish') === null)
-    //if(document.querySelector('.fadeOut') === null)
       document.getElementById('loading-screen').classList.add('finish')
-      document.getElementById('loading-text').classList.add('hide')
+      document.getElementById('loading-text').classList.add('finish')
+      document.getElementById('homepage-first-img').classList.add('animate__animated')
+      document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+      document.getElementById('homepage-first-img').classList.add('animate__slower')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 400)
-      //document.getElementById('loading-screen').classList.add('fadeOut')
+      }, 4000)
       document.body.style.overflow = ''
   }, 10500);
 }
@@ -397,7 +399,6 @@ if(document.getElementById('loading-screen')) {
 
 //for desktop experience animation
 function experiencesScroll() {
-  console.log('scroll')
 if (document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experience-box");
   experienceSection.classList.add('experience-desktop-animation-class');

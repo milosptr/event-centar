@@ -9,14 +9,14 @@ if(window.location.search !== '?a=hidden')
 
 <main class="pt-20 lg:pt-0">
   <div class="wrapper">
-  <h1 class="lg:hidden big-font mb-20 lg:mb-48 xl:mt-16 animate__animated animate__fadeInUp animate__slow">
+  <h1 id="homepage-title" class="lg:hidden big-font mb-20 lg:mb-36"><!--xl:mt-16 --animate__animated animate__slower-->
     {{ page.big_title }}
   </h1>
   <h1 id="welcome" class="hidden lg:block lg:mb-48 xl:mt-16 mx-auto" style="width: 1080px;">
   </h1>
 
   <img src="{{page.main_photo}}" alt="interior picture"
-  class="animate__animated animate__fadeInUp animate__slow w-full mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32"><!--animate__slower-->
+  id="homepage-first-img" class="w-full mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
   <p class="reveal-top upper-font mb-8 sm:mb-12 lg:mb-32 main-color">
     {{page.description}} </p>
     <div class="xl:flex xl:justify-between mb-8 lg:mb-32">
