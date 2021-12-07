@@ -79,7 +79,7 @@ html {
 }*/
 
 #loading-screen.finish {
-  animation: fadeOut 3.2s ease-out;
+  animation: fadeOut 3s ease-out;
   opacity: 0;
 }
 
