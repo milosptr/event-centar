@@ -70,7 +70,7 @@ spaces:
   amount2: ''
 space_facilities:
   name: name1
-facility1: ''
+facility1: DIY Theming
 facility2: Wifi
 facility3: AV Hire
 facility4: Bar Tab
@@ -78,6 +78,6 @@ facility5: Dietary Equipment
 facility6: Dissability Access
 facility7: External Music
 facility8: Microphone
-facility9: DIY Theming
+facility9: ''
 
 ---
