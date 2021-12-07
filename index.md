@@ -80,7 +80,7 @@ members:
     of old and new world vintages. Purchasing wine for high-end restaurants in the
     Middle East meant European wineries were his marketplace from small boutique producers
     to fabled historic Chateaux. Then, his passion for Australian (and most notably
-    Victorian) wines piqued in a move to Australia. His robust industry relationships
+    Victorian) wines piqued a move to Australia. His robust industry relationships
     ensure a wide selection of vintages are available to Capitol Grand, and his understanding
     of our cuisine results in the perfect match every time.
 - name: Sherena Mulgrave
