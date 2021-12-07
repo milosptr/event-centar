@@ -17,10 +17,9 @@ first_section_first_text: With a capacity of 2 to 300 people, our four distinct 
   can be used independently or connected for one seamless event. Impress your guests
   surrounded by opulent light fixtures and the original art pieces that adorn our
   walls. Vast floor to ceiling windows command awe, capturing natural light and uninterrupted
-  views. An oversized service bar demands attention, while a window peering into the
-  kitchen allows for a ringside seat to the theatre and craftsmanship of our culinary
-  artists. Be it a wedding, conference, private dining or birthday party; we have
-  a space to suit your every need.
+  views. A window peering into the kitchen allows for a ringside seat to the theatre
+  and craftsmanship of our culinary artists. Be it a wedding, conference, private
+  dining or birthday party; we have a space to suit your every need.
 first_section_second_text: 'Dining with us is a 360-degree sensory experience. Discover
   our event space found amongst an art gallery, beautifully enhanced by the innovative
   works of Australian artist David Bromley. A hand-selected team of culinary experts
