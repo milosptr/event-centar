@@ -183,8 +183,6 @@
     rooms1[1].classList.add('coming-soon')
     rooms1[2].classList.add('coming-soon')
     rooms1[3].classList.add('coming-soon')
-    /*
-    */
 
     spacesSection.addEventListener("click", function (event) {
       let target = event.target;
@@ -274,8 +272,6 @@ if(document.getElementById('loading-screen')) {
   tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
   document.getElementById('skip-loading').addEventListener('click', (e) => {
-    console.log('click')
-    console.log( document.getElementById('loading-screen'))
     document.getElementById('loading-screen').classList.add('finish')
     document.getElementById('loading-text').classList.add('finish')
     document.getElementById('homepage-first-img').classList.add('animate__animated')
@@ -402,7 +398,6 @@ if(document.getElementById('loading-screen')) {
 
 //for desktop experience animation
 function experiencesScroll() {
-  console.log('scroll')
 if (document.body.id === 'experience') {
   let experienceSection = document.querySelector(".experience-box");
   experienceSection.classList.add('experience-desktop-animation-class');
