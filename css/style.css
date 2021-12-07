@@ -223,7 +223,13 @@ header {
 .coming-soon .space-content {
   opacity: 0;
   height: auto;
+
 }
+
+.coming-soon img {
+  display: none;
+}
+
 
 .space-content {
   display: flex;

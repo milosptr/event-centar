@@ -232,6 +232,7 @@
         if (p.dataset.category !== 'bromley-co-gallery')
         p.classList.add('coming-soon')
 
+
       })
       categoriesSpaces.forEach((c,idx) => {
         c.classList.remove('active')
