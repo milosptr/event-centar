@@ -271,26 +271,31 @@
 // Loading Screen Animation
 if(document.getElementById('loading-screen')) {
   let tl = gsap.timeline()
-  tl.from("#loading-animated-text path", { duration: 2, delay: 1.1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+  tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
   document.getElementById('skip-loading').addEventListener('click', (e) => {
+    console.log('click')
+    console.log( document.getElementById('loading-screen'))
     document.getElementById('loading-screen').classList.add('finish')
-    document.getElementById('loading-text').classList.add('hide')
+    document.getElementById('loading-text').classList.add('finish')
+    document.getElementById('homepage-first-img').classList.add('animate__animated')
+    document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+    document.getElementById('homepage-first-img').classList.add('animate__slower')
     setTimeout(() => {
       document.getElementById('loading-screen').remove()
-    }, 400)
-    //document.getElementById('loading-screen').classList.add('fadeOut')
+    }, 3000)
     document.body.style.overflow = ''
   })
   setTimeout(() => {
     if(document.querySelector('.finish') === null)
-    //if(document.querySelector('.fadeOut') === null)
       document.getElementById('loading-screen').classList.add('finish')
-      document.getElementById('loading-text').classList.add('hide')
+      document.getElementById('loading-text').classList.add('finish')
+      document.getElementById('homepage-first-img').classList.add('animate__animated')
+      document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+      document.getElementById('homepage-first-img').classList.add('animate__slower')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 400)
-      //document.getElementById('loading-screen').classList.add('fadeOut')
+      }, 3000)
       document.body.style.overflow = ''
   }, 10500);
 }
