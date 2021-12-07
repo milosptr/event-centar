@@ -271,7 +271,7 @@
 // Loading Screen Animation
 if(document.getElementById('loading-screen')) {
   let tl = gsap.timeline()
-  tl.from("#loading-animated-text path", { duration: 2, delay: 1.8, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+  tl.from("#loading-animated-text path", { duration: 2, delay: 1.1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
   document.getElementById('skip-loading').addEventListener('click', (e) => {
     document.getElementById('loading-screen').classList.add('finish')
