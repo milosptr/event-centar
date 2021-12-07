@@ -60,17 +60,18 @@ members:
 - name: John Demetrios
   position: 'Executive Pastry Chef '
   image: "/assets/images/john_demetrios_small.jpg"
-  about: 'Born in Melbourne, John Demetrios is one of the country’s greatest pastry
-    chefs. His culinary journey took him to the Michelin starred kitchens of London
-    and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous Knightsbridge
-    restaurant. He spent an additional few years in northern Europe at two Michelin
-    starred establishments in Sweden and Amsterdam before returning home. In Australia,
-    his CV reads like the who''s who of restaurants from local institution Circa The
-    Prince to Executive Pastry Chef at Vue de Monde. Today his sweet art can be tasted
-    throughout Capitol Grand, from iconic desserts served at Omnia Bistro & Bar (liquid
-    centre cheesecake anyone?) to the exquisite delicacies of Yugen Tea Bar. As Executive
-    Pastry Chef at Capitol Grand, his craft is delightfully enjoyed in our restaurants,
-    and his innovative masterpieces can be discovered on all of our event menus. '
+  about: 'Born in Melbourne, John Demetrios is one of the country’s most creative
+    pastry chefs. His culinary journey took him to the Michelin starred kitchens of
+    London and Europe, where he worked as pastry chef at Pierre Koffman''s eponymous
+    Knightsbridge restaurant. He spent an additional few years in northern Europe
+    at two Michelin starred establishments in Sweden and Amsterdam before returning
+    home. In Australia, his CV reads like the who''s who of restaurants from local
+    institution Circa The Prince to Executive Pastry Chef at Vue de Monde. Today his
+    sweet art can be tasted throughout Capitol Grand, from iconic desserts served
+    at Omnia Bistro & Bar (liquid centre cheesecake anyone?) to the exquisite delicacies
+    of Yugen Tea Bar. As Executive Pastry Chef at Capitol Grand, his craft is delightfully
+    enjoyed in our restaurants, and his innovative masterpieces can be discovered
+    on all of our event menus. '
 - name: Myron Kloppers
   position: Sommelier
   image: "/assets/images/myron_kloppers_small.jpg"
