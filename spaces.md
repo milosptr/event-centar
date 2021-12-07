@@ -21,7 +21,6 @@ fourth_section_title: The Window  Room
 fifth_section_title: The Grand  Room
 section_picture: "/assets/images/interior-small-2x.jpg"
 facilities:
-- Parking
 - Wifi
 - AV Hire
 - Bar Tab
@@ -71,7 +70,7 @@ spaces:
   amount2: ''
 space_facilities:
   name: name1
-facility1: " Parking"
+facility1: ''
 facility2: Wifi
 facility3: AV Hire
 facility4: Bar Tab
