@@ -13,7 +13,7 @@ first_section_first_title: " Elevate your next event in the splendour of Capitol
   stunning event spaces. "
 first_section_second_title: " An event destination where the fare is as show-stopping
   as the space. "
-first_section_first_text: With a capacity of 20 to 300 people, our four distinct spaces
+first_section_first_text: With a capacity of 2 to 300 people, our four distinct spaces
   can be used independently or connected for one seamless event. Impress your guests
   surrounded by opulent light fixtures and the original art pieces that adorn our
   walls. Vast floor to ceiling windows command awe, capturing natural light and uninterrupted
