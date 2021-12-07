@@ -5,7 +5,8 @@
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
       fontSize: 30,
       duration:7500,
-      delay: 2100,
+      //delay: 2100,
+      delay: 1100,
       y:10
     }
     if(window.innerWidth <= 500) {
@@ -233,7 +234,6 @@
 
       })
       categoriesSpaces.forEach((c,idx) => {
-        //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
         c.classList.remove('active')
         if(c.dataset.categoryName === category)
           c.classList.add('active')
@@ -291,7 +291,7 @@ if(document.getElementById('loading-screen')) {
       document.getElementById('homepage-first-img').classList.add('animate__slower')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 3000)
+      }, 4000)
       document.body.style.overflow = ''
   }, 10500);
 }
