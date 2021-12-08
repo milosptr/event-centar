@@ -65,7 +65,7 @@ if(window.location.search !== '?a=hidden')
             <div class="our-team-members mb-12 lg:mb-0">
               <ul class="slider-list our-team-members-wrapper">
                 {% for member in page.members %}
-                <li class="our-team-single-member lg:relative text-left team-member lg:w-1/2 lg:w-2/5 mb-20" data-category={{ member.name | slugify}}>
+                <li class="our-team-single-member lg:relative text-left team-member lg:w-1/2 lg:w-2/5 mb-20 lg:mt-24" data-category={{ member.name | slugify}}>
                   <img src="{{member.image}}" alt="team member" class="w-full mb-12 mt-5"><!-- lg:mt-4-->
                   <div class="team-member-wrapper lg:absolute">
                     <div class="mt-5">
