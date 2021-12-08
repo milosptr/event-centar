@@ -99,8 +99,7 @@ first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
 third_section_little_text: 'With experience spread across the globe, our team of culinary
   experts have cut their teeth at some of the world’s most impressive dining establishments,
-  including Eleven Madison Park (New York), Vue de Monde and the NGV, to name a few.
-  Allow our creative and thoughtful team to to realise your event beyond your wildest
-  imagination. '
+  including Eleven Madison Park (New York), Vue de Monde and the NGV. Allow our creative
+  and thoughtful team to to realise your event beyond your wildest imagination. '
 
 ---
