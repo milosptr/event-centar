@@ -1,5 +1,13 @@
 (function() {
   let experienceActiveTab = 0
+  const welcomeMsgAnimation = bodymovin.loadAnimation({
+    container: document.getElementById('welcome'),
+    rederer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: '../assets/homepageWelcome.json'
+  })
+
   if(document.getElementById('loading-text')) {
     const options = {
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
@@ -267,24 +275,13 @@
   }
 
 
-// Loading Screen Animation
-if(document.getElementById('loading-screen')) {
-  let tl = gsap.timeline()
-  tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+  // Loading Screen Animation
+  if(document.getElementById('loading-screen')) {
+    let tl = gsap.timeline()
+    tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
 
-  document.getElementById('skip-loading').addEventListener('click', (e) => {
-    document.getElementById('loading-screen').classList.add('finish')
-    document.getElementById('loading-text').classList.add('finish')
-    document.getElementById('homepage-first-img').classList.add('animate__animated')
-    document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
-    document.getElementById('homepage-first-img').classList.add('animate__slower')
-    setTimeout(() => {
-      document.getElementById('loading-screen').remove()
-    }, 3000)
-    document.body.style.overflow = ''
-  })
-  setTimeout(() => {
-    if(document.querySelector('.finish') === null)
+    document.getElementById('skip-loading').addEventListener('click', (e) => {
+      clearTimeout(loadingScreenTimeout)
       document.getElementById('loading-screen').classList.add('finish')
       document.getElementById('loading-text').classList.add('finish')
       document.getElementById('homepage-first-img').classList.add('animate__animated')
@@ -292,10 +289,30 @@ if(document.getElementById('loading-screen')) {
       document.getElementById('homepage-first-img').classList.add('animate__slower')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 4000)
+        welcomeMsgAnimation.play()
+      }, 3000)
       document.body.style.overflow = ''
-  }, 10500);
-}
+    })
+    let loadingScreenTimeout =  setTimeout(() => {
+      if(document.querySelector('.finish') === null)
+        document.getElementById('loading-screen').classList.add('finish')
+        document.getElementById('loading-text').classList.add('finish')
+        document.getElementById('homepage-first-img').classList.add('animate__animated')
+        document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+        document.getElementById('homepage-first-img').classList.add('animate__slower')
+        setTimeout(() => {
+          document.getElementById('loading-screen').remove()
+          welcomeMsgAnimation.play()
+        }, 4000)
+        document.body.style.overflow = ''
+    }, 10500);
+  }
+
+  if(location.href.split('/').at(-1) === "?a=hidden"){
+    setTimeout(()=> {
+      welcomeMsgAnimation.play()
+    }, 1200)
+  }
 
   const menuItems = document.querySelectorAll('.menu-item')
   menuItems.forEach((m, idx) => {
@@ -432,13 +449,6 @@ if (document.body.id === 'experience') {
     ScrollReveal().reveal('.reveal-top-fast', { delay: 200, distance: '50px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
   if(document.querySelector('.reveal-top-delay'))
     ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
-
-  bodymovin.loadAnimation({
-    container: document.getElementById('welcome'),
-    rederer: 'svg',
-    loop: false,
-    path: '../assets/homepageWelcome.json'
-  })
 
   document.body.addEventListener('onload', init())
 })()
