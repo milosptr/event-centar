@@ -17,7 +17,7 @@ first_section_first_text: With a capacity of 2 to 300 people, our four distinct 
   can be used independently or connected for one seamless event. Impress your guests
   surrounded by opulent light fixtures and the original art pieces that adorn our
   walls. Vast floor to ceiling windows command awe, capturing natural light and uninterrupted
-  views. A window peering into the kitchen allows for a ringside seat to the theatre
+  views. Window peering into the kitchen allows for a ringside seat to the theatre
   and craftsmanship of our culinary artists. Be it a wedding, conference, private
   dining or birthday party; we have a space to suit your every need.
 first_section_second_text: 'Dining with us is a 360-degree sensory experience. Discover
@@ -99,8 +99,7 @@ first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
 third_section_little_text: 'With experience spread across the globe, our team of culinary
   experts have cut their teeth at some of the world’s most impressive dining establishments,
-  including Eleven Madison Park (New York), Vue de Monde and the NGV, to name a few.
-  Allow our creative and thoughtful team to to realise your event beyond your wildest
-  imagination. '
+  including Eleven Madison Park (New York), Vue de Monde and the NGV. Allow our creative
+  and thoughtful team to to realise your event beyond your wildest imagination. '
 
 ---

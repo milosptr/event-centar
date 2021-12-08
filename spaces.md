@@ -8,7 +8,7 @@ space_text: "From weddings, corporate events, media and product launches, birthd
   parties, private dinners and anything in between, our imaginative and versatile
   spaces can be transformed to offer a spectacular setting for any occasion. \n\nThe
   venue’s breathtaking decor features striking light fixtures and walls adorned with
-  original art by David Bromley. A window peering into the kitchen allows for a ringside
+  original art by David Bromley. Window peering into the kitchen allows for a ringside
   seat to ignite your senses as you witness culinary masters at work. Vast floor to
   ceiling windows are a magnet for natural light and invite uninterrupted views of
   the world outside to dazzle your guests.\n\nChoose from four incredible spaces to
