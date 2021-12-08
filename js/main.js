@@ -289,8 +289,10 @@
       document.getElementById('homepage-first-img').classList.add('animate__slower')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-        welcomeMsgAnimation.play()
       }, 3000)
+      setTimeout(() => {
+        welcomeMsgAnimation.play()
+      }, 1000)
       document.body.style.overflow = ''
     })
     let loadingScreenTimeout =  setTimeout(() => {
@@ -304,6 +306,9 @@
           document.getElementById('loading-screen').remove()
           welcomeMsgAnimation.play()
         }, 4000)
+        setTimeout(() => {
+          welcomeMsgAnimation.play()
+        }, 1000)
         document.body.style.overflow = ''
     }, 10500);
   }
