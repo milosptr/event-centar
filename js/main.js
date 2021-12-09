@@ -100,32 +100,22 @@
     }()
   }
 
+  
+  if(location.href.split('/').at(-2) === 'contact'){
+    var contactAddress = bodymovin.loadAnimation({
+      container: document.getElementById('contactAddress'),
+      rederer: 'svg',
+      loop: false,
+      autoplay: false,
+      path: '../assets/contactAddress.json'
+    })
+    if(isFullyVisible(document.getElementById('contactAddress'))){
+      setTimeout(()=> {
+        contactAddress.play()
+      },1500)
+    }
+  }
 
-
-  // if(document.getElementById('about-broomley'))
-  //   new Vara("#about-broomley","/fonts/font.json",[{
-  //     text: "Bromley",
-  //     fontSize: 68,
-  //     duration:2000,
-  //     y:10
-  //   },
-  //   {
-  //     text: "& Co.",
-  //     fontSize: 68,
-  //     duration:1000,
-  //     y: -100,
-  //   },
-  //   {
-  //     text: "Galler",
-  //     fontSize: 68,
-  //     duration:2000,
-  //     y:-120
-  //   }], {
-  //     strokeWidth: 0.85,
-  //     textAlign:"left"
-  //   });
-
-  //
   //experience mobile menu
 
   if(document.body.id === 'experience') {
@@ -392,6 +382,10 @@
         }
       }
     }
+    
+    if(document.getElementById('contactAddress') && isFullyVisible(document.getElementById('contactAddress'))){
+      contactAddress.play()
+    }
   }
 
   //to show animation for light lines without scrolling
@@ -420,15 +414,16 @@
   window.addEventListener('DOMContentLoaded', showAnimatedLines);
 
 //for desktop experience animation
-function experiencesScroll() {
-if (document.body.id === 'experience') {
-  let experienceSection = document.querySelector(".experience-box");
-  experienceSection.classList.add('experience-desktop-animation-class');
-  const exElements = [...document.querySelector('.experience-box').children]
-  exElements.forEach((c) => {
-    c.classList.remove('animate__animated')
-    })
-  }}
+  function experiencesScroll() {
+    if (document.body.id === 'experience') {
+      let experienceSection = document.querySelector(".experience-box");
+      experienceSection.classList.add('experience-desktop-animation-class');
+      const exElements = [...document.querySelector('.experience-box').children]
+      exElements.forEach((c) => {
+        c.classList.remove('animate__animated')
+      })
+    }
+  }
 
 
 
