@@ -89,20 +89,37 @@ html {
 }
 
 
-@keyframes fadeOut {
-  0% {
-    opacity: 100%;
+  @keyframes fadeOut {
+    0% {
+      opacity: 100%;
+    }
+    /*50%{
+      opacity: 50%;
+    }*/
+    90%{
+      opacity: 5%;
+    }
+    100%{
+      opacity: 0;
+    }
   }
-  /*50%{
-    opacity: 50%;
-  }*/
-  90%{
-    opacity: 5%;
+
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 100%;
+    }
+    /*50%{
+      opacity: 50%;
+    }*/
+    90%{
+      opacity: 5%;
+    }
+    100%{
+      opacity: 0;
+    }
   }
-  100%{
-    opacity: 0;
-  }
-  }
+
+
 
   /*@keyframes fadeOut {
     0% {
