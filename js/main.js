@@ -373,11 +373,11 @@
       }
       else{
         for(let exp = 0; exp < experienceTitle.length; exp++){
-          experienceTitle[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
-          experienceFirstText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
-          experienceSecondText[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
-          experienceDownloadBtn[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
-          experienceHeadline[exp].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
+          experienceTitle[exp].classList.add('animate__animated', 'animate__fadeInUp')
+          experienceFirstText[exp].classList.add('animate__animated', 'animate__fadeInUp')
+          experienceSecondText[exp].classList.add('animate__animated', 'animate__fadeInUp')
+          experienceDownloadBtn[exp].classList.add('animate__animated', 'animate__fadeInUp')
+          experienceHeadline[exp].classList.add('animate__animated', 'animate__fadeInUp')
         }
       }
     }
