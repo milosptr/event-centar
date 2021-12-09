@@ -100,7 +100,7 @@
     }()
   }
 
-  if(location.href.split('/').at(-2) === 'contact' || location.href.split('/'.at(-1))){
+  if(document.body.id === 'contact'){
     var contactAddress = bodymovin.loadAnimation({
       container: document.getElementById('contactAddress'),
       rederer: 'svg',
