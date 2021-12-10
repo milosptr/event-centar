@@ -302,7 +302,7 @@
     }, 10500);
   }
 
-  if(location.href.split('/').at(-1) === "?a=hidden"){
+  if(window.location.search === '?a=hidden' && document.getElementById('loading-screen')){
     setTimeout(()=> {
       welcomeMsgAnimation.play()
     }, 1200)
