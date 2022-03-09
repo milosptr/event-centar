@@ -2,24 +2,24 @@
 layout: homepage
 title: Homepage
 big_title: Welcome to our home
-description: "Playing host to a community of artists, designers, culinary experts,
-  fashion, hospitality and retail, Capitol Grand is a prestigious home for like-minded
-  creatives to collaborate.\nTHE CITY’S NEWEST HOSPITALITY VENUE, CAPITOL GRAND, IS
-  SITUATED IN ONE OF MELBOURNE’S MOST ICONIC LOCALES ON THE FAMED CORNER OF CHAPEL
-  STREET AND TOORAK ROAD. The building offers a beautiful sanctuary from the busy
-  hum of its cosmopolitan location and the unpredictable Melbourne weather outside.
-  \ "
+description: PLAYING HOST TO A COMMUNITY OF ARTISTS, DESIGNERS AND CULINARY EXPERTS,
+  THE BROMLEY GALLERY & EVENTS SPACE IS THE PERFECT HOME FOR YOUR NEXT EVENT. ONE
+  OF THE CITY’S NEWEST AND MOST UNIQUE HOSPITALITY VENUES, WE ARE SITUATED ON THE
+  FAMED CORNER OF CHAPEL STREET AND TOORAK ROAD, SOUTH YARRA. THE BUILDING OFFERS
+  A BEAUTIFUL SANCTUARY FROM THE BUSY HUM OF ITS COSMOPOLITAN LOCATION AND THE UNPREDICTABLE
+  MELBOURNE WEATHER OUTSIDE.
 first_section_first_title: " Elevate your next event in the splendour of Capitol Grand’s
   stunning event spaces. "
 first_section_second_title: " An event destination where the fare is as show-stopping
   as the space. "
-first_section_first_text: With a capacity of 2 to 300 people, our four distinct spaces
-  can be used independently or connected for one seamless event. Impress your guests
-  surrounded by opulent light fixtures and the original art pieces that adorn our
-  walls. Vast floor to ceiling windows command awe, capturing natural light and uninterrupted
-  views. Window peering into the kitchen allows for a ringside seat to the theatre
-  and craftsmanship of our culinary artists. Be it a wedding, conference, private
-  dining or birthday party; we have a space to suit your every need.
+first_section_first_text: With capacity to host 2 to 300 guests, our four distinct
+  spaces can be used independently or connected for one seamless event. Surrounded
+  by opulent light fixtures and original art pieces that adorn our walls, and with
+  vast floor-to-ceiling windows capturing natural light and commanding awe, our event
+  spaces are like no other. A window peering into the kitchen allows for a ringside
+  seat to the theatre and craftsmanship of our culinary artists. Be it a wedding,
+  conference, private dinner or birthday party, we have a space to suit your every
+  need.
 first_section_second_text: 'Dining with us is a 360-degree sensory experience. Discover
   our event space found amongst an art gallery, beautifully enhanced by the innovative
   works of Australian artist David Bromley. A hand-selected team of culinary experts
@@ -28,7 +28,7 @@ first_section_second_text: 'Dining with us is a 360-degree sensory experience. D
   chefs, using only superior ingredients, create your perfect meal while you sip on
   flawlessly matched wine selected by our in-house sommelier.
 
-'
+  '
 second_section_title: 'An event destination where the fare is as show-stopping as
   the space. '
 second_section_text: 'Dining with us is a 360-degree sensory experience. Discover
@@ -39,7 +39,7 @@ second_section_text: 'Dining with us is a 360-degree sensory experience. Discove
   chefs, using only superior ingredients, create your perfect meal while you sip on
   flawlessly matched wine selected by our in-house sommelier.
 
-'
+  '
 third_section_title: Our team
 third_section_text: " Your event is in impeccably experienced and imaginative hands. "
 members:
