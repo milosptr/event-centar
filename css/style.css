@@ -354,7 +354,7 @@ header {
 
   .nav-toggle {
     position: fixed;
-    right: 25px;
+    left: 25px;
     width: 32px;
     height: 25px;
     background-size: contain;
