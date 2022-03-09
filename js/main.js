@@ -302,10 +302,18 @@
     }, 10500);
   }
 
-  if(window.location.search === '?a=hidden' && document.getElementById('loading-screen')){
-    setTimeout(()=> {
-      welcomeMsgAnimation.play()
-    }, 1200)
+  if(window.location.search === '?a=hidden'){
+    if(document.getElementById('loading-screen')){
+      setTimeout(()=> {
+        welcomeMsgAnimation.play()
+      }, 1200)
+    }
+    else {
+      setTimeout(()=> {
+        welcomeMsgAnimation.play()
+      }, 1100)
+    }
+   
   }
 
   const menuItems = document.querySelectorAll('.menu-item')
