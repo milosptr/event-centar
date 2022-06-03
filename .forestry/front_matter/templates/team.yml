@@ -9,3 +9,5 @@ fields:
   label: layout
   default: team
   hidden: true
+pages:
+- team.md
