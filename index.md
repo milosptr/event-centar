@@ -72,28 +72,6 @@ members:
     of Yugen Tea Bar. As Executive Pastry Chef at Capitol Grand, his craft is delightfully
     enjoyed in our restaurants, and his innovative masterpieces can be discovered
     on all of our event menus. '
-- name: Myron Kloppers
-  position: Sommelier
-  image: "/assets/images/myron_kloppers_small.jpg"
-  about: The world is a playground for South African sommelier Myron Kloppers. Hailing
-    from one of wine's most globally significant countries, Myron has a unique understanding
-    of old and new world vintages. Purchasing wine for high-end restaurants in the
-    Middle East meant European wineries were his marketplace from small boutique producers
-    to fabled historic Chateaux. Then, his passion for Australian (and most notably
-    Victorian) wines piqued a move to Australia. His robust industry relationships
-    ensure a wide selection of vintages are available to Capitol Grand, and his understanding
-    of our cuisine results in the perfect match every time.
-- name: Sherena Mulgrave
-  position: Event Manager
-  image: "/assets/images/sherena_mulgrave_small.jpg"
-  about: " \nEvent Manager Sherena Mulgrave arrived in Australia from the UK in the
-    late 90s. After years following a career as a professional athlete, her excellent
-    communications skills manifested a successful role change into the fast-paced
-    world of event management. Her intuition and calm perseverance are legendary,
-    and with a CV that encompasses Jackalope Hotel, The National Gallery and Sandhurst
-    Golf Club, she is accustomed to serving a diverse audience. A communication professional,
-    her expertise will ensure an enjoyable, smooth and successful experience as your
-    event needs are realised with us at Capitol Grand. \n"
 main_photo: "/assets/images/K3A9145.jpg"
 first_section_photo: "/assets/images/building-2x.jpg"
 second_section_photo: "/assets/images/caviar-2x.jpg"
