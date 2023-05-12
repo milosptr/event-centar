@@ -1,6 +1,12 @@
 ---
 layout: homepage
 title: Homepage
+
+grand_room_img: '/img/grand-room.png'
+grand_room_logo: '/img/The Grand Room Logo.png'
+broomly_img: '/img/broomly-gallery.png'
+broomly_logo: '/img/Bromley Events Logo.png'
+
 big_title: Welcome to our home
 description: PLAYING HOST TO A COMMUNITY OF ARTISTS, DESIGNERS AND CULINARY EXPERTS,
   THE BROMLEY GALLERY & EVENTS SPACE IS THE PERFECT HOME FOR YOUR NEXT EVENT. ONE

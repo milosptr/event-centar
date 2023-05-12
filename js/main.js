@@ -1,4 +1,4 @@
-(function() {
+(function () {
   let experienceActiveTab = 0
   const welcomeMsgAnimation = bodymovin.loadAnimation({
     container: document.getElementById('welcome'),
@@ -8,49 +8,53 @@
     path: '../assets/homepageWelcome.json'
   })
 
-  if(document.getElementById('loading-text')) {
+  if (document.getElementById('loading-text')) {
     const options = {
       text: "...and when it's all said and done, if is not the days or weeks or months that we remember Its the moments...",
       fontSize: 30,
-      duration:7500,
+      duration: 7500,
       //delay: 2100,
       delay: 1100,
-      y:10
+      y: 10
     }
-    if(window.innerWidth <= 500) {
+    if (window.innerWidth <= 500) {
       options.fontSize = 20
       options.y = 60
       options.duration = 7000
     }
-    new Vara("#loading-text","/fonts/font.json",[options], {
+    new Vara("#loading-text", "/fonts/font.json", [options], {
       strokeWidth: 0.7,
-      textAlign:"center",
+      textAlign: "center",
       delay: 2000,
     });
   }
 
 
-  function init(){
+  function init() {
     // new SmoothScroll(target,speed,smooth)
-    new SmoothScroll(document,50,16)
+    new SmoothScroll(document, 50, 16)
   }
 
   function SmoothScroll(target, speed, smooth) {
     if (target === document)
-      target = (document.scrollingElement
-                || document.documentElement
-                || document.body.parentNode
-                || document.body)
+      target = (document.scrollingElement ||
+        document.documentElement ||
+        document.body.parentNode ||
+        document.body)
 
     var moving = false
     var pos = target.scrollTop
-    var frame = target === document.body
-                && document.documentElement
-                ? document.documentElement
-                : target
+    var frame = target === document.body &&
+      document.documentElement ?
+      document.documentElement :
+      target
 
-    target.addEventListener('mousewheel', scrolled, { passive: false })
-    target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
+    target.addEventListener('mousewheel', scrolled, {
+      passive: false
+    })
+    target.addEventListener('DOMMouseScroll', scrolled, {
+      passive: false
+    })
 
     function scrolled(e) {
       e.preventDefault();
@@ -63,14 +67,14 @@
       if (!moving) update()
     }
 
-    function normalizeWheelDelta(e){
-      if(e.detail){
-        if(e.wheelDelta)
-          return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1) // Opera
+    function normalizeWheelDelta(e) {
+      if (e.detail) {
+        if (e.wheelDelta)
+          return e.wheelDelta / e.detail / 40 * (e.detail > 0 ? 1 : -1) // Opera
         else
-          return -e.detail/3 // Firefox
-      }else
-        return e.wheelDelta/120 // IE,Safari,Chrome
+          return -e.detail / 3 // Firefox
+      } else
+        return e.wheelDelta / 120 // IE,Safari,Chrome
     }
 
     function update() {
@@ -86,21 +90,21 @@
         moving = false
     }
 
-    var requestFrame = function() { // requestAnimationFrame cross browser
+    var requestFrame = function () { // requestAnimationFrame cross browser
       return (
         window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
         window.mozRequestAnimationFrame ||
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
-        function(func) {
+        function (func) {
           window.setTimeout(func, 1000 / 50);
         }
       );
     }()
   }
 
-  if(document.body.id === 'contact'){
+  if (document.body.id === 'contact') {
     var contactAddress = bodymovin.loadAnimation({
       container: document.getElementById('contactAddress'),
       rederer: 'svg',
@@ -108,74 +112,73 @@
       autoplay: false,
       path: '../assets/contactAddress.json'
     })
-    if(isFullyVisible(document.getElementById('contactAddress'))){
-      setTimeout(()=> {
+    if (isFullyVisible(document.getElementById('contactAddress'))) {
+      setTimeout(() => {
         contactAddress.play()
-      },1500)
+      }, 1500)
     }
   }
 
   //experience mobile menu
 
-  if(document.body.id === 'experience') {
-  let experienceSection = document.querySelector(".experiences-container");
+  if (document.body.id === 'experience') {
+    let experienceSection = document.querySelector(".experiences-container");
 
-  experienceSection.addEventListener("click", function (event) {
-    let target = event.target;
-    if (target.classList.contains("upper-experience-title")) {
-      let hiddenInfo = target.nextElementSibling;
-      if (hiddenInfo.classList.contains('hidden')) {
-        hiddenInfo.classList.remove('hidden')
-        target.classList.add('upper-experience-title--minus');
+    experienceSection.addEventListener("click", function (event) {
+      let target = event.target;
+      if (target.classList.contains("upper-experience-title")) {
+        let hiddenInfo = target.nextElementSibling;
+        if (hiddenInfo.classList.contains('hidden')) {
+          hiddenInfo.classList.remove('hidden')
+          target.classList.add('upper-experience-title--minus');
+        } else {
+          hiddenInfo.classList.add('hidden')
+          target.classList.remove('upper-experience-title--minus');
+        }
       }
-      else {
-        hiddenInfo.classList.add('hidden')
-        target.classList.remove('upper-experience-title--minus');
-      }
-    }
-})
-}
-
-    const categories = document.querySelectorAll('.inner-menu-item')
-    if(categories && categories.length && screen.width >=  1024 ) {
-      categories[0].classList.add('active')
-      filterProducts(categories[0].dataset.categoryName)
-
-      categories.forEach((c) => {
-        c.addEventListener('click', (e) => {
-          c.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest',
-            inline: 'center'
-        })
-          filterProducts(e.target.dataset.categoryName)
-        })
-      })
-    }
-
-
- function filterProducts(category) {
-  const products = [...document.querySelector('.experiences-container').children]
-  products.forEach((p, idx) => {
-    p.style = ''
-    p.classList.remove('hide')
-    p.style.opacity = 1
-    if(p.dataset.category !== category)
-      p.classList.add('hide')
-    else
-      experienceActiveTab = idx
     })
-  categories.forEach((c,idx) => {
-    //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
-    c.classList.remove('active')
-    if(c.dataset.categoryName === category)
-      c.classList.add('active')
-  })
-}
+  }
 
-   //spaces page
+  const categories = document.querySelectorAll('.inner-menu-item')
+  if (categories && categories.length && screen.width >= 1024) {
+    categories[0].classList.add('active')
+    filterProducts(categories[0].dataset.categoryName)
 
-   if (document.body.id === 'spaces') {
+    categories.forEach((c) => {
+      c.addEventListener('click', (e) => {
+        c.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        })
+        filterProducts(e.target.dataset.categoryName)
+      })
+    })
+  }
+
+
+  function filterProducts(category) {
+    const products = [...document.querySelector('.experiences-container').children]
+    products.forEach((p, idx) => {
+      p.style = ''
+      p.classList.remove('hide')
+      p.style.opacity = 1
+      if (p.dataset.category !== category)
+        p.classList.add('hide')
+      else
+        experienceActiveTab = idx
+    })
+    categories.forEach((c, idx) => {
+      //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+      c.classList.remove('active')
+      if (c.dataset.categoryName === category)
+        c.classList.add('active')
+    })
+  }
+
+  //spaces page
+
+  if (document.body.id === 'spaces') {
     let spacesSection = document.querySelector(".spaces-container");
     const rooms1 = [...document.querySelector('.spaces-container').children]
     rooms1[1].classList.add('coming-soon')
@@ -189,59 +192,58 @@
         if (hiddenInfo.classList.contains('hidden')) {
           hiddenInfo.classList.remove('hidden')
           target.classList.add('upper-space-title--minus');
-        }
-        else {
+        } else {
           hiddenInfo.classList.add('hidden')
           target.classList.remove('upper-space-title--minus');
         }
       }
-  })
+    })
   }
 
 
-   const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
-    if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
-      categoriesSpaces[0].classList.add('active')
-      filterRooms(categoriesSpaces[0].dataset.categoryName)
+  const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
+  if (categoriesSpaces && categoriesSpaces.length && screen.width >= 1024) {
+    categoriesSpaces[0].classList.add('active')
+    filterRooms(categoriesSpaces[0].dataset.categoryName)
 
-      categoriesSpaces.forEach((c) => {
-        c.addEventListener('click', (e) => {
-          c.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest',
-            inline: 'center'
+    categoriesSpaces.forEach((c) => {
+      c.addEventListener('click', (e) => {
+        c.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
         })
         filterRooms(e.target.dataset.categoryName)
-        })
       })
-    }
+    })
+  }
 
-    function filterRooms(category) {
-      const rooms = [...document.querySelector('.spaces-container').children]
-      rooms.forEach((p) => {
-        p.style = ''
-        p.classList.remove('hide')
-        p.style.opacity = 1
+  function filterRooms(category) {
+    const rooms = [...document.querySelector('.spaces-container').children]
+    rooms.forEach((p) => {
+      p.style = ''
+      p.classList.remove('hide')
+      p.style.opacity = 1
 
-        if (p.dataset.category !== category)
+      if (p.dataset.category !== category)
         p.classList.add('hide')
 
-        if (p.dataset.category !== 'bromley-co-gallery')
+      if (p.dataset.category !== 'bromley-co-gallery')
         p.classList.add('coming-soon')
 
 
-      })
-      categoriesSpaces.forEach((c,idx) => {
-        c.classList.remove('active')
-        if(c.dataset.categoryName === category)
-          c.classList.add('active')
-      })
-    }
+    })
+    categoriesSpaces.forEach((c, idx) => {
+      c.classList.remove('active')
+      if (c.dataset.categoryName === category)
+        c.classList.add('active')
+    })
+  }
 
 
-//homepage team members mobile version slider
-  if(document.querySelector('.our-team-members')){
-    if(window.innerWidth < 1024){
+  //homepage team members mobile version slider
+  if (document.querySelector('.our-team-members')) {
+    if (window.innerWidth < 1024) {
       document.querySelector('.our-team-members').classList.add('swiper')
       document.querySelector('.our-team-members').classList.add('reveal-top')
       document.querySelector('.our-team-members-wrapper').classList.add('swiper-wrapper')
@@ -257,17 +259,22 @@
           el: ".swiper-pagination",
         },
       });
-    }
-    else{
+    } else {
       document.querySelectorAll('.our-team-single-member').forEach(tm => tm.classList.add('reveal-top-fast'))
     }
   }
 
 
   // Loading Screen Animation
-  if(document.getElementById('loading-screen')) {
+  if (document.getElementById('loading-screen')) {
     let tl = gsap.timeline()
-    tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })
+    tl.from("#loading-animated-text path", {
+      duration: 2,
+      delay: 1,
+      fill: "#99948b",
+      stagger: 0.2,
+      drawSVG: 0
+    })
 
     document.getElementById('skip-loading').addEventListener('click', (e) => {
       clearTimeout(loadingScreenTimeout)
@@ -284,36 +291,35 @@
       }, 1000)
       document.body.style.overflow = ''
     })
-    let loadingScreenTimeout =  setTimeout(() => {
-      if(document.querySelector('.finish') === null)
+    let loadingScreenTimeout = setTimeout(() => {
+      if (document.querySelector('.finish') === null)
         document.getElementById('loading-screen').classList.add('finish')
-        document.getElementById('loading-text').classList.add('finish')
-        document.getElementById('homepage-first-img').classList.add('animate__animated')
-        document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
-        document.getElementById('homepage-first-img').classList.add('animate__slower')
-        setTimeout(() => {
-          document.getElementById('loading-screen').remove()
-          welcomeMsgAnimation.play()
-        }, 4000)
-        setTimeout(() => {
-          welcomeMsgAnimation.play()
-        }, 1000)
-        document.body.style.overflow = ''
+      document.getElementById('loading-text').classList.add('finish')
+      document.getElementById('homepage-first-img').classList.add('animate__animated')
+      document.getElementById('homepage-first-img').classList.add('animate__fadeInUp')
+      document.getElementById('homepage-first-img').classList.add('animate__slower')
+      setTimeout(() => {
+        document.getElementById('loading-screen').remove()
+        welcomeMsgAnimation.play()
+      }, 4000)
+      setTimeout(() => {
+        welcomeMsgAnimation.play()
+      }, 1000)
+      document.body.style.overflow = ''
     }, 10500);
   }
 
-  if(window.location.search === '?a=hidden'){
-    if(document.getElementById('loading-screen')){
-      setTimeout(()=> {
+  if (window.location.search === '?a=hidden') {
+    if (document.getElementById('loading-screen')) {
+      setTimeout(() => {
         welcomeMsgAnimation.play()
       }, 1200)
-    }
-    else {
-      setTimeout(()=> {
+    } else {
+      setTimeout(() => {
         welcomeMsgAnimation.play()
       }, 1100)
     }
-   
+
   }
 
   const menuItems = document.querySelectorAll('.menu-item')
@@ -321,27 +327,28 @@
     const menuUrl = m.getAttribute('href')?.replaceAll('/', '')
     const url = location.pathname.replaceAll('/', '')
     m.classList.remove('menu-item--active')
-    if(menuUrl === url)
+    if (menuUrl === url)
       m.classList.add('menu-item--active')
-    if(url.length === 0 & idx === 0)
+    if (url.length === 0 & idx === 0)
       m.classList.add('menu-item--active')
   })
 
   var members = document.querySelectorAll('.team-member');
 
   members.forEach((item, index) => {
-      (index % 2 == 0) ?item.classList.add('odd'):item.classList.add('even')
+    (index % 2 == 0) ? item.classList.add('odd'): item.classList.add('even')
   });
 
 
   const navMain = document.querySelector('.menu');
   const navToggle = document.querySelector('.nav-toggle');
 
-  navToggle.addEventListener('click', function() {
-  navMain.classList.toggle('menu--opened')
-  navToggle.classList.toggle('nav-toggle--closed');
+  if (navToggle) {
+    navToggle.addEventListener('click', function () {
+      navMain.classList.toggle('menu--opened')
+      navToggle.classList.toggle('nav-toggle--closed');
+    });
   }
-  );
 
 
   //for animated lines
@@ -371,16 +378,15 @@
       }
     }
 
-    if(experienceTitle.length && experienceFirstText && experienceSecondText && experienceDownloadBtn){
-      if(window.innerWidth > 1024){
+    if (experienceTitle.length && experienceFirstText && experienceSecondText && experienceDownloadBtn) {
+      if (window.innerWidth > 1024) {
         experienceTitle[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceFirstText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceSecondText[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceDownloadBtn[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
         experienceHeadline[experienceActiveTab].classList.add('animate__animated', 'animate__fadeInUp', 'animate__slower')
-      }
-      else{
-        for(let exp = 0; exp < experienceTitle.length; exp++){
+      } else {
+        for (let exp = 0; exp < experienceTitle.length; exp++) {
           experienceTitle[exp].classList.add('animate__animated', 'animate__fadeInUp')
           experienceFirstText[exp].classList.add('animate__animated', 'animate__fadeInUp')
           experienceSecondText[exp].classList.add('animate__animated', 'animate__fadeInUp')
@@ -389,8 +395,8 @@
         }
       }
     }
-    
-    if(document.getElementById('contactAddress') && isFullyVisible(document.getElementById('contactAddress'))){
+
+    if (document.getElementById('contactAddress') && isFullyVisible(document.getElementById('contactAddress'))) {
       contactAddress.play()
     }
   }
@@ -400,17 +406,17 @@
   function showAnimatedLines() {
     for (var k = 0; k < animatedLightLines.length; k++) {
       var animatedLightLine = animatedLightLines[k];
-        animatedLightLine.classList.add("animated-light");
+      animatedLightLine.classList.add("animated-light");
 
     }
-      }
+  }
 
   function isFullyVisible(el) {
-      var elementBoundary = el.getBoundingClientRect();
-      var top = elementBoundary.top;
-      var bottom = elementBoundary.bottom;
+    var elementBoundary = el.getBoundingClientRect();
+    var top = elementBoundary.top;
+    var bottom = elementBoundary.bottom;
 
-      return ((top >= 0) && (bottom <= window.innerHeight));
+    return ((top >= 0) && (bottom <= window.innerHeight));
   }
 
   window.addEventListener('load', () => {
@@ -420,7 +426,7 @@
   })
   window.addEventListener('DOMContentLoaded', showAnimatedLines);
 
-//for desktop experience animation
+  //for desktop experience animation
   function experiencesScroll() {
     if (document.body.id === 'experience') {
       let experienceSection = document.querySelector(".experience-box");
@@ -434,6 +440,23 @@
 
 
 
+  if(document.querySelector('.grand-room-form-container')) {
+    console.log('exists')
+    const datePicker = document.getElementById('dateInput')
+    const today = new Date().toISOString().split('T')[0];
+    datePicker.min = today
+    // datePicker.value = new Date().toLocaleDateString('en-GB')
+
+  }
+
+
+
+
+
+
+
+
+
   //for page content scrolling
   let slideUp = {
     distance: '100%',
@@ -444,18 +467,51 @@
     easing: 'cubic-bezier(0.25,1.05,1,1)',
   }
 
-  if(document.querySelector('.reveal'))
-    ScrollReveal().reveal('.reveal', { distance: '100px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
-  if(document.querySelector('.reveal-left'))
-    ScrollReveal().reveal('.reveal-left', { distance: '30px', duration: 700, origin: 'left', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  if(document.querySelector('.reveal-right'))
-    ScrollReveal().reveal('.reveal-right', { distance: '30px', duration: 700, origin: 'right', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  if(document.querySelector('.reveal-top'))
-    ScrollReveal().reveal('.reveal-top', { delay: 300, distance: '30px', duration: 1000, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  if(document.querySelector('.reveal-top-fast'))
-    ScrollReveal().reveal('.reveal-top-fast', { delay: 200, distance: '50px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  if(document.querySelector('.reveal-top-delay'))
-    ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
+  if (document.querySelector('.reveal'))
+    ScrollReveal().reveal('.reveal', {
+      distance: '100px',
+      duration: 700,
+      origin: 'bottom',
+      easing: 'cubic-bezier(0.25,1.05,1,1)'
+    });
+  if (document.querySelector('.reveal-left'))
+    ScrollReveal().reveal('.reveal-left', {
+      distance: '30px',
+      duration: 700,
+      origin: 'left',
+      easing: 'cubic-bezier(0.3,.62,1,1)'
+    });
+  if (document.querySelector('.reveal-right'))
+    ScrollReveal().reveal('.reveal-right', {
+      distance: '30px',
+      duration: 700,
+      origin: 'right',
+      easing: 'cubic-bezier(0.3,.62,1,1)'
+    });
+  if (document.querySelector('.reveal-top'))
+    ScrollReveal().reveal('.reveal-top', {
+      delay: 300,
+      distance: '30px',
+      duration: 1000,
+      origin: 'bottom',
+      easing: 'cubic-bezier(0.3,.62,1,1)'
+    });
+  if (document.querySelector('.reveal-top-fast'))
+    ScrollReveal().reveal('.reveal-top-fast', {
+      delay: 200,
+      distance: '50px',
+      duration: 800,
+      origin: 'bottom',
+      easing: 'cubic-bezier(0.3,.62,1,1)'
+    });
+  if (document.querySelector('.reveal-top-delay'))
+    ScrollReveal().reveal('.reveal-top-delay', {
+      delay: 300,
+      distance: '30px',
+      duration: 700,
+      origin: 'bottom',
+      easing: 'cubic-bezier(0.3,.62,1,1)'
+    });
 
   document.body.addEventListener('onload', init())
 })()
