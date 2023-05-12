@@ -1412,6 +1412,9 @@ header {
   #the-grand-room .grand-room-form-container {
     margin-bottom: 60px;
   }
+  #the-grand-room #landing-lk-hospitality-logo{ 
+    top: 70px
+  }
 
     /*   L A N D I N G   */
     #landing .landing-box {
