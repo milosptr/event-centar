@@ -1412,4 +1412,44 @@ header {
   #the-grand-room .grand-room-form-container {
     margin-bottom: 60px;
   }
+
+    /*   L A N D I N G   */
+    #landing .landing-box {
+      height: 50%;
+    }
+    #landing .landing-box a {
+      width: 100%;
+    }
+    #landing-lk-hospitality-logo {
+      top: 50%;
+    }
+    #landing-lk-hospitality-logo img {
+      width: 60px;
+    }
+    #landing .landing-box img {
+      width: 50%;
+    }
+    #landing #landing-broomly img {
+      width: 50%;
+    }
+    #landing .landing-box:hover {
+      width: 100%;
+    }
+    #landing .landing-box .overlay {
+      background-color: rgb(0, 0, 0, 0.6);
+    }
+    #landing .landing-box img {
+      opacity: 1 !important;
+    }
+    #landing #landing-grand-room.landing-box img{
+      width: 160px;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+    #landing #landing-broomly.landing-box img{
+      width: 240px;
+      margin-left: 40px;
+      margin-right: auto;
+    }
+  
 }
