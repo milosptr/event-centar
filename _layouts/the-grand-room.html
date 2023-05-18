@@ -1,94 +1,232 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Grand Room | LKH Events</title>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
   <link href="/css/style.css " rel="stylesheet">
-
+  
 </head>
 <body id="the-grand-room">
-  <div id="landing-lk-hospitality-logo">
-    <a href="/">
-      <img src="/img/LK-Hospitality-Logo.png" alt="LK Hospitality Logo">
-    </a>
+  <div id="the-grand-room-cover" class="cover">
+
+    <div id="landing-lk-hospitality-logo">
+      <a href="/">
+        <img src="/img/LK-Hospitality-Logo.png" alt="LK Hospitality Logo">
+      </a>
+    </div>
+  
+    <div class="container mx-auto">
+      <h1 class=""> THE GRAND ROOM </h1>
+      <h3 class="mb-16">
+        Full website coming soon, contact us below to enquire about your next event
+      </h3>
+      <div class="mb-10 md:mb-20 grand-room-form-container">
+        <form action="https://formsubmit.co/9c71fef3575c9c777ec5a1e62343e486" target="_blank" method="POST" class="flex flex-col mt-auto">
+          <div class="custom-bckg px-6 py-10 md:p-10">
+            <div class="flex flex-col md:flex-row items-start justify-center mb-4">
+              <div class="w-full md:w-1/4">Name:</div>
+              <div class="w-full md:w-3/4">
+                <input type="text" name="name" class="form-control" placeholder="Your Full Name" required>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center mb-4">
+              <div class="w-full md:w-1/4">Phone Number:</div>
+              <div class="w-full md:w-3/4">
+                <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center mb-4 md:mb-10">
+              <div class="w-full md:w-1/4 custom-label">Email:</div>
+              <div class="w-full md:w-3/4">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center mb-4">
+              <div class="w-full md:w-1/4 custom-label">Date of Event:</div>
+              <div class="w-full md:w-3/4">
+                <input id="dateInput" type="date" name="date" class="form-control" required>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center mb-4">
+              <div class="w-full md:w-1/4 custom-label">Additional information:</div>
+              <div class="w-full md:w-3/4">
+                <textarea id="dateInput" type="date" name="message" placeholder="dd-mm-yyyy" class="form-control" rows="3" maxlength="320"> </textarea>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center">
+              <div class="hidden md:block md:w-1/4 custom-label">&nbsp;</div>
+              <div class="w-full md:w-3/4 flex items-center justify-start">
+                <input type="checkbox" id="recive-emails" name="Receive email updates">
+                <label for="recive-emails">Receive email updates of our latest offers</label>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 md:mt-10 flex flex-col-reverse md:flex-row justify-end items-center">
+            <!-- <a class="btn" href="/brochure/The Grand Room Brochure May 2023 - DIGI.pdf" download> 
+              Download Brochure
+            </a> -->
+  
+            <div class="submit-form">
+              <button class="btn btn-submit" type="submit">Enquire Now </button>
+            </div>
+          </div>
+  
+          <input type="hidden" name="_subject" value="The Grand Room Form Submission!">
+          <input type="hidden" name="_next" value="https://www.lkhevents.com.au/brochure/The Grand Room Brochure May 2023 - DIGI.pdf">
+        </form>      
+      </div>
+  
+    </div>
   </div>
 
-  <div class="container mx-auto">
-    <h1 class="mb-14"> THE GRAND ROOM </h1>
-    <h3 class="mb-16">
-      Full website coming soon, contact us below to enquire about your next event
-    </h3>
-    <div class="mb-10 md:mb-20 grand-room-form-container">
-      <form action="https://formsubmit.co/9c71fef3575c9c777ec5a1e62343e486" target="_blank" method="POST" class="flex flex-col mt-auto">
-        <div class="custom-bckg px-6 py-10 md:p-10">
-          <div class="flex flex-col md:flex-row items-start justify-center mb-4">
-            <div class="w-full md:w-1/4">Name:</div>
-            <div class="w-full md:w-3/4">
-              <input type="text" name="name" class="form-control" placeholder="Your Full Name" required>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row items-start justify-center mb-4">
-            <div class="w-full md:w-1/4">Phone Number:</div>
-            <div class="w-full md:w-3/4">
-              <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row items-start justify-center mb-4 md:mb-10">
-            <div class="w-full md:w-1/4 custom-label">Email:</div>
-            <div class="w-full md:w-3/4">
-              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row items-start justify-center mb-4">
-            <div class="w-full md:w-1/4 custom-label">Date of Event:</div>
-            <div class="w-full md:w-3/4">
-              <input id="dateInput" type="date" name="date" class="form-control" required>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row items-start justify-center mb-4">
-            <div class="w-full md:w-1/4 custom-label">Additional information:</div>
-            <div class="w-full md:w-3/4">
-              <textarea id="dateInput" type="date" name="message" placeholder="dd-mm-yyyy" class="form-control" rows="3" maxlength="320"> </textarea>
-            </div>
-          </div>
-          <div class="flex flex-col md:flex-row items-start justify-center">
-            <div class="hidden md:block md:w-1/4 custom-label">&nbsp;</div>
-            <div class="w-full md:w-3/4 flex items-center justify-start">
-              <input type="checkbox" id="recive-emails" name="Receive email updates">
-              <label for="recive-emails">Receive email updates of our latest offers</label>
-            </div>
-          </div>
-        </div>
-        <div class="mt-4 md:mt-10 flex flex-col-reverse md:flex-row justify-between items-center">
-          <a class="btn" href="/brochure/The Grand Room Brochure May 2023 - DIGI.pdf" download> 
-            Download Brochure
-          </a>
 
-          <div class="submit-form">
-            <button class="btn btn-submit" type="submit">Submit Form </button>
-          </div>
-        </div>
+  <section class="container mx-auto mt-20">
+    <h2 class="section-title reveal-top">
+      LK Hospitality Events
+    </h2>
 
-        <input type="hidden" name="_subject" value="The Grand Room Form Submission!">
-        <input type="hidden" name="_next" value="https://www.lkhevents.com.au/the-grand-room">
-      </form>      
+    <div class="section-text mb-16">
+      <p class="mb-6 reveal-top">
+        Our objective is to create a limitless atmosphere where guest feel free to connect with each other. A place where memories can be lived, history can be written and togetherness will be celebrated.
+      </p>
+      <p class="reveal-top">
+        A bold, dynamic and limitless venue that elaborates with a network of trendy, innovative and energetic Melbourne professionals.
+        The ambition is to unfold a authentic voice in the event industry, exploring and surprising with its guests by using our knowledge, creativity, don’t hold-back attitude and our passion for quality food and high end service.
+      </p>
     </div>
 
-  </div>
+    <div class="events-gallery mb-20 md:mb-40 flex flex-wrap justify-between">
+      <div class="event-box reveal-top">
+        <img src="/img/grand-room-weddings.png" alt="Grand Room Weddings">
+        <h3 class="event-title">Weddings</h3>
+      </div>
+      <div class="event-box reveal-top">
+        <img src="/img/grand-room-corporate.png" alt="Grand Room Corporate">
+        <h3 class="event-title">Corporate</h3>
+      </div>
+      <div class="event-box reveal-top">
+        <img src="/img/grand-room-socials.png" alt="Grand Room Social">
+        <h3 class="event-title">Social</h3>
+      </div>
+      <div class="event-box reveal-top">
+        <img src="/img/grand-room-bespoke.png" alt="Grand Room Bespoke">
+        <h3 class="event-title">Bespoke</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="event-spaces">
+    <div class="container mx-auto">
+      <div class="inner-container mx-auto">
+        <h2 class="section-title text-center reveal-top">
+          Events Spaces
+        </h2>
+        <div class="section-text mb-16 reveal-top">
+          <p>
+            From weddings, corporate events, media and product launches, birthday parties, private dinners and anything in between, our imaginative and versatile spaces can be transformed to offer a spectacular setting for any occasion. Vast floor to ceiling windows are a magnet for natural light and invite uninterrupted views of the world outside to dazzle your guests. Choose from four incredible spaces to enjoy, independently or connected, for one seamless event. Our creative team will work with you to plan and execute an event as unique and memorable as you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="event-rooms mt-20 md:mt-40">
+    <div class="container mx-auto">
+      <div class="inner-container mx-auto">
+        <div class="mx-0 md:mx-40">
+          <h2 class="section-title reveal-top">
+            The Grand Room
+          </h2>
+          <div class="section-text">
+            <p class="mb-6 reveal-top">
+              Utilise the whole venue to impress your guests with a lavish sit down dinner or a memorable cocktail party. With wrap around views and ability to create two intimate spaces within the venue, the possibilities for your event are endless.
+            </p>
+            <p class="reveal-top"> Whole space capacity </p>
+            <ul>
+              <li class="reveal-top"> Cocktail 250 guest  </li>
+              <li class="reveal-top"> Theatre 100 guest </li>
+              <li class="reveal-top">Rectangle 150 guests </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="mx-0 md:mx-40  mt-16 md:mt-32">
+          <h2 class="section-title reveal-top">
+            The Chapel Room
+          </h2>
+          <div class="section-text">
+            <p class="mb-6 reveal-top">
+              Overlooking Chapel Street the Chapel Room is the perfect space to add in natural light to your event! This space can be divided to allow for an open cocktail area or a private exclusive sit down meal.
+            </p>
+            <p class="reveal-top"> Whole space capacity  </p>
+            <ul>
+              <li class="reveal-top">Cocktail NA </li>
+              <li class="reveal-top">Theatre 25 guest </li>
+              <li class="reveal-top"> Rectangle 40 guest </li>
+            </ul>
+            <p class="mt-8 reveal-top">Divided space</p>
+            <ul>
+              <li class="reveal-top"> Cocktail NA</li>
+              <li class="reveal-top">Theatre 25 guest </li>
+              <li class="reveal-top">Rectangle 20 guest</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mx-0 md:mx-40  mt-16 md:mt-32">
+          <h2 class="section-title reveal-top">
+            The Toorak Room
+          </h2>
+          <div class="section-text">
+            <p class="mb-6 reveal-top">
+              This room comprises of the Chapel Room and adds additional space perfect for your next cocktail party! With wrap around windows this space allows for view out onto Chapel Street and Toorak Road. The room is divided with the use of velvet curtains creating an intimate luxe feel to the space.
+            </p>
+            <p class="reveal-top"> Whole space capacity  </p>
+            <ul>
+              <li class="reveal-top">Cocktail 40 guest</li>
+              <li class="reveal-top">Theatre 70 guest </li>
+              <li class="reveal-top"> Rectangle 40 guest </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="event-gallery mt-24 md:mt-48">
+    <div class="container mx-auto">
+      <div class="gallery-container flex flex-wrap items-center justify-between mb-16 md:mb-32">
+        <div class="gallery-img reveal-top">
+          <img src="/img/grand-room-gallery-1.png" alt="grand-room-gallery">
+        </div>
+        <div class="gallery-img reveal-top">
+          <img src="/img/grand-room-gallery-2.png" alt="grand-room-gallery">
+        </div>
+        <div class="gallery-img reveal-top">
+          <img src="/img/grand-room-gallery-3.png" alt="grand-room-gallery">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
 
 
 
 
-
-
-<footer class="mb-10 sm:mb-4">
+<footer class="mb-10 sm:mb-4 px-4">
   <div class="inbetween-line mb-8"></div>
   <ul class="h-40 lg:h-auto flex flex-wrap footer-list little-font lg:flex lg:justify-between wrapper">
     <li class="mb-2 w-full lg:w-auto"><a class="flex items-start" href="https://www.instagram.com/lkhevents/">
-      <img src="/img/instagram.svg" alt="instagram icon" class="mr-2"></img>
+      <img src="/img/instagram.svg" alt="instagram icon" class="mr-2 instagram"></img>
       <p>lkhevents</p>
       </a>
     </li>

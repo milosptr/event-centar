@@ -34,6 +34,98 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Regular.eot');
+  src: url('../fonts/Satoshi-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+      url('../fonts/Satoshi-Regular.woff') format('woff'),
+      url('../fonts/Satoshi-Regular.ttf') format('truetype'),
+      url('../fonts/Satoshi-Regular.svg#Satoshi-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Medium.eot');
+  src: url('../fonts/Satoshi-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+      url('../fonts/Satoshi-Medium.woff') format('woff'),
+      url('../fonts/Satoshi-Medium.ttf') format('truetype'),
+      url('../fonts/Satoshi-Medium.svg#Satoshi-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Span Compressed';
+    src: url('../fonts/SpanCompressed-SpanSemiboldRegular.eot');
+    src: url('../fonts/SpanCompressed-SpanSemiboldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpanCompressed-SpanSemiboldRegular.woff2') format('woff2'),
+        url('../fonts/SpanCompressed-SpanSemiboldRegular.woff') format('woff'),
+        url('../fonts/SpanCompressed-SpanSemiboldRegular.ttf') format('truetype'),
+        url('../fonts/SpanCompressed-SpanSemiboldRegular.svg#SpanCompressed-SpanSemiboldRegular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Span Compressed';
+    src: url('../fonts/SpanCompressed-SpanBold.eot');
+    src: url('../fonts/SpanCompressed-SpanBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpanCompressed-SpanBold.woff2') format('woff2'),
+        url('../fonts/SpanCompressed-SpanBold.woff') format('woff'),
+        url('../fonts/SpanCompressed-SpanBold.ttf') format('truetype'),
+        url('../fonts/SpanCompressed-SpanBold.svg#SpanCompressed-SpanBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Span Compressed';
+    src: url('../fonts/SpanCompressed-SpanThinRegular.eot');
+    src: url('../fonts/SpanCompressed-SpanThinRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpanCompressed-SpanThinRegular.woff2') format('woff2'),
+        url('../fonts/SpanCompressed-SpanThinRegular.woff') format('woff'),
+        url('../fonts/SpanCompressed-SpanThinRegular.ttf') format('truetype'),
+        url('../fonts/SpanCompressed-SpanThinRegular.svg#SpanCompressed-SpanThinRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Span Compressed';
+    src: url('../fonts/SpanCompressed-SpanRegular.eot');
+    src: url('../fonts/SpanCompressed-SpanRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpanCompressed-SpanRegular.woff2') format('woff2'),
+        url('../fonts/SpanCompressed-SpanRegular.woff') format('woff'),
+        url('../fonts/SpanCompressed-SpanRegular.ttf') format('truetype'),
+        url('../fonts/SpanCompressed-SpanRegular.svg#SpanCompressed-SpanRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Span Compressed';
+    src: url('../fonts/SpanCompressed-SpanItalic.eot');
+    src: url('../fonts/SpanCompressed-SpanItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpanCompressed-SpanItalic.woff2') format('woff2'),
+        url('../fonts/SpanCompressed-SpanItalic.woff') format('woff'),
+        url('../fonts/SpanCompressed-SpanItalic.ttf') format('truetype'),
+        url('../fonts/SpanCompressed-SpanItalic.svg#SpanCompressed-SpanItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 body {
   background-color: #F6F6F3;
   color: #2B2E34;
@@ -819,7 +911,10 @@ header {
 #landing .landing-box > a:hover img{
   opacity: 1;
 }
-
+#the-grand-room-cover {
+  position: relative;
+  padding: 180px 0 20px;
+}
 #landing-lk-hospitality-logo {
   position: absolute;
   width: 60px;
@@ -838,7 +933,7 @@ header {
   left: 52.5%;
 }
 
-#the-grand-room {
+#the-grand-room-cover {
   width: 100%;
   
   background-image: url('/img/the-grand-room-bck.png');
@@ -847,27 +942,27 @@ header {
   background-size: cover;
 }
 
-#the-grand-room footer li,
-#the-grand-room footer li p, 
-#the-grand-room footer li a {
+#the-grand-room-cover footer li,
+#the-grand-room-cover footer li p, 
+#the-grand-room-cover footer li a {
   color: white;
 }
-#the-grand-room footer img {
+#the-grand-room-cover footer img {
   filter: brightness(0) invert(1);
 }
-#the-grand-room .inbetween-line {
+#the-grand-room-cover .inbetween-line {
   background-color: white ;
 }
-#the-grand-room h1 {
+#the-grand-room-cover h1 {
   font-family: "Frunchy", sans-serif;
   font-weight: 400 !important;
   font-size: 128px !important;
   line-height: 154px !important;
   text-align: center;
   color: white;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
-#the-grand-room h3 {
+#the-grand-room-cover h3 {
   font-family: "Frunchy", sans-serif;
   font-weight: 400;
   font-size: 48px !important;
@@ -878,19 +973,19 @@ header {
   margin-right: auto;
   color: white;
 }
-#the-grand-room .grand-room-form-container {
+.grand-room-form-container {
   transition: all .3s ease-in-out;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 160px;
 }
-#the-grand-room .grand-room-form-container .custom-bckg {
+.grand-room-form-container .custom-bckg {
   background-color: rgba(233,233,233,1);
   transition: all .3s ease-in-out;
 }
-#the-grand-room .grand-room-form-container input,
-#the-grand-room .grand-room-form-container textarea {
+.grand-room-form-container input,
+.grand-room-form-container textarea {
   width: 100%;
   padding: 6px 20px;
   resize: none;
@@ -898,20 +993,20 @@ header {
   background-color: #C7C4C4;
   color: #000;
 }
-#the-grand-room .grand-room-form-container input::placeholder {
+ .grand-room-form-container input::placeholder {
   color: rgba(0,0,0,0.5);
 }
-#the-grand-room .grand-room-form-container .submit-form input[type="button"]  {
+.grand-room-form-container .submit-form input[type="button"]  {
   width: auto;
 }
-#the-grand-room .grand-room-form-container .custom-label {
+.grand-room-form-container .custom-label {
   font-family: "Sohne-Leicht", sans-serif;
 }
 
-#the-grand-room .grand-room-form-container input[type='checkbox']{
+.grand-room-form-container input[type='checkbox']{
   width: 40px;
 }
-#the-grand-room .grand-room-form-container .btn {
+.grand-room-form-container .btn {
   padding: 12px 30px;
   border-radius: 40px;
   border: 1px solid black;
@@ -922,9 +1017,175 @@ header {
   color: black;
   transition: all .3s ease-in-out;
 }
-#the-grand-room .grand-room-form-container .btn:hover {
+.grand-room-form-container .btn:hover {
   box-shadow: 0px 6px 0px black;
   transform: translateY(-4px);
+}
+
+#the-grand-room {
+  background-color: black;
+  color: white;
+}
+.grand-room-form-container {
+  color: black;
+}
+#the-grand-room .section-title {
+  font-family: "Frunchy", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  margin-bottom: 0.5em;
+}
+#the-grand-room .section-text {
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'Satoshi';
+}
+#the-grand-room .event-box {
+  width: calc(25% - 16px);
+}
+#the-grand-room .event-box img{
+  height: 480px;
+}
+#the-grand-room .event-box .event-title {
+  font-family: "Frunchy", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#the-grand-room .event-spaces .section-title {
+  color: #FFA800;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+
+.inner-container {
+  width: 90%;
+}
+#the-grand-room .event-rooms .section-title {
+  color: #FFA800;
+  border-bottom: 1px solid white;
+  padding-bottom: 16px;
+}
+#the-grand-room .event-rooms .section-text {
+  width: 90%;
+}
+#the-grand-room .event-rooms .section-text ul {
+  padding-left: 28px;
+  
+}
+#the-grand-room .event-rooms .section-text ul li {
+  list-style: disc;
+  padding-left: 12px;
+}
+
+#the-grand-room .inbetween-line {
+  background-color: white;
+}
+#the-grand-room .instagram {
+  filter: brightness(0) invert(1);
+}
+#the-grand-room .event-gallery .gallery-img {
+  height: 270px;
+}
+#the-grand-room .event-gallery .gallery-img img {
+  height: 100%;
+}
+
+#the-grand-room .event-gallery .gallery-img:nth-child(1) {
+  width: calc(16.67% - 20px);
+}
+#the-grand-room .event-gallery .gallery-img:nth-child(2) {
+  width: calc(33.33% - 20px);
+  margin: 0 30px;
+}
+#the-grand-room .event-gallery .gallery-img:nth-child(3) {
+  width: calc(50% - 20px);
+}
+
+
+
+
+/* BROOMLY */
+body#the-broomly {
+  background-color: #E8E4DA;
+}
+#the-broomly .cover-image {
+  background-image: url('/img/The\ Broomly\ cover.jpg');
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+}
+#the-broomly .contact-section h1 {
+  font-family:  "Frunchy", sans-serif !important;
+  font-size: 100px !important;
+  text-align: center !important;
+  line-height: 120px;
+  
+}
+#the-broomly .contact-section h3  {
+  font-family: Satoshi;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#the-broomly .grand-room-form-container {
+  margin-top: 80px;
+}
+#the-broomly .broomly-event-space .section-title {
+  font-family: "Frunchy", sans-serif !important;
+  /* font-family: "Satoshi", sans-serif !important; */
+  font-size: 80px;
+}
+
+#the-broomly .broomly-event-space .section-text ul {
+  padding-left: 28px;
+}
+#the-broomly .broomly-event-space .section-text ul li {
+  list-style: disc;
+  padding-left: 12px;
+}
+#the-broomly #the-broomly-gallery img {
+  width: 100%;
+}
+#the-broomly .left-gallery-section {
+  width: calc(58% - 8px);
+}
+#the-broomly .left-gallery-section img:nth-child(1){
+  margin-bottom: 16px;
+}
+#the-broomly .right-gallery-section {
+  width: calc(42% - 8px);
+}
+#the-broomly .right-gallery-section img:nth-child(1){
+  margin-bottom: 16px;
+}
+#the-broomly .bottom-gallery-section img:nth-child(1) {
+  /* margin-bottom: 16px; */
+}
+#the-broomly .bottom-gallery-section {
+  height: 600px;
+}
+#the-broomly .bottom-gallery-section img {
+  height: 100%;
+}
+#the-broomly .bottom-gallery-section img:nth-child(1) {
+  width: calc(40% - 8px) !important;
+}
+#the-broomly .bottom-gallery-section img:nth-child(2) {
+  width: calc(60% - 8px) !important;
+}
+
+#the-broomly #landing-lk-hospitality-logo {
+  top: 80px;
+  left: 90%;
 }
 
 
@@ -1323,6 +1584,11 @@ header {
     padding-right: 100px;
     padding-left: 100px;
   }
+  body#the-grand-room,
+  body#the-broomly {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .team-member-wrapper {
     display: flex;
@@ -1388,33 +1654,137 @@ header {
 
 
 @media (max-width: 450px) {
-  #the-grand-room h1 {
+  #the-grand-room-cover h1 {
     font-size: 56px !important;
     line-height: 56px !important;
     margin-top: 150px !important;
     margin-bottom: 40px;
   }
-  #the-grand-room h3 {
+  #the-grand-room-cover h3 {
     font-size: 32px !important;
     line-height: 32px !important;
   }
-  #the-grand-room .grand-room-form-container .btn {
+  .grand-room-form-container .btn {
     padding: 6px 30px;
   }
-  #the-grand-room .grand-room-form-container .btn,
-  #the-grand-room .grand-room-form-container .submit-form{
+   .grand-room-form-container .btn,
+  .grand-room-form-container .submit-form{
     width: 100%;
     text-align: center;
   }
-  #the-grand-room .grand-room-form-container .submit-form {
+  .grand-room-form-container .submit-form {
+    /* margin-bottom: 60px; */
+  }
+  .grand-room-form-container {
     margin-bottom: 60px;
   }
-  #the-grand-room .grand-room-form-container {
-    margin-bottom: 60px;
-  }
-  #the-grand-room #landing-lk-hospitality-logo{ 
+  #the-grand-room-cover #landing-lk-hospitality-logo{ 
     top: 70px
   }
+
+  body#the-grand-room,
+  body#the-broomly {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body#the-grand-room .container,
+  body#the-broomly .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #the-grand-room-cover h1 {
+    margin-top: 0 !important
+  }
+  #the-grand-room .section-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  #the-grand-room .section-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  #the-grand-room .event-box img {
+    height: 300px;
+  }
+  #the-grand-room .event-box {
+    width: calc(50% - 8px);
+  }
+  #the-grand-room .event-box .event-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #the-grand-room .event-spaces .section-title,
+  #the-grand-room .event-rooms .section-title {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  #the-grand-room .event-rooms .section-text {
+    width: 100%;
+  }
+  #the-grand-room .event-gallery .gallery-img:nth-child(1) {
+    width: calc(33% - 8px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #the-grand-room .event-gallery .gallery-img:nth-child(2) {
+    width: calc(67% - 8px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #the-grand-room .event-gallery .gallery-img:nth-child(3) {
+    width: calc(100% - 8px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+  #the-grand-room .event-gallery .gallery-img {
+    height: 160px;
+  }
+  
+
+  #the-broomly .contact-section h1 {
+    font-size: 64px !important;
+    line-height: 80px !important;
+  }
+  #the-broomly .contact-section h3 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  #the-broomly .grand-room-form-container {
+    margin-top: 40px;
+  }
+  #the-broomly .broomly-event-space .section-title {
+    font-size: 60px;
+  }
+  
+  #the-broomly .bottom-gallery-section {
+    height: auto;
+  }
+
+  #the-broomly .left-gallery-section,
+  #the-broomly .right-gallery-section,
+  #the-broomly .bottom-gallery-section {
+    width: 100%;
+  }
+  #the-broomly .left-gallery-section img:nth-child(1),
+  #the-broomly .bottom-gallery-section img:nth-child(1) {
+    margin-bottom: 16px;
+  }
+  #the-broomly .bottom-gallery-section img:nth-child(1),
+  #the-broomly .bottom-gallery-section img:nth-child(2) {
+    width: 100% !important;
+  }
+
+  #the-broomly #landing-lk-hospitality-logo {
+    top: 50px;
+  }
+
+
+
+
+
+
+
 
     /*   L A N D I N G   */
     #landing .landing-box {
